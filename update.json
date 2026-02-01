@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "notes": "Initial release of LocalAlpha.",
+  "pub_date": "2026-01-30T12:00:00Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "",
+      "url": ""
+    },
+    "darwin-x86_64": {
+      "signature": "",
+      "url": ""
+    },
+    "linux-x86_64": {
+      "signature": "",
+      "url": ""
+    },
+    "windows-x86_64": {
+      "signature": "",
+      "url": ""
+    }
+  }
+}
