@@ -1,0 +1,3 @@
+/equity/usa/hour/soxl.zip
+/equity/usa/hour/qqq.zip
+/alternative/interest-rate/usa/interest-rate.csv

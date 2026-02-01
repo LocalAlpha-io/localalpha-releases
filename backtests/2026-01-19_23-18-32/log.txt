@@ -1,0 +1,1591 @@
+2026-01-20T07:18:52.5686281Z TRACE:: Engine.Main(): LEAN ALGORITHMIC TRADING ENGINE v2.5.0.0 Mode: DEBUG (64bit) Host: Yangs-MacBook-Pro
+2026-01-20T07:18:52.6091926Z TRACE:: Engine.Main(): Started 7:18 AM
+2026-01-20T07:18:52.6592974Z TRACE:: JobQueue.NextJob(): Selected /LeanCLI/main.py
+2026-01-20T07:18:54.7370713Z TRACE:: InteractiveBrokersBrokerage.InteractiveBrokersBrokerage(): found no data aggregator instance, creating QuantConnect.Lean.Engine.DataFeeds.AggregationManager
+2026-01-20T07:18:54.7466576Z TRACE:: InteractiveBrokersBrokerage.InteractiveBrokersBrokerage(): Starting IB Automater...
+2026-01-20T07:18:54.7679154Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Setting execute permissions on IBAutomater.sh
+2026-01-20T07:18:54.8077455Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): chmod +x IBAutomater.sh: process exit code: 0
+2026-01-20T07:18:54.8080787Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Loading IBGateway - Version: 1034 - Path: /root/ibgateway - User: xjzturtle1
+2026-01-20T07:18:54.8092055Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Searching for TWS JRE path
+2026-01-20T07:18:54.8093629Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Install4J path: /root/ibgateway/.install4j
+2026-01-20T07:18:54.8099855Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): File found: /root/ibgateway/.install4j/pref_jre.cfg
+2026-01-20T07:18:54.8102564Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Directory found: /opt/i4j_jres/Oda-jK0QgTEmVssfllLP/17.0.10.0.101-zulu
+2026-01-20T07:18:54.8109250Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Updating IBGateway ini file: /root/Jts/jts.ini
+2026-01-20T07:18:54.8161583Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Updating IBGateway configuration file: /root/ibgateway/ibgateway1.vmoptions
+2026-01-20T07:18:54.8369111Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): IBAutomater process started - Id:171 - Name:bash - InitializationTimeout:00:15:00
+2026-01-20T07:18:54.8981345Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): UID        PID  PPID  C    SZ   RSS PSR STIME TTY          TIME CMD
+2026-01-20T07:18:54.8985851Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): root         1     0 51 68938512 340204 0 07:18 pts/0  00:00:09 dotnet QuantConnect.Lean.Launcher.dll
+2026-01-20T07:18:54.8987060Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): root       171     1  0 73853  6520   5 07:18 pts/0    00:00:00   /bin/bash /Lean/Launcher/bin/Debug/IBAutomater.sh /root/ibgateway/ibgateway1 -javaagent:/Lean/Launcher/bin/Debug/IBAutomater.jar=/Lean/Launcher/bin/Debug/IBAutomater.json -J-DjtsConfigDir=/root/ibgateway
+2026-01-20T07:18:54.8988487Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): root       172   171  0 74510  6680   0 07:18 pts/0    00:00:00     ps -AFH
+2026-01-20T07:18:59.9982948Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterErrorDataReceived(): rm: cannot remove '/tmp/.X1-lock': No such file or directory
+2026-01-20T07:19:00.0310135Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): UID        PID  PPID  C    SZ   RSS PSR STIME TTY          TIME CMD
+2026-01-20T07:19:00.0313431Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): root         1     0 42 68938583 343404 0 07:18 pts/0  00:00:09 dotnet QuantConnect.Lean.Launcher.dll
+2026-01-20T07:19:00.0351467Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): root       171     1  0 73855  6520   5 07:18 pts/0    00:00:00   /bin/bash /Lean/Launcher/bin/Debug/IBAutomater.sh /root/ibgateway/ibgateway1 -javaagent:/Lean/Launcher/bin/Debug/IBAutomater.jar=/Lean/Launcher/bin/Debug/IBAutomater.json -J-DjtsConfigDir=/root/ibgateway
+2026-01-20T07:19:00.0355353Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): root       177   171  0 74510  6684   7 07:18 pts/0    00:00:00     ps -AFH
+2026-01-20T07:19:01.8235710Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): IBGateway started
+2026-01-20T07:19:03.9212704Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Picked up JAVA_TOOL_OPTIONS: -javaagent:/Lean/Launcher/bin/Debug/IBAutomater.jar=/Lean/Launcher/bin/Debug/IBAutomater.json
+2026-01-20T07:19:04.2567140Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterErrorDataReceived(): WARNING: package sun.lwawt not in java.desktop
+2026-01-20T07:19:04.2571148Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterErrorDataReceived(): WARNING: package sun.awt.windows not in java.desktop
+2026-01-20T07:19:11.8191630Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [IBKR Gateway] - Window name: [frame0]
+2026-01-20T07:19:11.8196216Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Main window - Window title: [IBKR Gateway] - Window name: [frame0]
+2026-01-20T07:19:11.8199837Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Click button: [IB API]
+2026-01-20T07:19:11.8203264Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Trading mode: live
+2026-01-20T07:19:11.8204368Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Use SSL checkbox not found
+2026-01-20T07:19:11.8207430Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Click button: [Log In]
+2026-01-20T07:19:12.8219627Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_ACTIVATED] - Window title: [Loading...] - Window name: [frame1]
+2026-01-20T07:19:12.8224522Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [Loading...] - Window name: [frame1]
+2026-01-20T07:19:13.8191427Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_DEACTIVATED] - Window title: [Loading...] - Window name: [frame1]
+2026-01-20T07:19:13.8196420Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_ACTIVATED] - Window title: [Authenticating...] - Window name: [frame2]
+2026-01-20T07:19:13.8202600Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [Authenticating...] - Window name: [frame2]
+2026-01-20T07:19:14.8170515Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [Second Factor Authentication] - Window name: [dialog0]
+2026-01-20T07:19:14.8216969Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Waiting for 2FA confirmation on IBKR mobile app (to be confirmed within 3 minutes).
+2026-01-20T07:19:14.8219407Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): twoFactorConfirmationAttempts: 1/3
+2026-01-20T07:19:14.8221615Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_DEACTIVATED] - Window title: [Authenticating...] - Window name: [frame2]
+2026-01-20T07:19:14.8223939Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_ACTIVATED] - Window title: [Second Factor Authentication] - Window name: [dialog0]
+2026-01-20T07:19:17.8182055Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_DEACTIVATED] - Window title: [Second Factor Authentication] - Window name: [dialog0]
+2026-01-20T07:19:17.8187335Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [Second Factor Authentication] - Window name: [dialog0]
+2026-01-20T07:19:17.8189915Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): 2FA confirmation success
+2026-01-20T07:19:21.6913933Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): LogModuleConfigurator-Init: Log4j Ver2.x found on classpath
+2026-01-20T07:19:21.6917553Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): LogModuleConfigurator-Init: LogModuleConfigurator initialized with Log4j Veri.x
+2026-01-20T07:19:22.8172902Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [Starting application...] - Window name: [frame2]
+2026-01-20T07:19:22.8181228Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Start running restart watcher thread...
+2026-01-20T07:19:22.8182928Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Start running shutdown watcher thread...
+2026-01-20T07:19:22.8184485Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Finding main window...
+2026-01-20T07:19:22.8185787Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Found main window (Window title: [IBKR Gateway] - Window name: [frame1])
+2026-01-20T07:19:24.8211075Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [U19208894 Trader Workstation Configuration] - Window name: [Configuration]
+2026-01-20T07:19:24.8213664Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Unselect checkbox: [Read-Only API]
+2026-01-20T07:19:24.8215380Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Set API port textbox value: [4002]
+2026-01-20T07:19:24.8217363Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Select checkbox: [Create API message log file]
+2026-01-20T07:19:24.8219113Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Select checkbox: [Bypass Order Precautions for API Orders]
+2026-01-20T07:19:24.8220528Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Select radio button: [Auto restart]
+2026-01-20T07:19:24.8221669Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Set restart time value: [11:45]
+2026-01-20T07:19:24.8224239Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Radio button: [PM] already selected
+2026-01-20T07:19:24.8225044Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Click button: [OK]
+2026-01-20T07:19:25.8181954Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_ACTIVATED] - Window title: [U19208894 Trader Workstation Configuration] - Window name: [Configuration]
+2026-01-20T07:19:25.8185665Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [Pending Tasks] - Window name: [Pending Tasks]
+2026-01-20T07:19:25.8186570Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [IBKR Gateway] - Window name: [IBKR Gateway]
+2026-01-20T07:19:25.8189039Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): You have elected to have your trading platform restart automatically on 
+2026-01-20T07:19:25.8190257Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived():       a daily basis.
+2026-01-20T07:19:25.8191044Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived():      
+2026-01-20T07:19:25.8192578Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived():       There are some considerations you would need to take into account if you 
+2026-01-20T07:19:25.8194007Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived():       select the auto restart: please  click 
+2026-01-20T07:19:25.8194760Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived():       here  for more information.
+2026-01-20T07:19:25.8195390Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Click button: [OK]
+2026-01-20T07:19:25.8195955Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [IBKR Gateway] - Window name: [IBKR Gateway]
+2026-01-20T07:19:25.8196527Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [U19208894 Trader Workstation Configuration] - Window name: [Configuration]
+2026-01-20T07:19:25.8197611Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [View Logs] - Window name: [null]
+2026-01-20T07:19:25.8198431Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Click button: [Export Today Logs...]
+2026-01-20T07:19:25.8199160Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_DEACTIVATED] - Window title: [U19208894 Trader Workstation Configuration] - Window name: [Configuration]
+2026-01-20T07:19:25.8200683Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_ACTIVATED] - Window title: [View Logs] - Window name: [null]
+2026-01-20T07:19:25.8201389Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [Enter export filename] - Window name: [dialog1]
+2026-01-20T07:19:25.8202824Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Click button: [Open]
+2026-01-20T07:19:26.8201533Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [Enter export filename] - Window name: [dialog1]
+2026-01-20T07:19:26.8208022Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [Export Logs] - Window name: [null]
+2026-01-20T07:19:26.8209031Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [IBKR Gateway] - Window name: [IBKR Gateway]
+2026-01-20T07:19:26.8210613Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Click button: [OK]
+2026-01-20T07:19:26.8211776Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Finished exporting logs, closing export logs window
+2026-01-20T07:19:26.8213898Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Click button: [Cancel]
+2026-01-20T07:19:26.8214668Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [IBKR Gateway] - Window name: [IBKR Gateway]
+2026-01-20T07:19:26.8215386Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [View Logs] - Window name: [null]
+2026-01-20T07:19:26.8215935Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_OPENED] - Window title: [View Logs] - Window name: [null]
+2026-01-20T07:19:26.8216583Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Click button: [Cancel]
+2026-01-20T07:19:26.8217006Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Configuration settings updated.
+2026-01-20T07:19:26.8269884Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterErrorDataReceived(): LoadIbServerInformation(): Unable to find the server name in the IB ini file: /root/Jts/jts.ini, region set to America
+2026-01-20T07:19:26.8272189Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): LoadIbServerInformation(): ServerName: , ServerRegion: America
+2026-01-20T07:19:26.8273841Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): Window event: [WINDOW_CLOSED] - Window title: [View Logs] - Window name: [null]
+2026-01-20T07:19:26.8549279Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): IBGateway process found - Id:179 - Name:java
+2026-01-20T07:19:26.8550655Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): IB Automater initialized.
+2026-01-20T07:19:26.8599332Z TRACE:: InteractiveBrokersBrokerage.StartGatewayWeeklyRestartTask(): scheduled weekly restart to 1/25/2026 9:00:00 PM (in 5.13:35:33.1428723)
+2026-01-20T07:19:26.8602138Z TRACE:: InteractiveBrokersBrokerage.InteractiveBrokersBrokerage(): Host: 127.0.0.1, Port: 4002, Account: U19208894, AgentDescription: Individual
+2026-01-20T07:19:26.8671867Z TRACE:: InteractiveBrokersBrokerage.RunHeartBeatThread(): starting...
+2026-01-20T07:19:26.8702779Z TRACE:: ComboOrdersFillTimeoutMonitor.Start(): starting...
+2026-01-20T07:19:26.8722619Z TRACE:: InteractiveBrokersBrokerage.Connect(): not connected, start connecting now...
+2026-01-20T07:19:26.8782980Z TRACE:: InteractiveBrokersBrokerage.Connect(): Attempting to connect (1/7) ...
+2026-01-20T07:19:26.8811484Z TRACE:: InteractiveBrokersBrokerage.Disconnect(): Starting
+2026-01-20T07:19:26.8819383Z TRACE:: InteractiveBrokersBrokerage.Disconnect(): ended
+2026-01-20T07:19:29.3830731Z TRACE:: InteractiveBrokersBrokerage.Connect(): calling _client.ClientSocket.eConnect()
+2026-01-20T07:19:29.4578542Z TRACE:: InteractiveBrokersBrokerage.HandleConnectAck(): API client connected [Server Version: 199].
+2026-01-20T07:19:29.4603614Z TRACE:: InteractiveBrokersBrokerage.Connect(): IB message processing thread started: #25
+2026-01-20T07:19:29.4969907Z TRACE:: InteractiveBrokersBrokerage.HandleManagedAccounts(): Account list: U19208894
+2026-01-20T07:19:29.4998349Z TRACE:: InteractiveBrokersBrokerage.OnIbAutomaterOutputDataReceived(): remove Client 0
+2026-01-20T07:19:29.5416346Z TRACE:: InteractiveBrokersBrokerage.HandleNextValidID(): updating nextValidId from 0 to 1
+2026-01-20T07:19:29.5419694Z TRACE:: InteractiveBrokersBrokerage.Connect(): IB next valid id received.
+2026-01-20T07:19:29.5491943Z TRACE:: InteractiveBrokersBrokerage.DownloadAccount(): Downloading account data for U19208894
+2026-01-20T07:19:29.5656065Z TRACE:: InteractiveBrokersBrokerage.HandleError(): RequestId: -1 ErrorCode: 2104 - Market data farm connection is OK:usfarm
+2026-01-20T07:19:29.5697037Z TRACE:: InteractiveBrokersBrokerage.HandleError(): RequestId: -1 ErrorCode: 2106 - HMDS data farm connection is OK:ushmds
+2026-01-20T07:19:29.5700711Z TRACE:: InteractiveBrokersBrokerage.HandleError(): RequestId: -1 ErrorCode: 2158 - Sec-def data farm connection is OK:secdefnj
+2026-01-20T07:19:29.6499670Z TRACE:: InteractiveBrokersBrokerage.HandleAccountSummary(): Request id: 1, Account: U19208894, Tag: AccountType, Value: LLC, Currency: 
+2026-01-20T07:19:29.6902403Z TRACE:: InteractiveBrokersBrokerage.HandleManagedAccounts(): Account list: U19208894
+2026-01-20T07:19:29.7612324Z TRACE:: InteractiveBrokersBrokerage.HandleFamilyCodes(): Account id: *, Family code: 
+2026-01-20T07:19:29.8704517Z TRACE:: Brokerage.OnAccountChanged(): Account USD Balance: 20474.64
+2026-01-20T07:19:29.9232243Z TRACE:: InteractiveBrokersBrokerage.DownloadAccount(): Finished account download for U19208894
+2026-01-20T07:19:32.3667306Z TRACE:: InteractiveBrokersBrokerage.Connect(): Restoring data subscriptions...
+2026-01-20T07:19:32.3859685Z TRACE:: Brokerage.OnMessage(): Reconnect - Code: Reconnect - Connect() finished successfully
+2026-01-20T07:19:32.3863372Z TRACE:: Connect() finished successfully
+2026-01-20T07:19:32.4255033Z TRACE:: AlgorithmManager.CreateTokenBucket(): Initializing LeakyBucket: Capacity: 120 RefillAmount: 18 TimeInterval: 1440
+2026-01-20T07:19:32.4434043Z TRACE:: Engine.Run(): Resource limits '0' CPUs. 2147483647 MB RAM.
+2026-01-20T07:19:32.4457221Z TRACE:: TextSubscriptionDataSourceReader.SetCacheSize(): Setting cache size to 71582788 items
+2026-01-20T07:19:32.4548446Z TRACE:: Debug: Logging into account. Check phone for two-factor authentication verification...
+2026-01-20T07:19:32.4642608Z TRACE:: PythonInitializer.Initialize(): start...
+2026-01-20T07:19:33.1506604Z TRACE:: PythonInitializer.Initialize(): ended
+2026-01-20T07:19:33.1526841Z TRACE:: AlgorithmPythonWrapper(): Python version 3.11.14 (main, Oct 21 2025, 18:40:40) [GCC 11.2.0]: Importing python module main
+2026-01-20T07:19:38.5892633Z TRACE:: AlgorithmPythonWrapper(): main successfully imported.
+2026-01-20T07:19:38.6078405Z TRACE:: AlgorithmPythonWrapper(): Creating IAlgorithm instance.
+2026-01-20T07:19:39.0217058Z TRACE:: LocalObjectStore.Initialize(): Storage Root: /Storage. StorageFileCount 9999999. StorageLimit 10240MB. StoragePermissions Read=True Write=True Delete=True
+2026-01-20T07:19:39.0544035Z TRACE:: HistoryProviderManager.Initialize(): history providers [SubscriptionDataReaderHistoryProvider]
+2026-01-20T07:19:39.0633319Z TRACE:: BaseSetupHandler.Setup(LocalPlatform): UID: 259664, PID: 27500894, Version: 2.5.0.0, Source: WebIDE
+2026-01-20T07:19:39.6002068Z TRACE:: Event Name "SOXL: EveryDay: SOXL: 10 min before MarketClose", scheduled to run.
+2026-01-20T07:19:39.6560817Z TRACE:: WeightedWorkScheduler(): will use 10 workers and MaxWorkWeight is 400
+2026-01-20T07:19:39.6834082Z TRACE:: BaseSetupHandler.SetupCurrencyConversions():
+Account Type: Cash
+
+Symbol      Quantity    Conversion = Value in USD
+USD: $       30000.00 @       1.00 = $30000
+-------------------------------------------------
+CashBook Total Value:                $30000
+
+2026-01-20T07:19:39.6873362Z TRACE:: Total margin information: TotalMarginUsed: 0.00, MarginRemaining: 30000.00
+2026-01-20T07:19:39.6882414Z TRACE:: SetUp Backtesting: User: 259664 ProjectId: 27500894 AlgoId: 1675259144
+2026-01-20T07:19:39.6890309Z TRACE:: Dates: Start: 01/01/2021 End: 01/01/2026 Cash: ¤30,000.00 MaximumRuntime: 100.00:00:00 MaxOrders: 2147483647
+2026-01-20T07:19:39.7000381Z TRACE:: BacktestingResultHandler(): Sample Period Set: 657.72
+2026-01-20T07:19:39.7017143Z TRACE:: JOB HANDLERS:
+         DataFeed:             QuantConnect.Lean.Engine.DataFeeds.FileSystemDataFeed
+         Setup:                QuantConnect.Lean.Engine.Setup.BacktestingSetupHandler
+         RealTime:             QuantConnect.Lean.Engine.RealTime.BacktestingRealTimeHandler
+         Results:              QuantConnect.Lean.Engine.Results.BacktestingResultHandler
+         Transactions:         QuantConnect.Lean.Engine.TransactionHandlers.BacktestingTransactionHandler
+         Object Store:         QuantConnect.Lean.Engine.Storage.LocalObjectStore
+         History Provider:     QuantConnect.Lean.Engine.HistoricalData.HistoryProviderManager
+         Brokerage:            QuantConnect.Brokerages.Backtesting.BacktestingBrokerage
+         Data Provider:        QuantConnect.Lean.Engine.DataFeeds.DownloaderDataProvider
+
+2026-01-20T07:19:39.7397740Z TRACE:: Event Name "Daily Sampling", scheduled to run.
+2026-01-20T07:19:39.7405054Z TRACE:: AlgorithmManager.Run(): Begin DataStream - Start: 1/1/2021 12:00:00 AM Stop: 1/1/2026 11:59:59 PM Time: 6/15/2020 12:00:00 AM Warmup: True
+2026-01-20T07:19:39.8878734Z TRACE:: Debug: Launching analysis for 1675259144 with LEAN Engine v2.5.0.0
+2026-01-20T07:19:40.2031897Z TRACE:: UniverseSelection.AddPendingInternalDataFeeds(): Adding internal benchmark data feed QQQ,#0,QQQ,Hour,TradeBar,Trade,Adjusted,OpenInterest,Internal
+2026-01-20T07:19:40.3715949Z TRACE:: AlgorithmManager.Stream(): Subscriptions count before warm up: 2
+2026-01-20T07:19:40.5015730Z TRACE:: Debug: 2021-01-01 00:00:00 Warning: SetBenchmark(QQQ): no existing symbol found, benchmark security will be added with Equity type.
+2026-01-20T07:19:40.5017431Z TRACE:: Debug: 2021-01-01 00:00:00 Scheduled EOD Risk Check 10 minutes before close.
+2026-01-20T07:19:40.5018524Z TRACE:: Debug: 2020-06-15 00:00:00 Algorithm starting warm up...
+2026-01-20T07:19:40.6290537Z TRACE:: AlgorithmManager.Stream(): Subscriptions count after warm up: 2
+2026-01-20T07:19:40.8113940Z TRACE:: Debug: 2021-01-04 10:00:00 Algorithm finished warming up.
+2026-01-20T07:19:40.8145197Z TRACE:: Debug: 2021-01-04 14:00:00 BUY SOXL: J=32.24 crossed > 22.2. Price=31.04
+2026-01-20T07:19:40.8146656Z TRACE:: Debug: 2021-01-05 10:00:00 BUY SOXL: J=53.49 crossed > 22.2. Price=31.87
+2026-01-20T07:19:40.8149147Z TRACE:: Log: 2021-01-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-04 15:50:00 ---
+2026-01-20T07:19:40.8150636Z TRACE:: Log: 2021-01-04 15:50:00 CLOSING LOSER: SOXL is down $-302.68. avoiding overnight risk.
+2026-01-20T07:19:40.8153592Z TRACE:: Debug: 2021-01-05 12:00:00 SELL SOXL: J=47.04 crossed < 62.6.
+2026-01-20T07:19:40.8154404Z TRACE:: Debug: 2021-01-15 13:00:00 BUY SOXL: J=35.56 crossed > 22.2. Price=38.52
+2026-01-20T07:19:40.8155614Z TRACE:: Debug: 2021-01-19 10:00:00 BUY SOXL: J=61.67 crossed > 22.2. Price=40.08
+2026-01-20T07:19:40.8158423Z TRACE:: Log: 2021-01-15 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-15 15:50:00 ---
+2026-01-20T07:19:40.8159216Z TRACE:: Log: 2021-01-15 15:50:00 CLOSING LOSER: SOXL is down $-119.37. avoiding overnight risk.
+2026-01-20T07:19:40.8159914Z TRACE:: Log: 2021-01-19 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-19 15:50:00 ---
+2026-01-20T07:19:40.8161556Z TRACE:: Log: 2021-01-19 15:50:00 HOLDING WINNER: SOXL is up $728.54. Letting it ride overnight.
+2026-01-20T07:19:40.8667343Z TRACE:: Debug: 2021-01-20 12:00:00 SELL SOXL: J=56.46 crossed < 62.6.
+2026-01-20T07:19:40.8668816Z TRACE:: Debug: 2021-01-21 14:00:00 BUY SOXL: J=29.20 crossed > 22.2. Price=42.05
+2026-01-20T07:19:40.8670569Z TRACE:: Debug: 2021-01-22 10:00:00 SELL SOXL: J=60.31 crossed < 62.6.
+2026-01-20T07:19:40.8671982Z TRACE:: Log: 2021-01-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-21 15:50:00 ---
+2026-01-20T07:19:40.8673114Z TRACE:: Log: 2021-01-21 15:50:00 HOLDING WINNER: SOXL is up $247.00. Letting it ride overnight.
+2026-01-20T07:19:40.8674500Z TRACE:: Debug: 2021-01-25 10:00:00 BUY SOXL: J=31.82 crossed > 22.2. Price=41.83
+2026-01-20T07:19:40.8675309Z TRACE:: Log: 2021-01-25 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-25 15:50:00 ---
+2026-01-20T07:19:40.8675997Z TRACE:: Log: 2021-01-25 15:50:00 CLOSING LOSER: SOXL is down $-568.82. avoiding overnight risk.
+2026-01-20T07:19:40.8677255Z TRACE:: Debug: 2021-01-26 14:00:00 BUY SOXL: J=31.48 crossed > 22.2. Price=39.65
+2026-01-20T07:19:40.8677832Z TRACE:: Log: 2021-01-26 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-26 15:50:00 ---
+2026-01-20T07:19:40.8678457Z TRACE:: Log: 2021-01-26 15:50:00 CLOSING LOSER: SOXL is down $-151.20. avoiding overnight risk.
+2026-01-20T07:19:40.8679847Z TRACE:: Debug: 2021-01-27 11:00:00 BUY SOXL: J=25.80 crossed > 22.2. Price=35.94
+2026-01-20T07:19:40.8680514Z TRACE:: Debug: 2021-01-28 10:00:00 BUY SOXL: J=23.95 crossed > 22.2. Price=34.3
+2026-01-20T07:19:40.8683331Z TRACE:: Log: 2021-01-27 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-27 15:50:00 ---
+2026-01-20T07:19:40.8684706Z TRACE:: Log: 2021-01-27 15:50:00 CLOSING LOSER: SOXL is down $-1312.16. avoiding overnight risk.
+2026-01-20T07:19:40.8685704Z TRACE:: Log: 2021-01-28 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-28 15:50:00 ---
+2026-01-20T07:19:40.8686541Z TRACE:: Log: 2021-01-28 15:50:00 HOLDING WINNER: SOXL is up $1142.68. Letting it ride overnight.
+2026-01-20T07:19:40.8687534Z TRACE:: Debug: 2021-01-29 12:00:00 SELL SOXL: J=57.80 crossed < 62.6.
+2026-01-20T07:19:40.8688510Z TRACE:: Debug: 2021-01-29 15:00:00 BUY SOXL: J=23.39 crossed > 22.2. Price=33.36
+2026-01-20T07:19:40.8689667Z TRACE:: Log: 2021-01-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-29 15:50:00 ---
+2026-01-20T07:19:40.8690414Z TRACE:: Log: 2021-01-29 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:40.8691500Z TRACE:: Log: 2021-02-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-01 15:50:00 ---
+2026-01-20T07:19:40.8692544Z TRACE:: Log: 2021-02-01 15:50:00 HOLDING WINNER: SOXL is up $2324.12. Letting it ride overnight.
+2026-01-20T07:19:40.8693810Z TRACE:: Log: 2021-02-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-02 15:50:00 ---
+2026-01-20T07:19:40.8694812Z TRACE:: Log: 2021-02-02 15:50:00 HOLDING WINNER: SOXL is up $3294.50. Letting it ride overnight.
+2026-01-20T07:19:40.8696052Z TRACE:: Debug: 2021-02-03 11:00:00 SELL SOXL: J=46.89 crossed < 62.6.
+2026-01-20T07:19:40.8697083Z TRACE:: Debug: 2021-02-04 11:00:00 BUY SOXL: J=29.91 crossed > 22.2. Price=36.53
+2026-01-20T07:19:40.8697972Z TRACE:: Log: 2021-02-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-04 15:50:00 ---
+2026-01-20T07:19:40.8699281Z TRACE:: Log: 2021-02-04 15:50:00 HOLDING WINNER: SOXL is up $147.69. Letting it ride overnight.
+2026-01-20T07:19:40.8700051Z TRACE:: Log: 2021-02-05 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-05 15:50:00 ---
+2026-01-20T07:19:40.8701142Z TRACE:: Log: 2021-02-05 15:50:00 HOLDING WINNER: SOXL is up $229.74. Letting it ride overnight.
+2026-01-20T07:19:40.8702633Z TRACE:: Log: 2021-02-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-08 15:50:00 ---
+2026-01-20T07:19:40.8704242Z TRACE:: Log: 2021-02-08 15:50:00 HOLDING WINNER: SOXL is up $1750.40. Letting it ride overnight.
+2026-01-20T07:19:40.8704834Z TRACE:: Log: 2021-02-09 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-09 15:50:00 ---
+2026-01-20T07:19:40.8705729Z TRACE:: Log: 2021-02-09 15:50:00 HOLDING WINNER: SOXL is up $1794.16. Letting it ride overnight.
+2026-01-20T07:19:40.8712915Z TRACE:: Debug: 2021-02-10 11:00:00 SELL SOXL: J=51.03 crossed < 62.6.
+2026-01-20T07:19:40.8713470Z TRACE:: Debug: 2021-02-17 14:00:00 BUY SOXL: J=32.40 crossed > 22.2. Price=43.67
+2026-01-20T07:19:40.8714243Z TRACE:: Log: 2021-02-17 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-17 15:50:00 ---
+2026-01-20T07:19:40.8715059Z TRACE:: Log: 2021-02-17 15:50:00 HOLDING WINNER: SOXL is up $95.97. Letting it ride overnight.
+2026-01-20T07:19:40.8715643Z TRACE:: Log: 2021-02-18 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-18 15:50:00 ---
+2026-01-20T07:19:40.8716356Z TRACE:: Log: 2021-02-18 15:50:00 CLOSING LOSER: SOXL is down $-425.01. avoiding overnight risk.
+2026-01-20T07:19:40.8716956Z TRACE:: Debug: 2021-02-23 11:00:00 BUY SOXL: J=38.95 crossed > 22.2. Price=39.03
+2026-01-20T07:19:40.8717920Z TRACE:: Log: 2021-02-23 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-23 15:50:00 ---
+2026-01-20T07:19:40.8718335Z TRACE:: Log: 2021-02-23 15:50:00 HOLDING WINNER: SOXL is up $199.68. Letting it ride overnight.
+2026-01-20T07:19:40.8718914Z TRACE:: Log: 2021-02-24 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-24 15:50:00 ---
+2026-01-20T07:19:40.8720585Z TRACE:: Log: 2021-02-24 15:50:00 HOLDING WINNER: SOXL is up $1955.84. Letting it ride overnight.
+2026-01-20T07:19:40.8721140Z TRACE:: Debug: 2021-02-25 11:00:00 SELL SOXL: J=42.36 crossed < 62.6.
+2026-01-20T07:19:40.8722244Z TRACE:: Debug: 2021-02-26 11:00:00 BUY SOXL: J=31.80 crossed > 22.2. Price=37.79
+2026-01-20T07:19:40.8723977Z TRACE:: Log: 2021-02-26 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-26 15:50:00 ---
+2026-01-20T07:19:40.8724819Z TRACE:: Log: 2021-02-26 15:50:00 HOLDING WINNER: SOXL is up $613.64. Letting it ride overnight.
+2026-01-20T07:19:40.8726604Z TRACE:: Log: 2021-03-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-01 15:50:00 ---
+2026-01-20T07:19:40.8727919Z TRACE:: Log: 2021-03-01 15:50:00 HOLDING WINNER: SOXL is up $2264.12. Letting it ride overnight.
+2026-01-20T07:19:40.8728433Z TRACE:: Debug: 2021-03-02 11:00:00 SELL SOXL: J=41.70 crossed < 62.6.
+2026-01-20T07:19:40.8729451Z TRACE:: Debug: 2021-03-02 13:00:00 BUY SOXL: J=25.35 crossed > 22.2. Price=40.0
+2026-01-20T07:19:40.8730596Z TRACE:: Log: 2021-03-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-02 15:50:00 ---
+2026-01-20T07:19:40.8736233Z TRACE:: Log: 2021-03-02 15:50:00 CLOSING LOSER: SOXL is down $-10.00. avoiding overnight risk.
+2026-01-20T07:19:40.9243902Z TRACE:: Debug: 2021-03-04 12:00:00 BUY SOXL: J=28.79 crossed > 22.2. Price=33.18
+2026-01-20T07:19:40.9254581Z TRACE:: Debug: 2021-03-04 16:00:00 BUY SOXL: J=22.53 crossed > 22.2. Price=29.9
+2026-01-20T07:19:40.9256152Z TRACE:: Log: 2021-03-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-04 15:50:00 ---
+2026-01-20T07:19:40.9256873Z TRACE:: Log: 2021-03-04 15:50:00 CLOSING LOSER: SOXL is down $-1571.22. avoiding overnight risk.
+2026-01-20T07:19:40.9258122Z TRACE:: Log: 2021-03-05 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-05 15:50:00 ---
+2026-01-20T07:19:40.9258890Z TRACE:: Log: 2021-03-05 15:50:00 HOLDING WINNER: SOXL is up $367.40. Letting it ride overnight.
+2026-01-20T07:19:40.9260088Z TRACE:: Debug: 2021-03-08 12:00:00 SELL SOXL: J=37.47 crossed < 62.6.
+2026-01-20T07:19:40.9260969Z TRACE:: Debug: 2021-03-09 10:00:00 BUY SOXL: J=62.03 crossed > 22.2. Price=31.32
+2026-01-20T07:19:40.9262430Z TRACE:: Log: 2021-03-09 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-09 15:50:00 ---
+2026-01-20T07:19:40.9263900Z TRACE:: Log: 2021-03-09 15:50:00 HOLDING WINNER: SOXL is up $988.90. Letting it ride overnight.
+2026-01-20T07:19:40.9264943Z TRACE:: Debug: 2021-03-10 14:00:00 SELL SOXL: J=51.79 crossed < 62.6.
+2026-01-20T07:19:40.9266232Z TRACE:: Debug: 2021-03-11 10:00:00 BUY SOXL: J=59.36 crossed > 22.2. Price=33.45
+2026-01-20T07:19:40.9267539Z TRACE:: Debug: 2021-03-12 10:00:00 SELL SOXL: J=61.43 crossed < 62.6.
+2026-01-20T07:19:40.9268734Z TRACE:: Log: 2021-03-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-11 15:50:00 ---
+2026-01-20T07:19:40.9269671Z TRACE:: Log: 2021-03-11 15:50:00 HOLDING WINNER: SOXL is up $662.67. Letting it ride overnight.
+2026-01-20T07:19:40.9271385Z TRACE:: Debug: 2021-03-12 12:00:00 BUY SOXL: J=25.68 crossed > 22.2. Price=32.4
+2026-01-20T07:19:40.9272018Z TRACE:: Log: 2021-03-12 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-12 15:50:00 ---
+2026-01-20T07:19:40.9273210Z TRACE:: Log: 2021-03-12 15:50:00 HOLDING WINNER: SOXL is up $542.96. Letting it ride overnight.
+2026-01-20T07:19:40.9283612Z TRACE:: Log: 2021-03-15 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-15 15:50:00 ---
+2026-01-20T07:19:40.9284257Z TRACE:: Log: 2021-03-15 15:50:00 HOLDING WINNER: SOXL is up $1665.90. Letting it ride overnight.
+2026-01-20T07:19:40.9284959Z TRACE:: Debug: 2021-03-17 10:00:00 SELL SOXL: J=55.14 crossed < 62.6.
+2026-01-20T07:19:40.9285778Z TRACE:: Log: 2021-03-16 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-16 15:50:00 ---
+2026-01-20T07:19:40.9286652Z TRACE:: Log: 2021-03-16 15:50:00 HOLDING WINNER: SOXL is up $2708.63. Letting it ride overnight.
+2026-01-20T07:19:40.9287602Z TRACE:: Debug: 2021-03-18 12:00:00 BUY SOXL: J=33.30 crossed > 22.2. Price=36.17
+2026-01-20T07:19:40.9288532Z TRACE:: Log: 2021-03-18 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-18 15:50:00 ---
+2026-01-20T07:19:40.9289974Z TRACE:: Log: 2021-03-18 15:50:00 CLOSING LOSER: SOXL is down $-982.56. avoiding overnight risk.
+2026-01-20T07:19:40.9290873Z TRACE:: Debug: 2021-03-19 11:00:00 BUY SOXL: J=35.30 crossed > 22.2. Price=34.36
+2026-01-20T07:19:40.9291532Z TRACE:: Log: 2021-03-19 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-19 15:50:00 ---
+2026-01-20T07:19:40.9292447Z TRACE:: Log: 2021-03-19 15:50:00 HOLDING WINNER: SOXL is up $325.92. Letting it ride overnight.
+2026-01-20T07:19:40.9293638Z TRACE:: Debug: 2021-03-23 10:00:00 SELL SOXL: J=61.51 crossed < 62.6.
+2026-01-20T07:19:40.9294235Z TRACE:: Log: 2021-03-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-22 15:50:00 ---
+2026-01-20T07:19:40.9294940Z TRACE:: Log: 2021-03-22 15:50:00 HOLDING WINNER: SOXL is up $2037.00. Letting it ride overnight.
+2026-01-20T07:19:40.9295465Z TRACE:: Debug: 2021-03-24 10:00:00 BUY SOXL: J=28.25 crossed > 22.2. Price=34.62
+2026-01-20T07:19:40.9296956Z TRACE:: Log: 2021-03-24 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-24 15:50:00 ---
+2026-01-20T07:19:40.9298060Z TRACE:: Log: 2021-03-24 15:50:00 CLOSING LOSER: SOXL is down $-490.45. avoiding overnight risk.
+2026-01-20T07:19:40.9298746Z TRACE:: Debug: 2021-03-25 13:00:00 BUY SOXL: J=46.50 crossed > 22.2. Price=32.35
+2026-01-20T07:19:40.9300358Z TRACE:: Log: 2021-03-25 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-25 15:50:00 ---
+2026-01-20T07:19:40.9301692Z TRACE:: Log: 2021-03-25 15:50:00 HOLDING WINNER: SOXL is up $123.60. Letting it ride overnight.
+2026-01-20T07:19:40.9312910Z TRACE:: Log: 2021-03-26 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-26 15:50:00 ---
+2026-01-20T07:19:40.9313560Z TRACE:: Log: 2021-03-26 15:50:00 HOLDING WINNER: SOXL is up $2064.12. Letting it ride overnight.
+2026-01-20T07:19:40.9314126Z TRACE:: Debug: 2021-03-29 11:00:00 SELL SOXL: J=53.66 crossed < 62.6.
+2026-01-20T07:19:40.9314685Z TRACE:: Debug: 2021-03-30 15:00:00 BUY SOXL: J=31.79 crossed > 22.2. Price=35.34
+2026-01-20T07:19:40.9316325Z TRACE:: Log: 2021-03-30 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-30 15:50:00 ---
+2026-01-20T07:19:40.9319577Z TRACE:: Log: 2021-03-30 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:40.9323553Z TRACE:: Log: 2021-03-31 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-31 15:50:00 ---
+2026-01-20T07:19:40.9324312Z TRACE:: Log: 2021-03-31 15:50:00 HOLDING WINNER: SOXL is up $1921.00. Letting it ride overnight.
+2026-01-20T07:19:40.9324767Z TRACE:: Log: 2021-04-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-01 15:50:00 ---
+2026-01-20T07:19:40.9325466Z TRACE:: Log: 2021-04-01 15:50:00 HOLDING WINNER: SOXL is up $3853.30. Letting it ride overnight.
+2026-01-20T07:19:40.9326025Z TRACE:: Log: 2021-04-05 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-05 15:50:00 ---
+2026-01-20T07:19:40.9326623Z TRACE:: Log: 2021-04-05 15:50:00 HOLDING WINNER: SOXL is up $5604.80. Letting it ride overnight.
+2026-01-20T07:19:40.9327142Z TRACE:: Debug: 2021-04-06 14:00:00 SELL SOXL: J=40.34 crossed < 62.6.
+2026-01-20T07:19:40.9833229Z TRACE:: Debug: 2021-04-07 14:00:00 BUY SOXL: J=41.49 crossed > 22.2. Price=43.28
+2026-01-20T07:19:40.9843608Z TRACE:: Log: 2021-04-07 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-07 15:50:00 ---
+2026-01-20T07:19:40.9844485Z TRACE:: Log: 2021-04-07 15:50:00 HOLDING WINNER: SOXL is up $207.90. Letting it ride overnight.
+2026-01-20T07:19:40.9844993Z TRACE:: Log: 2021-04-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-08 15:50:00 ---
+2026-01-20T07:19:40.9853765Z TRACE:: Log: 2021-04-08 15:50:00 HOLDING WINNER: SOXL is up $498.96. Letting it ride overnight.
+2026-01-20T07:19:40.9854579Z TRACE:: Debug: 2021-04-09 11:00:00 SELL SOXL: J=44.92 crossed < 62.6.
+2026-01-20T07:19:40.9856035Z TRACE:: Debug: 2021-04-12 12:00:00 BUY SOXL: J=37.98 crossed > 22.2. Price=42.67
+2026-01-20T07:19:40.9857551Z TRACE:: Debug: 2021-04-12 16:00:00 BUY SOXL: J=52.41 crossed > 22.2. Price=43.03
+2026-01-20T07:19:40.9858719Z TRACE:: Log: 2021-04-12 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-12 15:50:00 ---
+2026-01-20T07:19:40.9859362Z TRACE:: Log: 2021-04-12 15:50:00 CLOSING LOSER: SOXL is down $-14.04. avoiding overnight risk.
+2026-01-20T07:19:40.9859988Z TRACE:: Log: 2021-04-13 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-13 15:50:00 ---
+2026-01-20T07:19:40.9861708Z TRACE:: Log: 2021-04-13 15:50:00 CLOSING LOSER: SOXL is down $-742.40. avoiding overnight risk.
+2026-01-20T07:19:40.9862950Z TRACE:: Debug: 2021-04-15 10:00:00 BUY SOXL: J=58.69 crossed > 22.2. Price=42.24
+2026-01-20T07:19:40.9863576Z TRACE:: Log: 2021-04-15 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-15 15:50:00 ---
+2026-01-20T07:19:40.9864787Z TRACE:: Log: 2021-04-15 15:50:00 HOLDING WINNER: SOXL is up $577.06. Letting it ride overnight.
+2026-01-20T07:19:40.9865750Z TRACE:: Debug: 2021-04-16 14:00:00 SELL SOXL: J=60.40 crossed < 62.6.
+2026-01-20T07:19:40.9866839Z TRACE:: Debug: 2021-04-19 16:00:00 BUY SOXL: J=25.62 crossed > 22.2. Price=39.46
+2026-01-20T07:19:40.9867713Z TRACE:: Debug: 2021-04-21 10:00:00 BUY SOXL: J=42.38 crossed > 22.2. Price=38.85
+2026-01-20T07:19:40.9869140Z TRACE:: Log: 2021-04-20 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-20 15:50:00 ---
+2026-01-20T07:19:40.9870112Z TRACE:: Log: 2021-04-20 15:50:00 CLOSING LOSER: SOXL is down $-941.16. avoiding overnight risk.
+2026-01-20T07:19:40.9871255Z TRACE:: Log: 2021-04-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-21 15:50:00 ---
+2026-01-20T07:19:40.9873380Z TRACE:: Log: 2021-04-21 15:50:00 HOLDING WINNER: SOXL is up $508.86. Letting it ride overnight.
+2026-01-20T07:19:40.9874672Z TRACE:: Debug: 2021-04-22 11:00:00 SELL SOXL: J=56.28 crossed < 62.6.
+2026-01-20T07:19:40.9875399Z TRACE:: Debug: 2021-04-22 16:00:00 BUY SOXL: J=25.65 crossed > 22.2. Price=37.94
+2026-01-20T07:19:40.9875970Z TRACE:: Log: 2021-04-23 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-23 15:50:00 ---
+2026-01-20T07:19:40.9876882Z TRACE:: Log: 2021-04-23 15:50:00 HOLDING WINNER: SOXL is up $1054.00. Letting it ride overnight.
+2026-01-20T07:19:40.9878629Z TRACE:: Log: 2021-04-26 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-26 15:50:00 ---
+2026-01-20T07:19:40.9879355Z TRACE:: Log: 2021-04-26 15:50:00 HOLDING WINNER: SOXL is up $2065.84. Letting it ride overnight.
+2026-01-20T07:19:40.9883813Z TRACE:: Debug: 2021-04-27 11:00:00 SELL SOXL: J=45.32 crossed < 62.6.
+2026-01-20T07:19:40.9884593Z TRACE:: Debug: 2021-04-29 11:00:00 BUY SOXL: J=36.06 crossed > 22.2. Price=39.58
+2026-01-20T07:19:40.9885318Z TRACE:: Debug: 2021-04-30 10:00:00 SELL SOXL: J=28.50 crossed < 62.6.
+2026-01-20T07:19:40.9886158Z TRACE:: Log: 2021-04-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-29 15:50:00 ---
+2026-01-20T07:19:40.9887145Z TRACE:: Log: 2021-04-29 15:50:00 HOLDING WINNER: SOXL is up $308.05. Letting it ride overnight.
+2026-01-20T07:19:40.9888609Z TRACE:: Debug: 2021-05-04 14:00:00 BUY SOXL: J=25.65 crossed > 22.2. Price=33.18
+2026-01-20T07:19:40.9889518Z TRACE:: Log: 2021-05-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-04 15:50:00 ---
+2026-01-20T07:19:40.9890996Z TRACE:: Log: 2021-05-04 15:50:00 HOLDING WINNER: SOXL is up $258.86. Letting it ride overnight.
+2026-01-20T07:19:40.9891630Z TRACE:: Debug: 2021-05-05 16:00:00 SELL SOXL: J=61.68 crossed < 62.6.
+2026-01-20T07:19:40.9892426Z TRACE:: Log: 2021-05-05 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-05 15:50:00 ---
+2026-01-20T07:19:40.9893229Z TRACE:: Log: 2021-05-05 15:50:00 HOLDING WINNER: SOXL is up $1125.74. Letting it ride overnight.
+2026-01-20T07:19:41.0397775Z TRACE:: Debug: 2021-05-06 16:00:00 BUY SOXL: J=79.88 crossed > 22.2. Price=35.37
+2026-01-20T07:19:41.0399221Z TRACE:: Debug: 2021-05-10 10:00:00 SELL SOXL: J=21.87 crossed < 62.6.
+2026-01-20T07:19:41.0400126Z TRACE:: Log: 2021-05-07 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-07 15:50:00 ---
+2026-01-20T07:19:41.0401497Z TRACE:: Log: 2021-05-07 15:50:00 HOLDING WINNER: SOXL is up $56.50. Letting it ride overnight.
+2026-01-20T07:19:41.0402486Z TRACE:: Debug: 2021-05-11 10:00:00 BUY SOXL: J=27.21 crossed > 22.2. Price=31.27
+2026-01-20T07:19:41.0403807Z TRACE:: Log: 2021-05-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-11 15:50:00 ---
+2026-01-20T07:19:41.0405115Z TRACE:: Log: 2021-05-11 15:50:00 HOLDING WINNER: SOXL is up $408.96. Letting it ride overnight.
+2026-01-20T07:19:41.0406565Z TRACE:: Debug: 2021-05-13 10:00:00 BUY SOXL: J=53.63 crossed > 22.2. Price=30.19
+2026-01-20T07:19:41.0408045Z TRACE:: Log: 2021-05-12 15:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=28.36 < Stop=28.38. P/L=-1859.49
+2026-01-20T07:19:41.0408764Z TRACE:: Debug: 2021-05-13 12:00:00 SELL SOXL: J=20.00 crossed < 62.6.
+2026-01-20T07:19:41.0413372Z TRACE:: Debug: 2021-05-13 14:00:00 BUY SOXL: J=22.67 crossed > 22.2. Price=28.82
+2026-01-20T07:19:41.0413985Z TRACE:: Log: 2021-05-13 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-13 15:50:00 ---
+2026-01-20T07:19:41.0414717Z TRACE:: Log: 2021-05-13 15:50:00 HOLDING WINNER: SOXL is up $381.15. Letting it ride overnight.
+2026-01-20T07:19:41.0415396Z TRACE:: Log: 2021-05-14 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-14 15:50:00 ---
+2026-01-20T07:19:41.0416496Z TRACE:: Log: 2021-05-14 15:50:00 HOLDING WINNER: SOXL is up $2626.47. Letting it ride overnight.
+2026-01-20T07:19:41.0417581Z TRACE:: Log: 2021-05-17 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=29.74 < Stop=29.84. P/L=637.56
+2026-01-20T07:19:41.0924430Z TRACE:: Debug: 2021-05-19 11:00:00 BUY SOXL: J=50.87 crossed > 22.2. Price=30.42
+2026-01-20T07:19:41.0931041Z TRACE:: Log: 2021-05-19 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-19 15:50:00 ---
+2026-01-20T07:19:41.0931990Z TRACE:: Log: 2021-05-19 15:50:00 HOLDING WINNER: SOXL is up $650.43. Letting it ride overnight.
+2026-01-20T07:19:41.0933477Z TRACE:: Log: 2021-05-20 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-20 15:50:00 ---
+2026-01-20T07:19:41.0935024Z TRACE:: Log: 2021-05-20 15:50:00 HOLDING WINNER: SOXL is up $2943.36. Letting it ride overnight.
+2026-01-20T07:19:41.0935966Z TRACE:: Debug: 2021-05-21 12:00:00 SELL SOXL: J=61.27 crossed < 62.6.
+2026-01-20T07:19:41.0937692Z TRACE:: Debug: 2021-06-01 13:00:00 BUY SOXL: J=35.46 crossed > 22.2. Price=38.26
+2026-01-20T07:19:41.0938586Z TRACE:: Log: 2021-06-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-01 15:50:00 ---
+2026-01-20T07:19:41.0943632Z TRACE:: Log: 2021-06-01 15:50:00 HOLDING WINNER: SOXL is up $240.12. Letting it ride overnight.
+2026-01-20T07:19:41.0944591Z TRACE:: Debug: 2021-06-02 13:00:00 SELL SOXL: J=50.00 crossed < 62.6.
+2026-01-20T07:19:41.0945772Z TRACE:: Debug: 2021-06-03 11:00:00 BUY SOXL: J=24.17 crossed > 22.2. Price=37.93
+2026-01-20T07:19:41.0947262Z TRACE:: Debug: 2021-06-04 10:00:00 BUY SOXL: J=85.50 crossed > 22.2. Price=39.29
+2026-01-20T07:19:41.0948870Z TRACE:: Log: 2021-06-03 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-03 15:50:00 ---
+2026-01-20T07:19:41.0949669Z TRACE:: Log: 2021-06-03 15:50:00 CLOSING LOSER: SOXL is down $-295.12. avoiding overnight risk.
+2026-01-20T07:19:41.0950940Z TRACE:: Log: 2021-06-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-04 15:50:00 ---
+2026-01-20T07:19:41.0952117Z TRACE:: Log: 2021-06-04 15:50:00 HOLDING WINNER: SOXL is up $259.59. Letting it ride overnight.
+2026-01-20T07:19:41.0953255Z TRACE:: Debug: 2021-06-07 11:00:00 SELL SOXL: J=57.17 crossed < 62.6.
+2026-01-20T07:19:41.0953969Z TRACE:: Debug: 2021-06-08 13:00:00 BUY SOXL: J=52.63 crossed > 22.2. Price=38.42
+2026-01-20T07:19:41.0954877Z TRACE:: Debug: 2021-06-08 16:00:00 BUY SOXL: J=30.82 crossed > 22.2. Price=38.13
+2026-01-20T07:19:41.0956351Z TRACE:: Log: 2021-06-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-08 15:50:00 ---
+2026-01-20T07:19:41.0957598Z TRACE:: Log: 2021-06-08 15:50:00 CLOSING LOSER: SOXL is down $-187.20. avoiding overnight risk.
+2026-01-20T07:19:41.0958388Z TRACE:: Debug: 2021-06-10 10:00:00 BUY SOXL: J=88.24 crossed > 22.2. Price=39.13
+2026-01-20T07:19:41.0959523Z TRACE:: Log: 2021-06-09 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-09 15:50:00 ---
+2026-01-20T07:19:41.0960539Z TRACE:: Log: 2021-06-09 15:50:00 CLOSING LOSER: SOXL is down $-382.52. avoiding overnight risk.
+2026-01-20T07:19:41.0961607Z TRACE:: Debug: 2021-06-10 12:00:00 SELL SOXL: J=22.02 crossed < 62.6.
+2026-01-20T07:19:41.0963116Z TRACE:: Debug: 2021-06-10 13:00:00 BUY SOXL: J=68.40 crossed > 22.2. Price=38.67
+2026-01-20T07:19:41.0964106Z TRACE:: Log: 2021-06-10 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-10 15:50:00 ---
+2026-01-20T07:19:41.0965582Z TRACE:: Log: 2021-06-10 15:50:00 HOLDING WINNER: SOXL is up $268.84. Letting it ride overnight.
+2026-01-20T07:19:41.0966691Z TRACE:: Log: 2021-06-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-11 15:50:00 ---
+2026-01-20T07:19:41.0968234Z TRACE:: Log: 2021-06-11 15:50:00 HOLDING WINNER: SOXL is up $294.69. Letting it ride overnight.
+2026-01-20T07:19:41.1470863Z TRACE:: Log: 2021-06-14 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-14 15:50:00 ---
+2026-01-20T07:19:41.1472202Z TRACE:: Log: 2021-06-14 15:50:00 HOLDING WINNER: SOXL is up $951.28. Letting it ride overnight.
+2026-01-20T07:19:41.1473995Z TRACE:: Debug: 2021-06-15 12:00:00 SELL SOXL: J=49.22 crossed < 62.6.
+2026-01-20T07:19:41.1474860Z TRACE:: Debug: 2021-06-16 16:00:00 BUY SOXL: J=29.39 crossed > 22.2. Price=39.17
+2026-01-20T07:19:41.1475822Z TRACE:: Debug: 2021-06-17 13:00:00 SELL SOXL: J=49.91 crossed < 62.6.
+2026-01-20T07:19:41.1476863Z TRACE:: Debug: 2021-06-21 10:00:00 BUY SOXL: J=38.18 crossed > 22.2. Price=38.07
+2026-01-20T07:19:41.1484478Z TRACE:: Log: 2021-06-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-21 15:50:00 ---
+2026-01-20T07:19:41.1485577Z TRACE:: Log: 2021-06-21 15:50:00 CLOSING LOSER: SOXL is down $-21.00. avoiding overnight risk.
+2026-01-20T07:19:41.1486098Z TRACE:: Debug: 2021-07-01 12:00:00 BUY SOXL: J=26.22 crossed > 22.2. Price=42.75
+2026-01-20T07:19:41.1487023Z TRACE:: Log: 2021-07-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-01 15:50:00 ---
+2026-01-20T07:19:41.1488691Z TRACE:: Log: 2021-07-01 15:50:00 HOLDING WINNER: SOXL is up $84.06. Letting it ride overnight.
+2026-01-20T07:19:41.1489615Z TRACE:: Log: 2021-07-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-02 15:50:00 ---
+2026-01-20T07:19:41.1490701Z TRACE:: Log: 2021-07-02 15:50:00 HOLDING WINNER: SOXL is up $135.43. Letting it ride overnight.
+2026-01-20T07:19:41.1493451Z TRACE:: Debug: 2021-07-06 11:00:00 SELL SOXL: J=51.97 crossed < 62.6.
+2026-01-20T07:19:41.1494654Z TRACE:: Debug: 2021-07-07 15:00:00 BUY SOXL: J=22.32 crossed > 22.2. Price=41.46
+2026-01-20T07:19:41.1495305Z TRACE:: Log: 2021-07-07 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-07 15:50:00 ---
+2026-01-20T07:19:41.1496079Z TRACE:: Log: 2021-07-07 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.1496691Z TRACE:: Log: 2021-07-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-08 15:50:00 ---
+2026-01-20T07:19:41.1498141Z TRACE:: Log: 2021-07-08 15:50:00 CLOSING LOSER: SOXL is down $-1026.66. avoiding overnight risk.
+2026-01-20T07:19:41.1499163Z TRACE:: Debug: 2021-07-14 14:00:00 BUY SOXL: J=32.76 crossed > 22.2. Price=42.39
+2026-01-20T07:19:41.1499835Z TRACE:: Log: 2021-07-14 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-14 15:50:00 ---
+2026-01-20T07:19:41.1501271Z TRACE:: Log: 2021-07-14 15:50:00 HOLDING WINNER: SOXL is up $94.20. Letting it ride overnight.
+2026-01-20T07:19:41.1502522Z TRACE:: Log: 2021-07-15 14:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=38.60 < Stop=39.18. P/L=-1785.09
+2026-01-20T07:19:41.1503879Z TRACE:: Debug: 2021-07-19 11:00:00 BUY SOXL: J=30.90 crossed > 22.2. Price=36.54
+2026-01-20T07:19:41.1504924Z TRACE:: Log: 2021-07-19 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-19 15:50:00 ---
+2026-01-20T07:19:41.1506014Z TRACE:: Log: 2021-07-19 15:50:00 CLOSING LOSER: SOXL is down $-196.92. avoiding overnight risk.
+2026-01-20T07:19:41.1506897Z TRACE:: Debug: 2021-07-27 15:00:00 BUY SOXL: J=42.14 crossed > 22.2. Price=38.62
+2026-01-20T07:19:41.1507678Z TRACE:: Log: 2021-07-27 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-27 15:50:00 ---
+2026-01-20T07:19:41.1508480Z TRACE:: Log: 2021-07-27 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.1509357Z TRACE:: Log: 2021-07-28 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-28 15:50:00 ---
+2026-01-20T07:19:41.1510335Z TRACE:: Log: 2021-07-28 15:50:00 HOLDING WINNER: SOXL is up $1328.69. Letting it ride overnight.
+2026-01-20T07:19:41.1511586Z TRACE:: Log: 2021-07-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-29 15:50:00 ---
+2026-01-20T07:19:41.1512412Z TRACE:: Log: 2021-07-29 15:50:00 HOLDING WINNER: SOXL is up $2429.90. Letting it ride overnight.
+2026-01-20T07:19:41.1513314Z TRACE:: Debug: 2021-07-30 12:00:00 SELL SOXL: J=54.42 crossed < 62.6.
+2026-01-20T07:19:41.1514346Z TRACE:: Debug: 2021-08-06 12:00:00 BUY SOXL: J=46.99 crossed > 22.2. Price=47.15
+2026-01-20T07:19:41.1522919Z TRACE:: Debug: 2021-08-09 10:00:00 BUY SOXL: J=37.53 crossed > 22.2. Price=46.34
+2026-01-20T07:19:41.1523507Z TRACE:: Log: 2021-08-06 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-06 15:50:00 ---
+2026-01-20T07:19:41.1523930Z TRACE:: Log: 2021-08-06 15:50:00 CLOSING LOSER: SOXL is down $-267.12. avoiding overnight risk.
+2026-01-20T07:19:41.2033517Z TRACE:: Debug: 2021-08-09 14:00:00 SELL SOXL: J=46.85 crossed < 62.6.
+2026-01-20T07:19:41.2034642Z TRACE:: Debug: 2021-08-10 13:00:00 BUY SOXL: J=26.66 crossed > 22.2. Price=44.45
+2026-01-20T07:19:41.2036063Z TRACE:: Log: 2021-08-10 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-10 15:50:00 ---
+2026-01-20T07:19:41.2036529Z TRACE:: Log: 2021-08-10 15:50:00 HOLDING WINNER: SOXL is up $130.21. Letting it ride overnight.
+2026-01-20T07:19:41.2037153Z TRACE:: Log: 2021-08-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-11 15:50:00 ---
+2026-01-20T07:19:41.2038044Z TRACE:: Log: 2021-08-11 15:50:00 CLOSING LOSER: SOXL is down $-211.03. avoiding overnight risk.
+2026-01-20T07:19:41.2038541Z TRACE:: Debug: 2021-08-12 12:00:00 BUY SOXL: J=50.37 crossed > 22.2. Price=42.88
+2026-01-20T07:19:41.2040689Z TRACE:: Log: 2021-08-12 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-12 15:50:00 ---
+2026-01-20T07:19:41.2041127Z TRACE:: Log: 2021-08-12 15:50:00 CLOSING LOSER: SOXL is down $-37.28. avoiding overnight risk.
+2026-01-20T07:19:41.2041575Z TRACE:: Debug: 2021-08-16 13:00:00 BUY SOXL: J=30.24 crossed > 22.2. Price=42.33
+2026-01-20T07:19:41.2042596Z TRACE:: Log: 2021-08-16 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-16 15:50:00 ---
+2026-01-20T07:19:41.2044549Z TRACE:: Log: 2021-08-16 15:50:00 HOLDING WINNER: SOXL is up $169.92. Letting it ride overnight.
+2026-01-20T07:19:41.2045322Z TRACE:: Log: 2021-08-17 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=40.43 < Stop=40.83. P/L=-896.80
+2026-01-20T07:19:41.2045817Z TRACE:: Debug: 2021-08-17 15:00:00 BUY SOXL: J=29.35 crossed > 22.2. Price=40.28
+2026-01-20T07:19:41.2047562Z TRACE:: Log: 2021-08-17 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-17 15:50:00 ---
+2026-01-20T07:19:41.2053364Z TRACE:: Log: 2021-08-17 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.2055050Z TRACE:: Log: 2021-08-18 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-18 15:50:00 ---
+2026-01-20T07:19:41.2056470Z TRACE:: Log: 2021-08-18 15:50:00 CLOSING LOSER: SOXL is down $-34.72. avoiding overnight risk.
+2026-01-20T07:19:41.2057367Z TRACE:: Debug: 2021-08-19 11:00:00 BUY SOXL: J=47.32 crossed > 22.2. Price=38.95
+2026-01-20T07:19:41.2058659Z TRACE:: Debug: 2021-08-19 15:00:00 SELL SOXL: J=59.29 crossed < 62.6.
+2026-01-20T07:19:41.2059445Z TRACE:: Debug: 2021-08-31 12:00:00 BUY SOXL: J=45.27 crossed > 22.2. Price=46.85
+2026-01-20T07:19:41.2060113Z TRACE:: Log: 2021-08-31 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-31 15:50:00 ---
+2026-01-20T07:19:41.2062920Z TRACE:: Log: 2021-08-31 15:50:00 HOLDING WINNER: SOXL is up $153.36. Letting it ride overnight.
+2026-01-20T07:19:41.2573386Z TRACE:: Debug: 2021-09-02 10:00:00 BUY SOXL: J=23.48 crossed > 22.2. Price=45.96
+2026-01-20T07:19:41.2574703Z TRACE:: Log: 2021-09-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-01 15:50:00 ---
+2026-01-20T07:19:41.2576139Z TRACE:: Log: 2021-09-01 15:50:00 CLOSING LOSER: SOXL is down $-242.82. avoiding overnight risk.
+2026-01-20T07:19:41.2583455Z TRACE:: Log: 2021-09-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-02 15:50:00 ---
+2026-01-20T07:19:41.2584354Z TRACE:: Log: 2021-09-02 15:50:00 HOLDING WINNER: SOXL is up $100.05. Letting it ride overnight.
+2026-01-20T07:19:41.2585312Z TRACE:: Debug: 2021-09-03 12:00:00 SELL SOXL: J=52.60 crossed < 62.6.
+2026-01-20T07:19:41.2586109Z TRACE:: Debug: 2021-09-08 14:00:00 BUY SOXL: J=25.19 crossed > 22.2. Price=44.49
+2026-01-20T07:19:41.2587324Z TRACE:: Log: 2021-09-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-08 15:50:00 ---
+2026-01-20T07:19:41.2589380Z TRACE:: Log: 2021-09-08 15:50:00 HOLDING WINNER: SOXL is up $175.11. Letting it ride overnight.
+2026-01-20T07:19:41.2590349Z TRACE:: Debug: 2021-09-09 14:00:00 SELL SOXL: J=57.62 crossed < 62.6.
+2026-01-20T07:19:41.2591340Z TRACE:: Debug: 2021-09-16 12:00:00 BUY SOXL: J=45.48 crossed > 22.2. Price=47.8
+2026-01-20T07:19:41.2591994Z TRACE:: Debug: 2021-09-17 10:00:00 SELL SOXL: J=8.14 crossed < 62.6.
+2026-01-20T07:19:41.2593242Z TRACE:: Log: 2021-09-16 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-16 15:50:00 ---
+2026-01-20T07:19:41.2594396Z TRACE:: Log: 2021-09-16 15:50:00 HOLDING WINNER: SOXL is up $535.04. Letting it ride overnight.
+2026-01-20T07:19:41.2595287Z TRACE:: Debug: 2021-09-17 13:00:00 BUY SOXL: J=28.08 crossed > 22.2. Price=46.82
+2026-01-20T07:19:41.2596588Z TRACE:: Debug: 2021-09-17 16:00:00 BUY SOXL: J=25.98 crossed > 22.2. Price=46.75
+2026-01-20T07:19:41.2597561Z TRACE:: Log: 2021-09-17 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-17 15:50:00 ---
+2026-01-20T07:19:41.2598345Z TRACE:: Log: 2021-09-17 15:50:00 CLOSING LOSER: SOXL is down $-72.59. avoiding overnight risk.
+2026-01-20T07:19:41.2599232Z TRACE:: Debug: 2021-09-20 16:00:00 BUY SOXL: J=25.83 crossed > 22.2. Price=43.25
+2026-01-20T07:19:41.2600751Z TRACE:: Log: 2021-09-20 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=43.07 < Stop=43.51. P/L=-290.36
+2026-01-20T07:19:41.2601593Z TRACE:: Log: 2021-09-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-21 15:50:00 ---
+2026-01-20T07:19:41.2603272Z TRACE:: Log: 2021-09-21 15:50:00 HOLDING WINNER: SOXL is up $36.96. Letting it ride overnight.
+2026-01-20T07:19:41.2604400Z TRACE:: Log: 2021-09-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-22 15:50:00 ---
+2026-01-20T07:19:41.2612962Z TRACE:: Log: 2021-09-22 15:50:00 HOLDING WINNER: SOXL is up $674.52. Letting it ride overnight.
+2026-01-20T07:19:41.2613704Z TRACE:: Log: 2021-09-23 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-23 15:50:00 ---
+2026-01-20T07:19:41.2614297Z TRACE:: Log: 2021-09-23 15:50:00 HOLDING WINNER: SOXL is up $1949.64. Letting it ride overnight.
+2026-01-20T07:19:41.2615025Z TRACE:: Debug: 2021-09-24 11:00:00 SELL SOXL: J=57.10 crossed < 62.6.
+2026-01-20T07:19:41.3123507Z TRACE:: Debug: 2021-09-30 10:00:00 BUY SOXL: J=26.93 crossed > 22.2. Price=41.37
+2026-01-20T07:19:41.3124860Z TRACE:: Log: 2021-09-30 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-30 15:50:00 ---
+2026-01-20T07:19:41.3125844Z TRACE:: Log: 2021-09-30 15:50:00 CLOSING LOSER: SOXL is down $-246.33. avoiding overnight risk.
+2026-01-20T07:19:41.3126767Z TRACE:: Log: 2021-10-01 11:00:00 FILTERED BUY: Signal valid but Price (38.98) < 200 SMA (39.3412). Staying Cash.
+2026-01-20T07:19:41.3127311Z TRACE:: Log: 2021-10-05 10:00:00 FILTERED BUY: Signal valid but Price (37.52) < 200 SMA (39.4219). Staying Cash.
+2026-01-20T07:19:41.3128144Z TRACE:: Debug: 2021-10-11 10:00:00 BUY SOXL: J=28.08 crossed > 22.2. Price=40.07
+2026-01-20T07:19:41.3128689Z TRACE:: Log: 2021-10-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-10-11 15:50:00 ---
+2026-01-20T07:19:41.3129085Z TRACE:: Log: 2021-10-11 15:50:00 CLOSING LOSER: SOXL is down $-329.34. avoiding overnight risk.
+2026-01-20T07:19:41.3130620Z TRACE:: Log: 2021-10-13 10:00:00 FILTERED BUY: Signal valid but Price (37.69) < 200 SMA (39.6944). Staying Cash.
+2026-01-20T07:19:41.3131096Z TRACE:: Debug: 2021-10-22 15:00:00 BUY SOXL: J=29.86 crossed > 22.2. Price=44.39
+2026-01-20T07:19:41.3131760Z TRACE:: Log: 2021-10-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-10-22 15:50:00 ---
+2026-01-20T07:19:41.3132130Z TRACE:: Log: 2021-10-22 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.3132480Z TRACE:: Debug: 2021-10-25 16:00:00 SELL SOXL: J=47.56 crossed < 62.6.
+2026-01-20T07:19:41.3132980Z TRACE:: Log: 2021-10-25 15:50:00 --- Running End-of-Day Risk Check @ 2021-10-25 15:50:00 ---
+2026-01-20T07:19:41.3133388Z TRACE:: Log: 2021-10-25 15:50:00 HOLDING WINNER: SOXL is up $463.50. Letting it ride overnight.
+2026-01-20T07:19:41.3133823Z TRACE:: Debug: 2021-10-28 10:00:00 BUY SOXL: J=68.36 crossed > 22.2. Price=46.7
+2026-01-20T07:19:41.3134344Z TRACE:: Log: 2021-10-28 15:50:00 --- Running End-of-Day Risk Check @ 2021-10-28 15:50:00 ---
+2026-01-20T07:19:41.3134998Z TRACE:: Log: 2021-10-28 15:50:00 CLOSING LOSER: SOXL is down $-55.64. avoiding overnight risk.
+2026-01-20T07:19:41.3643327Z TRACE:: Debug: 2021-11-09 15:00:00 BUY SOXL: J=36.17 crossed > 22.2. Price=62.87
+2026-01-20T07:19:41.3644713Z TRACE:: Log: 2021-11-09 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-09 15:50:00 ---
+2026-01-20T07:19:41.3645316Z TRACE:: Log: 2021-11-09 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.3655113Z TRACE:: Debug: 2021-11-11 10:00:00 BUY SOXL: J=53.40 crossed > 22.2. Price=60.61
+2026-01-20T07:19:41.3656741Z TRACE:: Log: 2021-11-10 15:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=57.34 < Stop=57.83. P/L=-1758.54
+2026-01-20T07:19:41.3657748Z TRACE:: Log: 2021-11-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-11 15:50:00 ---
+2026-01-20T07:19:41.3658697Z TRACE:: Log: 2021-11-11 15:50:00 HOLDING WINNER: SOXL is up $240.17. Letting it ride overnight.
+2026-01-20T07:19:41.3659402Z TRACE:: Log: 2021-11-12 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-12 15:50:00 ---
+2026-01-20T07:19:41.3663617Z TRACE:: Log: 2021-11-12 15:50:00 HOLDING WINNER: SOXL is up $973.84. Letting it ride overnight.
+2026-01-20T07:19:41.3664382Z TRACE:: Debug: 2021-11-15 12:00:00 SELL SOXL: J=34.67 crossed < 62.6.
+2026-01-20T07:19:41.3666595Z TRACE:: Debug: 2021-11-22 15:00:00 BUY SOXL: J=25.67 crossed > 22.2. Price=68.02
+2026-01-20T07:19:41.3673679Z TRACE:: Log: 2021-11-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-22 15:50:00 ---
+2026-01-20T07:19:41.3674508Z TRACE:: Log: 2021-11-22 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.3675425Z TRACE:: Debug: 2021-11-23 16:00:00 BUY SOXL: J=33.93 crossed > 22.2. Price=64.68
+2026-01-20T07:19:41.3676285Z TRACE:: Log: 2021-11-23 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=61.77 < Stop=62.04. P/L=-1837.50
+2026-01-20T07:19:41.3684654Z TRACE:: Debug: 2021-11-24 14:00:00 SELL SOXL: J=52.22 crossed < 62.6.
+2026-01-20T07:19:41.3685520Z TRACE:: Debug: 2021-11-29 10:00:00 BUY SOXL: J=75.60 crossed > 22.2. Price=64.82
+2026-01-20T07:19:41.3686266Z TRACE:: Log: 2021-11-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-29 15:50:00 ---
+2026-01-20T07:19:41.3687590Z TRACE:: Log: 2021-11-29 15:50:00 HOLDING WINNER: SOXL is up $859.32. Letting it ride overnight.
+2026-01-20T07:19:41.3688257Z TRACE:: Debug: 2021-11-30 11:00:00 SELL SOXL: J=44.54 crossed < 62.6.
+2026-01-20T07:19:41.3689471Z TRACE:: Debug: 2021-11-30 13:00:00 BUY SOXL: J=42.62 crossed > 22.2. Price=63.82
+2026-01-20T07:19:41.3690873Z TRACE:: Log: 2021-11-30 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-30 15:50:00 ---
+2026-01-20T07:19:41.3691782Z TRACE:: Log: 2021-11-30 15:50:00 HOLDING WINNER: SOXL is up $319.26. Letting it ride overnight.
+2026-01-20T07:19:41.3693208Z TRACE:: Debug: 2021-12-01 14:00:00 SELL SOXL: J=57.25 crossed < 62.6.
+2026-01-20T07:19:41.3694150Z TRACE:: Debug: 2021-12-02 11:00:00 BUY SOXL: J=27.47 crossed > 22.2. Price=61.15
+2026-01-20T07:19:41.3695282Z TRACE:: Log: 2021-12-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-02 15:50:00 ---
+2026-01-20T07:19:41.3696323Z TRACE:: Log: 2021-12-02 15:50:00 HOLDING WINNER: SOXL is up $699.78. Letting it ride overnight.
+2026-01-20T07:19:41.3703533Z TRACE:: Log: 2021-12-03 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-03 15:50:00 ---
+2026-01-20T07:19:41.3704010Z TRACE:: Log: 2021-12-03 15:50:00 HOLDING WINNER: SOXL is up $16.35. Letting it ride overnight.
+2026-01-20T07:19:41.3704551Z TRACE:: Log: 2021-12-06 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-06 15:50:00 ---
+2026-01-20T07:19:41.3706087Z TRACE:: Log: 2021-12-06 15:50:00 HOLDING WINNER: SOXL is up $451.26. Letting it ride overnight.
+2026-01-20T07:19:41.3706725Z TRACE:: Log: 2021-12-07 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-07 15:50:00 ---
+2026-01-20T07:19:41.3707799Z TRACE:: Log: 2021-12-07 15:50:00 HOLDING WINNER: SOXL is up $3410.61. Letting it ride overnight.
+2026-01-20T07:19:41.3710687Z TRACE:: Debug: 2021-12-09 10:00:00 SELL SOXL: J=44.14 crossed < 62.6.
+2026-01-20T07:19:41.3711757Z TRACE:: Log: 2021-12-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-08 15:50:00 ---
+2026-01-20T07:19:41.3712439Z TRACE:: Log: 2021-12-08 15:50:00 HOLDING WINNER: SOXL is up $3018.21. Letting it ride overnight.
+2026-01-20T07:19:41.3714076Z TRACE:: Debug: 2021-12-10 11:00:00 BUY SOXL: J=22.43 crossed > 22.2. Price=66.33
+2026-01-20T07:19:41.3715512Z TRACE:: Log: 2021-12-10 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-10 15:50:00 ---
+2026-01-20T07:19:41.3716626Z TRACE:: Log: 2021-12-10 15:50:00 HOLDING WINNER: SOXL is up $15.05. Letting it ride overnight.
+2026-01-20T07:19:41.3718881Z TRACE:: Log: 2021-12-13 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-13 15:50:00 ---
+2026-01-20T07:19:41.3720647Z TRACE:: Log: 2021-12-13 15:50:00 CLOSING LOSER: SOXL is down $-764.54. avoiding overnight risk.
+2026-01-20T07:19:41.4227837Z TRACE:: Debug: 2021-12-14 16:00:00 BUY SOXL: J=30.19 crossed > 22.2. Price=61.49
+2026-01-20T07:19:41.4229493Z TRACE:: Log: 2021-12-15 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-15 15:50:00 ---
+2026-01-20T07:19:41.4230304Z TRACE:: Log: 2021-12-15 15:50:00 HOLDING WINNER: SOXL is up $175.50. Letting it ride overnight.
+2026-01-20T07:19:41.4231408Z TRACE:: Debug: 2021-12-16 11:00:00 SELL SOXL: J=37.42 crossed < 62.6.
+2026-01-20T07:19:41.4233277Z TRACE:: Debug: 2021-12-17 11:00:00 BUY SOXL: J=36.42 crossed > 22.2. Price=60.77
+2026-01-20T07:19:41.4234852Z TRACE:: Log: 2021-12-17 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-17 15:50:00 ---
+2026-01-20T07:19:41.4235987Z TRACE:: Log: 2021-12-17 15:50:00 CLOSING LOSER: SOXL is down $-302.68. avoiding overnight risk.
+2026-01-20T07:19:41.4244989Z TRACE:: Debug: 2021-12-20 15:00:00 BUY SOXL: J=27.00 crossed > 22.2. Price=56.63
+2026-01-20T07:19:41.4245749Z TRACE:: Log: 2021-12-20 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-20 15:50:00 ---
+2026-01-20T07:19:41.4246598Z TRACE:: Log: 2021-12-20 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.4248250Z TRACE:: Log: 2021-12-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-21 15:50:00 ---
+2026-01-20T07:19:41.4249821Z TRACE:: Log: 2021-12-21 15:50:00 HOLDING WINNER: SOXL is up $2280.38. Letting it ride overnight.
+2026-01-20T07:19:41.4251102Z TRACE:: Log: 2021-12-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-22 15:50:00 ---
+2026-01-20T07:19:41.4252232Z TRACE:: Log: 2021-12-22 15:50:00 HOLDING WINNER: SOXL is up $2816.94. Letting it ride overnight.
+2026-01-20T07:19:41.4253547Z TRACE:: Log: 2021-12-23 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-23 15:50:00 ---
+2026-01-20T07:19:41.4265618Z TRACE:: Log: 2021-12-23 15:50:00 HOLDING WINNER: SOXL is up $4105.39. Letting it ride overnight.
+2026-01-20T07:19:41.4266760Z TRACE:: Log: 2021-12-27 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-27 15:50:00 ---
+2026-01-20T07:19:41.4268234Z TRACE:: Log: 2021-12-27 15:50:00 HOLDING WINNER: SOXL is up $5584.46. Letting it ride overnight.
+2026-01-20T07:19:41.4269239Z TRACE:: Debug: 2021-12-28 11:00:00 SELL SOXL: J=45.86 crossed < 62.6.
+2026-01-20T07:19:41.4270123Z TRACE:: Debug: 2021-12-29 14:00:00 BUY SOXL: J=26.22 crossed > 22.2. Price=70.71
+2026-01-20T07:19:41.4271212Z TRACE:: Log: 2021-12-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-29 15:50:00 ---
+2026-01-20T07:19:41.4272267Z TRACE:: Log: 2021-12-29 15:50:00 HOLDING WINNER: SOXL is up $112.80. Letting it ride overnight.
+2026-01-20T07:19:41.4274922Z TRACE:: Debug: 2021-12-30 13:00:00 SELL SOXL: J=54.23 crossed < 62.6.
+2026-01-20T07:19:41.4275835Z TRACE:: Debug: 2021-12-31 11:00:00 BUY SOXL: J=25.33 crossed > 22.2. Price=68.47
+2026-01-20T07:19:41.4277959Z TRACE:: Debug: 2022-01-03 10:00:00 BUY SOXL: J=32.38 crossed > 22.2. Price=69.34
+2026-01-20T07:19:41.4280350Z TRACE:: Log: 2021-12-31 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-31 15:50:00 ---
+2026-01-20T07:19:41.4282323Z TRACE:: Log: 2021-12-31 15:50:00 CLOSING LOSER: SOXL is down $-49.64. avoiding overnight risk.
+2026-01-20T07:19:41.4283680Z TRACE:: Log: 2022-01-03 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-03 15:50:00 ---
+2026-01-20T07:19:41.4285942Z TRACE:: Log: 2022-01-03 15:50:00 HOLDING WINNER: SOXL is up $705.60. Letting it ride overnight.
+2026-01-20T07:19:41.4286933Z TRACE:: Debug: 2022-01-04 13:00:00 BUY SOXL: J=37.60 crossed > 22.2. Price=68.29
+2026-01-20T07:19:41.4287662Z TRACE:: Debug: 2022-01-05 10:00:00 SELL SOXL: J=60.71 crossed < 62.6.
+2026-01-20T07:19:41.4288817Z TRACE:: Log: 2022-01-04 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=67.28 < Stop=68.39. P/L=-593.28
+2026-01-20T07:19:41.4289701Z TRACE:: Log: 2022-01-04 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-04 15:50:00 ---
+2026-01-20T07:19:41.4293265Z TRACE:: Log: 2022-01-04 15:50:00 HOLDING WINNER: SOXL is up $499.32. Letting it ride overnight.
+2026-01-20T07:19:41.4294022Z TRACE:: Debug: 2022-01-06 11:00:00 BUY SOXL: J=33.99 crossed > 22.2. Price=64.95
+2026-01-20T07:19:41.4294795Z TRACE:: Log: 2022-01-06 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-06 15:50:00 ---
+2026-01-20T07:19:41.4295673Z TRACE:: Log: 2022-01-06 15:50:00 HOLDING WINNER: SOXL is up $288.58. Letting it ride overnight.
+2026-01-20T07:19:41.4296476Z TRACE:: Log: 2022-01-07 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-07 15:50:00 ---
+2026-01-20T07:19:41.4297435Z TRACE:: Log: 2022-01-07 15:50:00 CLOSING LOSER: SOXL is down $-1277.12. avoiding overnight risk.
+2026-01-20T07:19:41.4299370Z TRACE:: Debug: 2022-01-10 15:00:00 BUY SOXL: J=36.95 crossed > 22.2. Price=57.57
+2026-01-20T07:19:41.4299903Z TRACE:: Log: 2022-01-10 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-10 15:50:00 ---
+2026-01-20T07:19:41.4301305Z TRACE:: Log: 2022-01-10 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.4302220Z TRACE:: Log: 2022-01-11 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-11 15:50:00 ---
+2026-01-20T07:19:41.4304156Z TRACE:: Log: 2022-01-11 15:50:00 HOLDING WINNER: SOXL is up $1852.98. Letting it ride overnight.
+2026-01-20T07:19:41.4305320Z TRACE:: Log: 2022-01-12 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-12 15:50:00 ---
+2026-01-20T07:19:41.4306472Z TRACE:: Log: 2022-01-12 15:50:00 HOLDING WINNER: SOXL is up $2363.07. Letting it ride overnight.
+2026-01-20T07:19:41.4309230Z TRACE:: Debug: 2022-01-13 12:00:00 SELL SOXL: J=34.74 crossed < 62.6.
+2026-01-20T07:19:41.4311129Z TRACE:: Debug: 2022-01-14 10:00:00 BUY SOXL: J=36.10 crossed > 22.2. Price=62.52
+2026-01-20T07:19:41.4313537Z TRACE:: Log: 2022-01-14 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-14 15:50:00 ---
+2026-01-20T07:19:41.4323370Z TRACE:: Log: 2022-01-14 15:50:00 HOLDING WINNER: SOXL is up $25.52. Letting it ride overnight.
+2026-01-20T07:19:41.4324682Z TRACE:: Log: 2022-01-18 14:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=57.26 < Stop=57.27. P/L=-1677.94
+2026-01-20T07:19:41.4325417Z TRACE:: Debug: 2022-01-19 14:00:00 BUY SOXL: J=22.32 crossed > 22.2. Price=53.5
+2026-01-20T07:19:41.4326478Z TRACE:: Log: 2022-01-19 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-19 15:50:00 ---
+2026-01-20T07:19:41.4331502Z TRACE:: Log: 2022-01-19 15:50:00 CLOSING LOSER: SOXL is down $-354.35. avoiding overnight risk.
+2026-01-20T07:19:41.4853504Z TRACE:: Debug: 2022-01-20 11:00:00 BUY SOXL: J=32.03 crossed > 22.2. Price=52.74
+2026-01-20T07:19:41.4855353Z TRACE:: Log: 2022-01-20 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-20 15:50:00 ---
+2026-01-20T07:19:41.4856251Z TRACE:: Log: 2022-01-20 15:50:00 CLOSING LOSER: SOXL is down $-1091.52. avoiding overnight risk.
+2026-01-20T07:19:41.4857690Z TRACE:: Debug: 2022-01-21 11:00:00 BUY SOXL: J=36.58 crossed > 22.2. Price=47.52
+2026-01-20T07:19:41.4858834Z TRACE:: Log: 2022-01-21 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-21 15:50:00 ---
+2026-01-20T07:19:41.4863672Z TRACE:: Log: 2022-01-21 15:50:00 CLOSING LOSER: SOXL is down $-1293.60. avoiding overnight risk.
+2026-01-20T07:19:41.4864830Z TRACE:: Log: 2022-01-24 14:00:00 FILTERED BUY: Signal valid but Price (41.71) < 200 SMA (47.3939). Staying Cash.
+2026-01-20T07:19:41.4865500Z TRACE:: Log: 2022-01-25 12:00:00 FILTERED BUY: Signal valid but Price (40.05) < 200 SMA (47.3986). Staying Cash.
+2026-01-20T07:19:41.4866126Z TRACE:: Log: 2022-01-28 12:00:00 FILTERED BUY: Signal valid but Price (37.01) < 200 SMA (47.35605). Staying Cash.
+2026-01-20T07:19:41.4866883Z TRACE:: Log: 2022-01-28 15:00:00 FILTERED BUY: Signal valid but Price (35.78) < 200 SMA (47.35605). Staying Cash.
+2026-01-20T07:19:41.4867645Z TRACE:: Log: 2022-02-03 14:00:00 FILTERED BUY: Signal valid but Price (44.71) < 200 SMA (47.4308). Staying Cash.
+2026-01-20T07:19:41.4868344Z TRACE:: Log: 2022-02-04 13:00:00 FILTERED BUY: Signal valid but Price (42.17) < 200 SMA (47.44035). Staying Cash.
+2026-01-20T07:19:41.4873516Z TRACE:: Log: 2022-02-14 13:00:00 FILTERED BUY: Signal valid but Price (40.83) < 200 SMA (47.58465). Staying Cash.
+2026-01-20T07:19:41.4874402Z TRACE:: Log: 2022-02-14 16:00:00 FILTERED BUY: Signal valid but Price (39.55) < 200 SMA (47.5979). Staying Cash.
+2026-01-20T07:19:41.4875217Z TRACE:: Log: 2022-02-17 12:00:00 FILTERED BUY: Signal valid but Price (42.8) < 200 SMA (47.7108). Staying Cash.
+2026-01-20T07:19:41.4876133Z TRACE:: Log: 2022-02-18 15:00:00 FILTERED BUY: Signal valid but Price (40.91) < 200 SMA (47.7426). Staying Cash.
+2026-01-20T07:19:41.4876995Z TRACE:: Log: 2022-02-22 15:00:00 FILTERED BUY: Signal valid but Price (39.6) < 200 SMA (47.76345). Staying Cash.
+2026-01-20T07:19:41.4878064Z TRACE:: Log: 2022-02-24 11:00:00 FILTERED BUY: Signal valid but Price (34.6) < 200 SMA (47.7918). Staying Cash.
+2026-01-20T07:19:41.4878826Z TRACE:: Log: 2022-03-02 10:00:00 FILTERED BUY: Signal valid but Price (38.52) < 200 SMA (47.9813). Staying Cash.
+2026-01-20T07:19:41.4879641Z TRACE:: Log: 2022-03-08 11:00:00 FILTERED BUY: Signal valid but Price (30.45) < 200 SMA (48.0505). Staying Cash.
+2026-01-20T07:19:41.4880410Z TRACE:: Log: 2022-03-10 15:00:00 FILTERED BUY: Signal valid but Price (32.75) < 200 SMA (48.028). Staying Cash.
+2026-01-20T07:19:41.4881602Z TRACE:: Log: 2022-03-14 11:00:00 FILTERED BUY: Signal valid but Price (30.44) < 200 SMA (47.9742). Staying Cash.
+2026-01-20T07:19:41.4882312Z TRACE:: Log: 2022-03-15 10:00:00 FILTERED BUY: Signal valid but Price (29.2) < 200 SMA (47.9246). Staying Cash.
+2026-01-20T07:19:41.5395481Z TRACE:: Log: 2022-03-23 12:00:00 FILTERED BUY: Signal valid but Price (39.76) < 200 SMA (47.87835). Staying Cash.
+2026-01-20T07:19:41.5400552Z TRACE:: Log: 2022-03-24 10:00:00 FILTERED BUY: Signal valid but Price (37.89) < 200 SMA (47.8708). Staying Cash.
+2026-01-20T07:19:41.5403779Z TRACE:: Log: 2022-03-28 14:00:00 FILTERED BUY: Signal valid but Price (40.88) < 200 SMA (47.9083). Staying Cash.
+2026-01-20T07:19:41.5406244Z TRACE:: Log: 2022-03-31 11:00:00 FILTERED BUY: Signal valid but Price (41.47) < 200 SMA (47.95375). Staying Cash.
+2026-01-20T07:19:41.5425626Z TRACE:: Log: 2022-04-01 16:00:00 FILTERED BUY: Signal valid but Price (36.23) < 200 SMA (47.93045). Staying Cash.
+2026-01-20T07:19:41.5427107Z TRACE:: Log: 2022-04-06 15:00:00 FILTERED BUY: Signal valid but Price (31.4) < 200 SMA (47.90715). Staying Cash.
+2026-01-20T07:19:41.5429577Z TRACE:: Log: 2022-04-07 14:00:00 FILTERED BUY: Signal valid but Price (30.2) < 200 SMA (47.8665). Staying Cash.
+2026-01-20T07:19:41.5433010Z TRACE:: Log: 2022-04-08 12:00:00 FILTERED BUY: Signal valid but Price (29.07) < 200 SMA (47.82395). Staying Cash.
+2026-01-20T07:19:41.5435292Z TRACE:: Log: 2022-04-12 10:00:00 FILTERED BUY: Signal valid but Price (28.6) < 200 SMA (47.6889). Staying Cash.
+2026-01-20T07:19:41.5438409Z TRACE:: Log: 2022-04-12 13:00:00 FILTERED BUY: Signal valid but Price (27.57) < 200 SMA (47.6889). Staying Cash.
+2026-01-20T07:19:41.5440120Z TRACE:: Log: 2022-04-13 10:00:00 FILTERED BUY: Signal valid but Price (27.12) < 200 SMA (47.60165). Staying Cash.
+2026-01-20T07:19:41.5444100Z TRACE:: Log: 2022-04-14 14:00:00 FILTERED BUY: Signal valid but Price (26.67) < 200 SMA (47.51895). Staying Cash.
+2026-01-20T07:19:41.5447567Z TRACE:: Log: 2022-04-18 10:00:00 FILTERED BUY: Signal valid but Price (26.16) < 200 SMA (47.42425). Staying Cash.
+2026-01-20T07:19:41.5458942Z TRACE:: Log: 2022-04-25 14:00:00 FILTERED BUY: Signal valid but Price (24.43) < 200 SMA (47.0491). Staying Cash.
+2026-01-20T07:19:41.5471665Z TRACE:: Log: 2022-04-26 13:00:00 FILTERED BUY: Signal valid but Price (23.59) < 200 SMA (46.9688). Staying Cash.
+2026-01-20T07:19:41.5477086Z TRACE:: Log: 2022-04-27 11:00:00 FILTERED BUY: Signal valid but Price (21.81) < 200 SMA (46.8639). Staying Cash.
+2026-01-20T07:19:41.5480752Z TRACE:: Log: 2022-04-27 13:00:00 FILTERED BUY: Signal valid but Price (22.76) < 200 SMA (46.8639). Staying Cash.
+2026-01-20T07:19:41.5487907Z TRACE:: Log: 2022-04-28 10:00:00 FILTERED BUY: Signal valid but Price (23.19) < 200 SMA (46.7602). Staying Cash.
+2026-01-20T07:19:41.5493697Z TRACE:: Log: 2022-05-02 11:00:00 FILTERED BUY: Signal valid but Price (22.87) < 200 SMA (46.59135). Staying Cash.
+2026-01-20T07:19:41.5500430Z TRACE:: Log: 2022-05-02 16:00:00 FILTERED BUY: Signal valid but Price (24.51) < 200 SMA (46.53015). Staying Cash.
+2026-01-20T07:19:41.5503780Z TRACE:: Log: 2022-05-06 11:00:00 FILTERED BUY: Signal valid but Price (24.18) < 200 SMA (46.33085). Staying Cash.
+2026-01-20T07:19:41.5510677Z TRACE:: Log: 2022-05-06 16:00:00 FILTERED BUY: Signal valid but Price (23.3) < 200 SMA (46.2437). Staying Cash.
+2026-01-20T07:19:41.5518677Z TRACE:: Log: 2022-05-10 10:00:00 FILTERED BUY: Signal valid but Price (21.39) < 200 SMA (46.1344). Staying Cash.
+2026-01-20T07:19:41.5525286Z TRACE:: Log: 2022-05-10 14:00:00 FILTERED BUY: Signal valid but Price (21.8) < 200 SMA (46.1344). Staying Cash.
+2026-01-20T07:19:41.5530157Z TRACE:: Log: 2022-05-12 11:00:00 FILTERED BUY: Signal valid but Price (19.64) < 200 SMA (45.9328). Staying Cash.
+2026-01-20T07:19:41.5535386Z TRACE:: Log: 2022-05-12 16:00:00 FILTERED BUY: Signal valid but Price (19.47) < 200 SMA (45.8246). Staying Cash.
+2026-01-20T07:19:41.5536584Z TRACE:: Log: 2022-05-19 11:00:00 FILTERED BUY: Signal valid but Price (21.24) < 200 SMA (45.37675). Staying Cash.
+2026-01-20T07:19:41.5538095Z TRACE:: Log: 2022-05-20 15:00:00 FILTERED BUY: Signal valid but Price (18.28) < 200 SMA (45.2412). Staying Cash.
+2026-01-20T07:19:41.5539942Z TRACE:: Log: 2022-05-24 12:00:00 FILTERED BUY: Signal valid but Price (19.03) < 200 SMA (44.97705). Staying Cash.
+2026-01-20T07:19:41.5541365Z TRACE:: Log: 2022-05-25 10:00:00 FILTERED BUY: Signal valid but Price (19.36) < 200 SMA (44.84195). Staying Cash.
+2026-01-20T07:19:41.6044207Z TRACE:: Log: 2022-06-01 14:00:00 FILTERED BUY: Signal valid but Price (23.57) < 200 SMA (44.43345). Staying Cash.
+2026-01-20T07:19:41.6045617Z TRACE:: Log: 2022-06-03 12:00:00 FILTERED BUY: Signal valid but Price (23.93) < 200 SMA (44.2656). Staying Cash.
+2026-01-20T07:19:41.6046553Z TRACE:: Log: 2022-06-06 10:00:00 FILTERED BUY: Signal valid but Price (24.95) < 200 SMA (44.1917). Staying Cash.
+2026-01-20T07:19:41.6047371Z TRACE:: Log: 2022-06-06 14:00:00 FILTERED BUY: Signal valid but Price (24.48) < 200 SMA (44.1917). Staying Cash.
+2026-01-20T07:19:41.6054067Z TRACE:: Log: 2022-06-07 10:00:00 FILTERED BUY: Signal valid but Price (23.28) < 200 SMA (44.1131). Staying Cash.
+2026-01-20T07:19:41.6055366Z TRACE:: Log: 2022-06-09 10:00:00 FILTERED BUY: Signal valid but Price (23.08) < 200 SMA (43.9302). Staying Cash.
+2026-01-20T07:19:41.6056103Z TRACE:: Log: 2022-06-09 13:00:00 FILTERED BUY: Signal valid but Price (23.0) < 200 SMA (43.9302). Staying Cash.
+2026-01-20T07:19:41.6057016Z TRACE:: Log: 2022-06-14 16:00:00 FILTERED BUY: Signal valid but Price (15.78) < 200 SMA (43.3834). Staying Cash.
+2026-01-20T07:19:41.6058911Z TRACE:: Log: 2022-06-17 10:00:00 FILTERED BUY: Signal valid but Price (13.93) < 200 SMA (43.063). Staying Cash.
+2026-01-20T07:19:41.6059879Z TRACE:: Log: 2022-06-17 14:00:00 FILTERED BUY: Signal valid but Price (13.77) < 200 SMA (43.063). Staying Cash.
+2026-01-20T07:19:41.6061110Z TRACE:: Log: 2022-06-17 16:00:00 FILTERED BUY: Signal valid but Price (13.68) < 200 SMA (42.9018). Staying Cash.
+2026-01-20T07:19:41.6061896Z TRACE:: Log: 2022-06-23 11:00:00 FILTERED BUY: Signal valid but Price (14.22) < 200 SMA (42.57955). Staying Cash.
+2026-01-20T07:19:41.6062546Z TRACE:: Log: 2022-06-23 15:00:00 FILTERED BUY: Signal valid but Price (13.7) < 200 SMA (42.57955). Staying Cash.
+2026-01-20T07:19:41.6063100Z TRACE:: Log: 2022-06-28 14:00:00 FILTERED BUY: Signal valid but Price (14.95) < 200 SMA (42.12205). Staying Cash.
+2026-01-20T07:19:41.6065233Z TRACE:: Log: 2022-06-30 12:00:00 FILTERED BUY: Signal valid but Price (13.49) < 200 SMA (41.79035). Staying Cash.
+2026-01-20T07:19:41.6065858Z TRACE:: Log: 2022-07-01 15:00:00 FILTERED BUY: Signal valid but Price (11.65) < 200 SMA (41.61625). Staying Cash.
+2026-01-20T07:19:41.6066559Z TRACE:: Log: 2022-07-05 14:00:00 FILTERED BUY: Signal valid but Price (11.36) < 200 SMA (41.431). Staying Cash.
+2026-01-20T07:19:41.6067341Z TRACE:: Log: 2022-07-11 13:00:00 FILTERED BUY: Signal valid but Price (13.13) < 200 SMA (40.77585). Staying Cash.
+2026-01-20T07:19:41.6068057Z TRACE:: Log: 2022-07-12 11:00:00 FILTERED BUY: Signal valid but Price (13.21) < 200 SMA (40.60885). Staying Cash.
+2026-01-20T07:19:41.6068804Z TRACE:: Log: 2022-07-18 16:00:00 FILTERED BUY: Signal valid but Price (14.89) < 200 SMA (39.8312). Staying Cash.
+2026-01-20T07:19:41.6575835Z TRACE:: Log: 2022-07-22 16:00:00 FILTERED BUY: Signal valid but Price (17.62) < 200 SMA (39.41255). Staying Cash.
+2026-01-20T07:19:41.6578314Z TRACE:: Log: 2022-07-25 12:00:00 FILTERED BUY: Signal valid but Price (17.05) < 200 SMA (39.41255). Staying Cash.
+2026-01-20T07:19:41.6579239Z TRACE:: Log: 2022-07-25 16:00:00 FILTERED BUY: Signal valid but Price (17.29) < 200 SMA (39.30375). Staying Cash.
+2026-01-20T07:19:41.6580217Z TRACE:: Log: 2022-07-26 14:00:00 FILTERED BUY: Signal valid but Price (16.54) < 200 SMA (39.30375). Staying Cash.
+2026-01-20T07:19:41.6580900Z TRACE:: Log: 2022-07-27 10:00:00 FILTERED BUY: Signal valid but Price (17.76) < 200 SMA (39.18385). Staying Cash.
+2026-01-20T07:19:41.6581615Z TRACE:: Log: 2022-08-05 13:00:00 FILTERED BUY: Signal valid but Price (21.39) < 200 SMA (38.5006). Staying Cash.
+2026-01-20T07:19:41.6583914Z TRACE:: Log: 2022-08-08 13:00:00 FILTERED BUY: Signal valid but Price (20.11) < 200 SMA (38.38605). Staying Cash.
+2026-01-20T07:19:41.6584638Z TRACE:: Log: 2022-08-08 16:00:00 FILTERED BUY: Signal valid but Price (20.51) < 200 SMA (38.2677). Staying Cash.
+2026-01-20T07:19:41.6585470Z TRACE:: Log: 2022-08-10 10:00:00 FILTERED BUY: Signal valid but Price (18.73) < 200 SMA (38.12795). Staying Cash.
+2026-01-20T07:19:41.6586940Z TRACE:: Log: 2022-08-16 12:00:00 FILTERED BUY: Signal valid but Price (21.38) < 200 SMA (37.65385). Staying Cash.
+2026-01-20T07:19:41.6587903Z TRACE:: Log: 2022-08-17 15:00:00 FILTERED BUY: Signal valid but Price (19.78) < 200 SMA (37.52405). Staying Cash.
+2026-01-20T07:19:41.6588277Z TRACE:: Log: 2022-08-23 10:00:00 FILTERED BUY: Signal valid but Price (17.71) < 200 SMA (36.89175). Staying Cash.
+2026-01-20T07:19:41.6588640Z TRACE:: Log: 2022-08-24 12:00:00 FILTERED BUY: Signal valid but Price (17.46) < 200 SMA (36.6823). Staying Cash.
+2026-01-20T07:19:41.6588995Z TRACE:: Log: 2022-08-24 15:00:00 FILTERED BUY: Signal valid but Price (17.2) < 200 SMA (36.6823). Staying Cash.
+2026-01-20T07:19:41.6589581Z TRACE:: Log: 2022-08-30 16:00:00 FILTERED BUY: Signal valid but Price (14.5) < 200 SMA (35.5563). Staying Cash.
+2026-01-20T07:19:41.6590130Z TRACE:: Log: 2022-09-01 15:00:00 FILTERED BUY: Signal valid but Price (12.94) < 200 SMA (35.30965). Staying Cash.
+2026-01-20T07:19:41.6590670Z TRACE:: Log: 2022-09-02 15:00:00 FILTERED BUY: Signal valid but Price (12.85) < 200 SMA (35.0597). Staying Cash.
+2026-01-20T07:19:41.6591143Z TRACE:: Log: 2022-09-07 11:00:00 FILTERED BUY: Signal valid but Price (12.54) < 200 SMA (34.53255). Staying Cash.
+2026-01-20T07:19:41.7093210Z TRACE:: Log: 2022-09-14 11:00:00 FILTERED BUY: Signal valid but Price (12.5) < 200 SMA (33.20585). Staying Cash.
+2026-01-20T07:19:41.7115238Z TRACE:: Log: 2022-09-14 16:00:00 FILTERED BUY: Signal valid but Price (12.49) < 200 SMA (32.9622). Staying Cash.
+2026-01-20T07:19:41.7116513Z TRACE:: Log: 2022-09-15 13:00:00 FILTERED BUY: Signal valid but Price (12.11) < 200 SMA (32.9622). Staying Cash.
+2026-01-20T07:19:41.7117425Z TRACE:: Log: 2022-09-16 12:00:00 FILTERED BUY: Signal valid but Price (11.6) < 200 SMA (32.67945). Staying Cash.
+2026-01-20T07:19:41.7119072Z TRACE:: Log: 2022-09-20 16:00:00 FILTERED BUY: Signal valid but Price (11.69) < 200 SMA (31.9047). Staying Cash.
+2026-01-20T07:19:41.7119779Z TRACE:: Log: 2022-09-23 16:00:00 FILTERED BUY: Signal valid but Price (9.96) < 200 SMA (31.0756). Staying Cash.
+2026-01-20T07:19:41.7120855Z TRACE:: Log: 2022-09-27 10:00:00 FILTERED BUY: Signal valid but Price (9.98) < 200 SMA (30.7699). Staying Cash.
+2026-01-20T07:19:41.7128485Z TRACE:: Log: 2022-09-27 15:00:00 FILTERED BUY: Signal valid but Price (9.84) < 200 SMA (30.7699). Staying Cash.
+2026-01-20T07:19:41.7129471Z TRACE:: Log: 2022-09-29 16:00:00 FILTERED BUY: Signal valid but Price (9.24) < 200 SMA (29.939). Staying Cash.
+2026-01-20T07:19:41.7130515Z TRACE:: Log: 2022-10-03 10:00:00 FILTERED BUY: Signal valid but Price (9.25) < 200 SMA (29.6754). Staying Cash.
+2026-01-20T07:19:41.7132502Z TRACE:: Log: 2022-10-11 13:00:00 FILTERED BUY: Signal valid but Price (7.81) < 200 SMA (28.115). Staying Cash.
+2026-01-20T07:19:41.7133171Z TRACE:: Log: 2022-10-12 10:00:00 FILTERED BUY: Signal valid but Price (7.49) < 200 SMA (27.8156). Staying Cash.
+2026-01-20T07:19:41.7134941Z TRACE:: Log: 2022-10-12 13:00:00 FILTERED BUY: Signal valid but Price (7.43) < 200 SMA (27.8156). Staying Cash.
+2026-01-20T07:19:41.7135746Z TRACE:: Log: 2022-10-13 10:00:00 FILTERED BUY: Signal valid but Price (6.68) < 200 SMA (27.4872). Staying Cash.
+2026-01-20T07:19:41.7136441Z TRACE:: Log: 2022-10-18 13:00:00 FILTERED BUY: Signal valid but Price (7.39) < 200 SMA (26.55025). Staying Cash.
+2026-01-20T07:19:41.7143640Z TRACE:: Log: 2022-10-19 10:00:00 FILTERED BUY: Signal valid but Price (7.31) < 200 SMA (26.2476). Staying Cash.
+2026-01-20T07:19:41.7717840Z TRACE:: Log: 2022-10-27 12:00:00 FILTERED BUY: Signal valid but Price (8.75) < 200 SMA (24.54165). Staying Cash.
+2026-01-20T07:19:41.7719860Z TRACE:: Log: 2022-10-28 10:00:00 FILTERED BUY: Signal valid but Price (8.9) < 200 SMA (24.26765). Staying Cash.
+2026-01-20T07:19:41.7720624Z TRACE:: Log: 2022-10-31 12:00:00 FILTERED BUY: Signal valid but Price (8.98) < 200 SMA (23.99275). Staying Cash.
+2026-01-20T07:19:41.7721547Z TRACE:: Log: 2022-11-03 11:00:00 FILTERED BUY: Signal valid but Price (8.23) < 200 SMA (23.2213). Staying Cash.
+2026-01-20T07:19:41.7722330Z TRACE:: Log: 2022-11-04 10:00:00 FILTERED BUY: Signal valid but Price (8.78) < 200 SMA (23.0069). Staying Cash.
+2026-01-20T07:19:41.7724302Z TRACE:: Log: 2022-11-09 12:00:00 FILTERED BUY: Signal valid but Price (9.68) < 200 SMA (22.4758). Staying Cash.
+2026-01-20T07:19:41.7725406Z TRACE:: Log: 2022-11-10 10:00:00 FILTERED BUY: Signal valid but Price (11.01) < 200 SMA (22.32125). Staying Cash.
+2026-01-20T07:19:41.7726472Z TRACE:: Log: 2022-11-17 11:00:00 FILTERED BUY: Signal valid but Price (12.02) < 200 SMA (21.60525). Staying Cash.
+2026-01-20T07:19:41.7727123Z TRACE:: Log: 2022-11-22 10:00:00 FILTERED BUY: Signal valid but Price (11.98) < 200 SMA (21.11285). Staying Cash.
+2026-01-20T07:19:41.7728035Z TRACE:: Log: 2022-11-29 11:00:00 FILTERED BUY: Signal valid but Price (12.03) < 200 SMA (20.43055). Staying Cash.
+2026-01-20T07:19:41.7728720Z TRACE:: Log: 2022-11-30 12:00:00 FILTERED BUY: Signal valid but Price (11.83) < 200 SMA (20.29215). Staying Cash.
+2026-01-20T07:19:41.7729624Z TRACE:: Log: 2022-12-02 12:00:00 FILTERED BUY: Signal valid but Price (12.66) < 200 SMA (20.0007). Staying Cash.
+2026-01-20T07:19:41.7733427Z TRACE:: Log: 2022-12-02 15:00:00 FILTERED BUY: Signal valid but Price (12.89) < 200 SMA (20.0007). Staying Cash.
+2026-01-20T07:19:41.7734523Z TRACE:: Log: 2022-12-05 16:00:00 FILTERED BUY: Signal valid but Price (12.59) < 200 SMA (19.69455). Staying Cash.
+2026-01-20T07:19:41.7735408Z TRACE:: Log: 2022-12-07 12:00:00 FILTERED BUY: Signal valid but Price (11.77) < 200 SMA (19.55545). Staying Cash.
+2026-01-20T07:19:41.7745138Z TRACE:: Log: 2022-12-07 15:00:00 FILTERED BUY: Signal valid but Price (11.69) < 200 SMA (19.55545). Staying Cash.
+2026-01-20T07:19:41.7745882Z TRACE:: Log: 2022-12-12 12:00:00 FILTERED BUY: Signal valid but Price (12.38) < 200 SMA (19.16705). Staying Cash.
+2026-01-20T07:19:41.7746766Z TRACE:: Log: 2022-12-16 16:00:00 FILTERED BUY: Signal valid but Price (11.1) < 200 SMA (18.4926). Staying Cash.
+2026-01-20T07:19:41.7747651Z TRACE:: Log: 2022-12-19 16:00:00 FILTERED BUY: Signal valid but Price (10.68) < 200 SMA (18.3723). Staying Cash.
+2026-01-20T07:19:41.8254999Z TRACE:: Log: 2022-12-22 15:00:00 FILTERED BUY: Signal valid but Price (9.61) < 200 SMA (18.17715). Staying Cash.
+2026-01-20T07:19:41.8256679Z TRACE:: Log: 2022-12-23 12:00:00 FILTERED BUY: Signal valid but Price (9.57) < 200 SMA (18.0511). Staying Cash.
+2026-01-20T07:19:41.8257806Z TRACE:: Log: 2022-12-27 12:00:00 FILTERED BUY: Signal valid but Price (9.38) < 200 SMA (17.9364). Staying Cash.
+2026-01-20T07:19:41.8258636Z TRACE:: Log: 2022-12-28 10:00:00 FILTERED BUY: Signal valid but Price (9.3) < 200 SMA (17.82965). Staying Cash.
+2026-01-20T07:19:41.8259738Z TRACE:: Log: 2022-12-28 13:00:00 FILTERED BUY: Signal valid but Price (9.02) < 200 SMA (17.82965). Staying Cash.
+2026-01-20T07:19:41.8261033Z TRACE:: Log: 2022-12-29 10:00:00 FILTERED BUY: Signal valid but Price (9.61) < 200 SMA (17.73485). Staying Cash.
+2026-01-20T07:19:41.8263578Z TRACE:: Log: 2023-01-03 14:00:00 FILTERED BUY: Signal valid but Price (9.43) < 200 SMA (17.4923). Staying Cash.
+2026-01-20T07:19:41.8264590Z TRACE:: Log: 2023-01-06 11:00:00 FILTERED BUY: Signal valid but Price (10.24) < 200 SMA (17.06185). Staying Cash.
+2026-01-20T07:19:41.8265206Z TRACE:: Log: 2023-01-18 14:00:00 FILTERED BUY: Signal valid but Price (13.03) < 200 SMA (16.03945). Staying Cash.
+2026-01-20T07:19:41.8266855Z TRACE:: Log: 2023-01-19 15:00:00 FILTERED BUY: Signal valid but Price (12.19) < 200 SMA (15.9109). Staying Cash.
+2026-01-20T07:19:41.8268283Z TRACE:: Log: 2023-01-20 12:00:00 FILTERED BUY: Signal valid but Price (12.1) < 200 SMA (15.7885). Staying Cash.
+2026-01-20T07:19:41.8273796Z TRACE:: Log: 2023-01-25 12:00:00 FILTERED BUY: Signal valid but Price (13.99) < 200 SMA (15.4924). Staying Cash.
+2026-01-20T07:19:41.8274460Z TRACE:: Log: 2023-01-30 12:00:00 FILTERED BUY: Signal valid but Price (14.27) < 200 SMA (15.29015). Staying Cash.
+2026-01-20T07:19:41.8275142Z TRACE:: Log: 2023-01-31 11:00:00 FILTERED BUY: Signal valid but Price (14.28) < 200 SMA (15.228). Staying Cash.
+2026-01-20T07:19:41.8796601Z TRACE:: Debug: 2023-02-06 11:00:00 BUY SOXL: J=24.28 crossed > 22.2. Price=16.57
+2026-01-20T07:19:41.8798582Z TRACE:: Debug: 2023-02-07 10:00:00 BUY SOXL: J=26.03 crossed > 22.2. Price=16.42
+2026-01-20T07:19:41.8799651Z TRACE:: Log: 2023-02-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-02-06 15:50:00 ---
+2026-01-20T07:19:41.8800660Z TRACE:: Log: 2023-02-06 15:50:00 CLOSING LOSER: SOXL is down $-470.73. avoiding overnight risk.
+2026-01-20T07:19:41.8801645Z TRACE:: Debug: 2023-02-07 15:00:00 SELL SOXL: J=51.87 crossed < 62.6.
+2026-01-20T07:19:41.8803144Z TRACE:: Debug: 2023-02-09 10:00:00 BUY SOXL: J=76.88 crossed > 22.2. Price=17.64
+2026-01-20T07:19:41.8804176Z TRACE:: Debug: 2023-02-09 13:00:00 SELL SOXL: J=52.87 crossed < 62.6.
+2026-01-20T07:19:41.8804990Z TRACE:: Debug: 2023-02-13 10:00:00 BUY SOXL: J=37.74 crossed > 22.2. Price=16.15
+2026-01-20T07:19:41.8806746Z TRACE:: Log: 2023-02-13 15:50:00 --- Running End-of-Day Risk Check @ 2023-02-13 15:50:00 ---
+2026-01-20T07:19:41.8807565Z TRACE:: Log: 2023-02-13 15:50:00 HOLDING WINNER: SOXL is up $309.50. Letting it ride overnight.
+2026-01-20T07:19:41.8814264Z TRACE:: Debug: 2023-02-14 12:00:00 SELL SOXL: J=40.49 crossed < 62.6.
+2026-01-20T07:19:41.8815037Z TRACE:: Debug: 2023-02-16 12:00:00 BUY SOXL: J=51.79 crossed > 22.2. Price=16.96
+2026-01-20T07:19:41.8815705Z TRACE:: Log: 2023-02-16 15:50:00 --- Running End-of-Day Risk Check @ 2023-02-16 15:50:00 ---
+2026-01-20T07:19:41.8816472Z TRACE:: Log: 2023-02-16 15:50:00 HOLDING WINNER: SOXL is up $35.37. Letting it ride overnight.
+2026-01-20T07:19:41.8817561Z TRACE:: Debug: 2023-02-17 15:00:00 BUY SOXL: J=23.33 crossed > 22.2. Price=15.58
+2026-01-20T07:19:41.8818094Z TRACE:: Log: 2023-02-17 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=15.48 < Stop=15.60. P/L=-1744.92
+2026-01-20T07:19:41.8819833Z TRACE:: Log: 2023-02-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-02-17 15:50:00 ---
+2026-01-20T07:19:41.8820759Z TRACE:: Log: 2023-02-17 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.8821709Z TRACE:: Log: 2023-02-21 15:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=14.17 < Stop=14.26. P/L=-1809.03
+2026-01-20T07:19:41.8822625Z TRACE:: Debug: 2023-02-23 10:00:00 BUY SOXL: J=94.67 crossed > 22.2. Price=15.13
+2026-01-20T07:19:41.8823225Z TRACE:: Log: 2023-02-22 14:00:00 FILTERED BUY: Signal valid but Price (14.07) < 200 SMA (14.5377). Staying Cash.
+2026-01-20T07:19:41.8823971Z TRACE:: Debug: 2023-02-23 12:00:00 SELL SOXL: J=26.82 crossed < 62.6.
+2026-01-20T07:19:41.8824972Z TRACE:: Log: 2023-02-24 12:00:00 FILTERED BUY: Signal valid but Price (14.31) < 200 SMA (14.4458). Staying Cash.
+2026-01-20T07:19:41.8826110Z TRACE:: Log: 2023-03-02 12:00:00 FILTERED BUY: Signal valid but Price (14.04) < 200 SMA (14.3397). Staying Cash.
+2026-01-20T07:19:41.8827069Z TRACE:: Debug: 2023-03-07 13:00:00 BUY SOXL: J=40.64 crossed > 22.2. Price=15.16
+2026-01-20T07:19:41.8829248Z TRACE:: Debug: 2023-03-08 10:00:00 BUY SOXL: J=47.44 crossed > 22.2. Price=15.25
+2026-01-20T07:19:41.8830436Z TRACE:: Log: 2023-03-07 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-07 15:50:00 ---
+2026-01-20T07:19:41.8831275Z TRACE:: Log: 2023-03-07 15:50:00 CLOSING LOSER: SOXL is down $-830.97. avoiding overnight risk.
+2026-01-20T07:19:41.9353675Z TRACE:: Log: 2023-03-08 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-08 15:50:00 ---
+2026-01-20T07:19:41.9355124Z TRACE:: Log: 2023-03-08 15:50:00 HOLDING WINNER: SOXL is up $419.52. Letting it ride overnight.
+2026-01-20T07:19:41.9356164Z TRACE:: Debug: 2023-03-09 14:00:00 SELL SOXL: J=33.90 crossed < 62.6.
+2026-01-20T07:19:41.9357136Z TRACE:: Debug: 2023-03-10 11:00:00 BUY SOXL: J=33.91 crossed > 22.2. Price=14.81
+2026-01-20T07:19:41.9358094Z TRACE:: Log: 2023-03-10 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-10 15:50:00 ---
+2026-01-20T07:19:41.9359132Z TRACE:: Log: 2023-03-10 15:50:00 CLOSING LOSER: SOXL is down $-850.50. avoiding overnight risk.
+2026-01-20T07:19:41.9360553Z TRACE:: Log: 2023-03-13 11:00:00 FILTERED BUY: Signal valid but Price (13.86) < 200 SMA (14.1123). Staying Cash.
+2026-01-20T07:19:41.9363410Z TRACE:: Debug: 2023-03-15 15:00:00 BUY SOXL: J=55.03 crossed > 22.2. Price=14.6
+2026-01-20T07:19:41.9365003Z TRACE:: Log: 2023-03-15 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-15 15:50:00 ---
+2026-01-20T07:19:41.9366637Z TRACE:: Log: 2023-03-15 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.9368713Z TRACE:: Log: 2023-03-16 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-16 15:50:00 ---
+2026-01-20T07:19:41.9369752Z TRACE:: Log: 2023-03-16 15:50:00 HOLDING WINNER: SOXL is up $2108.26. Letting it ride overnight.
+2026-01-20T07:19:41.9370492Z TRACE:: Debug: 2023-03-20 10:00:00 SELL SOXL: J=59.09 crossed < 62.6.
+2026-01-20T07:19:41.9371469Z TRACE:: Log: 2023-03-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-17 15:50:00 ---
+2026-01-20T07:19:41.9372285Z TRACE:: Log: 2023-03-17 15:50:00 HOLDING WINNER: SOXL is up $1957.67. Letting it ride overnight.
+2026-01-20T07:19:41.9374152Z TRACE:: Debug: 2023-03-21 14:00:00 BUY SOXL: J=43.43 crossed > 22.2. Price=16.39
+2026-01-20T07:19:41.9375312Z TRACE:: Log: 2023-03-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-21 15:50:00 ---
+2026-01-20T07:19:41.9376015Z TRACE:: Log: 2023-03-21 15:50:00 HOLDING WINNER: SOXL is up $366.00. Letting it ride overnight.
+2026-01-20T07:19:41.9377225Z TRACE:: Debug: 2023-03-22 16:00:00 SELL SOXL: J=4.24 crossed < 62.6.
+2026-01-20T07:19:41.9377999Z TRACE:: Debug: 2023-03-23 10:00:00 BUY SOXL: J=48.56 crossed > 22.2. Price=17.49
+2026-01-20T07:19:41.9378472Z TRACE:: Log: 2023-03-22 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-22 15:50:00 ---
+2026-01-20T07:19:41.9379158Z TRACE:: Log: 2023-03-22 15:50:00 HOLDING WINNER: SOXL is up $1098.00. Letting it ride overnight.
+2026-01-20T07:19:41.9380438Z TRACE:: Debug: 2023-03-23 14:00:00 SELL SOXL: J=61.74 crossed < 62.6.
+2026-01-20T07:19:41.9381147Z TRACE:: Debug: 2023-03-24 16:00:00 BUY SOXL: J=27.23 crossed > 22.2. Price=16.56
+2026-01-20T07:19:41.9381949Z TRACE:: Log: 2023-03-27 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-27 15:50:00 ---
+2026-01-20T07:19:41.9383795Z TRACE:: Log: 2023-03-27 15:50:00 CLOSING LOSER: SOXL is down $-458.66. avoiding overnight risk.
+2026-01-20T07:19:41.9386073Z TRACE:: Debug: 2023-03-28 13:00:00 BUY SOXL: J=23.76 crossed > 22.2. Price=15.29
+2026-01-20T07:19:41.9386959Z TRACE:: Log: 2023-03-28 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-28 15:50:00 ---
+2026-01-20T07:19:41.9387518Z TRACE:: Log: 2023-03-28 15:50:00 HOLDING WINNER: SOXL is up $39.24. Letting it ride overnight.
+2026-01-20T07:19:41.9393190Z TRACE:: Log: 2023-03-29 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-29 15:50:00 ---
+2026-01-20T07:19:41.9393685Z TRACE:: Log: 2023-03-29 15:50:00 HOLDING WINNER: SOXL is up $2367.48. Letting it ride overnight.
+2026-01-20T07:19:41.9394483Z TRACE:: Log: 2023-03-30 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-30 15:50:00 ---
+2026-01-20T07:19:41.9395566Z TRACE:: Log: 2023-03-30 15:50:00 HOLDING WINNER: SOXL is up $3479.28. Letting it ride overnight.
+2026-01-20T07:19:41.9397122Z TRACE:: Debug: 2023-04-03 10:00:00 SELL SOXL: J=44.33 crossed < 62.6.
+2026-01-20T07:19:41.9398465Z TRACE:: Log: 2023-03-31 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-31 15:50:00 ---
+2026-01-20T07:19:41.9399500Z TRACE:: Log: 2023-03-31 15:50:00 HOLDING WINNER: SOXL is up $3597.00. Letting it ride overnight.
+2026-01-20T07:19:41.9401166Z TRACE:: Debug: 2023-04-03 15:00:00 BUY SOXL: J=43.39 crossed > 22.2. Price=17.56
+2026-01-20T07:19:41.9402147Z TRACE:: Debug: 2023-04-04 10:00:00 SELL SOXL: J=39.26 crossed < 62.6.
+2026-01-20T07:19:41.9403736Z TRACE:: Log: 2023-04-03 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-03 15:50:00 ---
+2026-01-20T07:19:41.9405753Z TRACE:: Log: 2023-04-03 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:41.9413538Z TRACE:: Debug: 2023-04-04 14:00:00 BUY SOXL: J=24.04 crossed > 22.2. Price=17.12
+2026-01-20T07:19:41.9414122Z TRACE:: Log: 2023-04-04 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-04 15:50:00 ---
+2026-01-20T07:19:41.9415476Z TRACE:: Log: 2023-04-04 15:50:00 CLOSING LOSER: SOXL is down $-373.76. avoiding overnight risk.
+2026-01-20T07:19:41.9924187Z TRACE:: Debug: 2023-04-05 16:00:00 BUY SOXL: J=24.51 crossed > 22.2. Price=15.9
+2026-01-20T07:19:41.9926834Z TRACE:: Log: 2023-04-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-06 15:50:00 ---
+2026-01-20T07:19:41.9928234Z TRACE:: Log: 2023-04-06 15:50:00 HOLDING WINNER: SOXL is up $389.67. Letting it ride overnight.
+2026-01-20T07:19:41.9930115Z TRACE:: Log: 2023-04-10 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-10 15:50:00 ---
+2026-01-20T07:19:41.9931941Z TRACE:: Log: 2023-04-10 15:50:00 HOLDING WINNER: SOXL is up $1294.71. Letting it ride overnight.
+2026-01-20T07:19:41.9932583Z TRACE:: Debug: 2023-04-12 10:00:00 SELL SOXL: J=17.03 crossed < 62.6.
+2026-01-20T07:19:41.9933806Z TRACE:: Log: 2023-04-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-11 15:50:00 ---
+2026-01-20T07:19:41.9943337Z TRACE:: Log: 2023-04-11 15:50:00 HOLDING WINNER: SOXL is up $1269.57. Letting it ride overnight.
+2026-01-20T07:19:41.9944187Z TRACE:: Debug: 2023-04-12 13:00:00 BUY SOXL: J=47.67 crossed > 22.2. Price=15.98
+2026-01-20T07:19:41.9945024Z TRACE:: Log: 2023-04-12 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-12 15:50:00 ---
+2026-01-20T07:19:41.9946195Z TRACE:: Log: 2023-04-12 15:50:00 CLOSING LOSER: SOXL is down $-587.97. avoiding overnight risk.
+2026-01-20T07:19:42.0585537Z TRACE:: Debug: 2023-04-13 11:00:00 BUY SOXL: J=23.10 crossed > 22.2. Price=15.38
+2026-01-20T07:19:42.0588083Z TRACE:: Log: 2023-04-13 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-13 15:50:00 ---
+2026-01-20T07:19:42.0590312Z TRACE:: Log: 2023-04-13 15:50:00 HOLDING WINNER: SOXL is up $611.00. Letting it ride overnight.
+2026-01-20T07:19:42.0593698Z TRACE:: Debug: 2023-04-14 12:00:00 SELL SOXL: J=10.00 crossed < 62.6.
+2026-01-20T07:19:42.0596883Z TRACE:: Debug: 2023-04-14 15:00:00 BUY SOXL: J=46.96 crossed > 22.2. Price=15.54
+2026-01-20T07:19:42.0600577Z TRACE:: Log: 2023-04-14 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-14 15:50:00 ---
+2026-01-20T07:19:42.0606772Z TRACE:: Log: 2023-04-14 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:42.0609672Z TRACE:: Log: 2023-04-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-17 15:50:00 ---
+2026-01-20T07:19:42.0613039Z TRACE:: Log: 2023-04-17 15:50:00 CLOSING LOSER: SOXL is down $-231.66. avoiding overnight risk.
+2026-01-20T07:19:42.0615364Z TRACE:: Debug: 2023-04-19 14:00:00 BUY SOXL: J=26.23 crossed > 22.2. Price=15.29
+2026-01-20T07:19:42.0616567Z TRACE:: Debug: 2023-04-20 10:00:00 BUY SOXL: J=51.38 crossed > 22.2. Price=15.36
+2026-01-20T07:19:42.0619968Z TRACE:: Log: 2023-04-19 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-19 15:50:00 ---
+2026-01-20T07:19:42.0624646Z TRACE:: Log: 2023-04-19 15:50:00 CLOSING LOSER: SOXL is down $-26.16. avoiding overnight risk.
+2026-01-20T07:19:42.0627462Z TRACE:: Debug: 2023-04-20 15:00:00 SELL SOXL: J=48.34 crossed < 62.6.
+2026-01-20T07:19:42.0629222Z TRACE:: Debug: 2023-04-21 12:00:00 BUY SOXL: J=31.34 crossed > 22.2. Price=14.81
+2026-01-20T07:19:42.0631046Z TRACE:: Log: 2023-04-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-21 15:50:00 ---
+2026-01-20T07:19:42.0633086Z TRACE:: Log: 2023-04-21 15:50:00 HOLDING WINNER: SOXL is up $81.00. Letting it ride overnight.
+2026-01-20T07:19:42.0634708Z TRACE:: Log: 2023-04-24 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-24 15:50:00 ---
+2026-01-20T07:19:42.0635539Z TRACE:: Log: 2023-04-24 15:50:00 CLOSING LOSER: SOXL is down $-175.50. avoiding overnight risk.
+2026-01-20T07:19:42.0641242Z TRACE:: Log: 2023-04-26 11:00:00 FILTERED BUY: Signal valid but Price (13.56) < 200 SMA (13.83085). Staying Cash.
+2026-01-20T07:19:42.0655470Z TRACE:: Log: 2023-04-27 11:00:00 FILTERED BUY: Signal valid but Price (12.97) < 200 SMA (13.83335). Staying Cash.
+2026-01-20T07:19:42.1167433Z TRACE:: Debug: 2023-05-02 13:00:00 BUY SOXL: J=45.33 crossed > 22.2. Price=14.38
+2026-01-20T07:19:42.1203302Z TRACE:: Log: 2023-05-02 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-02 15:50:00 ---
+2026-01-20T07:19:42.1204512Z TRACE:: Log: 2023-05-02 15:50:00 HOLDING WINNER: SOXL is up $41.70. Letting it ride overnight.
+2026-01-20T07:19:42.1205077Z TRACE:: Debug: 2023-05-03 16:00:00 SELL SOXL: J=10.53 crossed < 62.6.
+2026-01-20T07:19:42.1205573Z TRACE:: Log: 2023-05-03 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-03 15:50:00 ---
+2026-01-20T07:19:42.1206060Z TRACE:: Log: 2023-05-03 15:50:00 HOLDING WINNER: SOXL is up $97.30. Letting it ride overnight.
+2026-01-20T07:19:42.1206555Z TRACE:: Debug: 2023-05-05 10:00:00 BUY SOXL: J=50.36 crossed > 22.2. Price=13.93
+2026-01-20T07:19:42.1207127Z TRACE:: Log: 2023-05-04 13:00:00 FILTERED BUY: Signal valid but Price (13.52) < 200 SMA (13.8345). Staying Cash.
+2026-01-20T07:19:42.1719500Z TRACE:: Debug: 2023-05-08 10:00:00 SELL SOXL: J=58.56 crossed < 62.6.
+2026-01-20T07:19:42.1721355Z TRACE:: Log: 2023-05-05 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-05 15:50:00 ---
+2026-01-20T07:19:42.1723035Z TRACE:: Log: 2023-05-05 15:50:00 HOLDING WINNER: SOXL is up $990.15. Letting it ride overnight.
+2026-01-20T07:19:42.1724947Z TRACE:: Debug: 2023-05-09 14:00:00 BUY SOXL: J=22.84 crossed > 22.2. Price=13.92
+2026-01-20T07:19:42.1728088Z TRACE:: Log: 2023-05-09 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-09 15:50:00 ---
+2026-01-20T07:19:42.1729312Z TRACE:: Log: 2023-05-09 15:50:00 HOLDING WINNER: SOXL is up $57.44. Letting it ride overnight.
+2026-01-20T07:19:42.1730485Z TRACE:: Debug: 2023-05-10 14:00:00 SELL SOXL: J=31.25 crossed < 62.6.
+2026-01-20T07:19:42.1731132Z TRACE:: Debug: 2023-05-11 13:00:00 BUY SOXL: J=34.50 crossed > 22.2. Price=13.97
+2026-01-20T07:19:42.1737477Z TRACE:: Log: 2023-05-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-11 15:50:00 ---
+2026-01-20T07:19:42.1739421Z TRACE:: Log: 2023-05-11 15:50:00 HOLDING WINNER: SOXL is up $114.48. Letting it ride overnight.
+2026-01-20T07:19:42.1741272Z TRACE:: Debug: 2023-05-12 16:00:00 BUY SOXL: J=53.84 crossed > 22.2. Price=14.01
+2026-01-20T07:19:42.1744113Z TRACE:: Log: 2023-05-12 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-12 15:50:00 ---
+2026-01-20T07:19:42.1746618Z TRACE:: Log: 2023-05-12 15:50:00 CLOSING LOSER: SOXL is down $-386.37. avoiding overnight risk.
+2026-01-20T07:19:42.1749628Z TRACE:: Log: 2023-05-15 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-15 15:50:00 ---
+2026-01-20T07:19:42.1751213Z TRACE:: Log: 2023-05-15 15:50:00 HOLDING WINNER: SOXL is up $1141.60. Letting it ride overnight.
+2026-01-20T07:19:42.1752469Z TRACE:: Debug: 2023-05-17 10:00:00 SELL SOXL: J=60.62 crossed < 62.6.
+2026-01-20T07:19:42.1754058Z TRACE:: Log: 2023-05-16 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-16 15:50:00 ---
+2026-01-20T07:19:42.1755162Z TRACE:: Log: 2023-05-16 15:50:00 HOLDING WINNER: SOXL is up $1897.91. Letting it ride overnight.
+2026-01-20T07:19:42.2283365Z TRACE:: Debug: 2023-05-25 10:00:00 BUY SOXL: J=96.33 crossed > 22.2. Price=17.95
+2026-01-20T07:19:42.2294652Z TRACE:: Log: 2023-05-25 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-25 15:50:00 ---
+2026-01-20T07:19:42.2295723Z TRACE:: Log: 2023-05-25 15:50:00 HOLDING WINNER: SOXL is up $1114.00. Letting it ride overnight.
+2026-01-20T07:19:42.2296575Z TRACE:: Log: 2023-05-26 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-26 15:50:00 ---
+2026-01-20T07:19:42.2297461Z TRACE:: Log: 2023-05-26 15:50:00 HOLDING WINNER: SOXL is up $5469.74. Letting it ride overnight.
+2026-01-20T07:19:42.2303920Z TRACE:: Debug: 2023-05-30 14:00:00 SELL SOXL: J=61.60 crossed < 62.6.
+2026-01-20T07:19:42.2305840Z TRACE:: Debug: 2023-06-01 11:00:00 BUY SOXL: J=26.36 crossed > 22.2. Price=21.44
+2026-01-20T07:19:42.2307906Z TRACE:: Debug: 2023-06-02 10:00:00 SELL SOXL: J=39.69 crossed < 62.6.
+2026-01-20T07:19:42.2308894Z TRACE:: Log: 2023-06-01 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-01 15:50:00 ---
+2026-01-20T07:19:42.2310492Z TRACE:: Log: 2023-06-01 15:50:00 HOLDING WINNER: SOXL is up $913.36. Letting it ride overnight.
+2026-01-20T07:19:42.2311172Z TRACE:: Debug: 2023-06-05 12:00:00 BUY SOXL: J=25.78 crossed > 22.2. Price=21.21
+2026-01-20T07:19:42.2311812Z TRACE:: Debug: 2023-06-06 10:00:00 BUY SOXL: J=44.45 crossed > 22.2. Price=21.24
+2026-01-20T07:19:42.2312579Z TRACE:: Log: 2023-06-05 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-05 15:50:00 ---
+2026-01-20T07:19:42.2313621Z TRACE:: Log: 2023-06-05 15:50:00 CLOSING LOSER: SOXL is down $-273.18. avoiding overnight risk.
+2026-01-20T07:19:42.2314985Z TRACE:: Debug: 2023-06-06 13:00:00 SELL SOXL: J=54.64 crossed < 62.6.
+2026-01-20T07:19:42.2315858Z TRACE:: Debug: 2023-06-20 13:00:00 BUY SOXL: J=24.11 crossed > 22.2. Price=24.58
+2026-01-20T07:19:42.2316723Z TRACE:: Debug: 2023-06-20 16:00:00 BUY SOXL: J=23.58 crossed > 22.2. Price=24.61
+2026-01-20T07:19:42.2318055Z TRACE:: Log: 2023-06-20 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-20 15:50:00 ---
+2026-01-20T07:19:42.2318891Z TRACE:: Log: 2023-06-20 15:50:00 CLOSING LOSER: SOXL is down $-154.47. avoiding overnight risk.
+2026-01-20T07:19:42.2825639Z TRACE:: Debug: 2023-06-21 15:00:00 BUY SOXL: J=33.79 crossed > 22.2. Price=23.52
+2026-01-20T07:19:42.2827312Z TRACE:: Log: 2023-06-21 12:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=22.87 < Stop=22.95. P/L=-1055.60
+2026-01-20T07:19:42.2828297Z TRACE:: Log: 2023-06-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-21 15:50:00 ---
+2026-01-20T07:19:42.2829257Z TRACE:: Log: 2023-06-21 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:42.2830052Z TRACE:: Log: 2023-06-22 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-22 15:50:00 ---
+2026-01-20T07:19:42.2832126Z TRACE:: Log: 2023-06-22 15:50:00 CLOSING LOSER: SOXL is down $-323.00. avoiding overnight risk.
+2026-01-20T07:19:42.2833922Z TRACE:: Debug: 2023-06-23 14:00:00 BUY SOXL: J=37.75 crossed > 22.2. Price=22.2
+2026-01-20T07:19:42.2834842Z TRACE:: Debug: 2023-06-26 10:00:00 BUY SOXL: J=95.27 crossed > 22.2. Price=23.27
+2026-01-20T07:19:42.2836370Z TRACE:: Log: 2023-06-23 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-23 15:50:00 ---
+2026-01-20T07:19:42.2837735Z TRACE:: Log: 2023-06-23 15:50:00 CLOSING LOSER: SOXL is down $-324.00. avoiding overnight risk.
+2026-01-20T07:19:42.2843546Z TRACE:: Debug: 2023-06-26 13:00:00 SELL SOXL: J=45.45 crossed < 62.6.
+2026-01-20T07:19:42.2844357Z TRACE:: Debug: 2023-06-29 15:00:00 BUY SOXL: J=28.26 crossed > 22.2. Price=23.65
+2026-01-20T07:19:42.2845278Z TRACE:: Log: 2023-06-29 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-29 15:50:00 ---
+2026-01-20T07:19:42.2846038Z TRACE:: Log: 2023-06-29 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:42.2846642Z TRACE:: Log: 2023-06-30 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-30 15:50:00 ---
+2026-01-20T07:19:42.2847714Z TRACE:: Log: 2023-06-30 15:50:00 HOLDING WINNER: SOXL is up $1183.00. Letting it ride overnight.
+2026-01-20T07:19:42.2854499Z TRACE:: Debug: 2023-07-03 11:00:00 SELL SOXL: J=58.44 crossed < 62.6.
+2026-01-20T07:19:42.2855182Z TRACE:: Debug: 2023-07-06 15:00:00 BUY SOXL: J=25.72 crossed > 22.2. Price=22.87
+2026-01-20T07:19:42.2855837Z TRACE:: Log: 2023-07-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-06 15:50:00 ---
+2026-01-20T07:19:42.2856685Z TRACE:: Log: 2023-07-06 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:42.2857341Z TRACE:: Debug: 2023-07-07 16:00:00 SELL SOXL: J=43.12 crossed < 62.6.
+2026-01-20T07:19:42.2857940Z TRACE:: Log: 2023-07-07 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-07 15:50:00 ---
+2026-01-20T07:19:42.2858792Z TRACE:: Log: 2023-07-07 15:50:00 HOLDING WINNER: SOXL is up $672.98. Letting it ride overnight.
+2026-01-20T07:19:42.2859960Z TRACE:: Debug: 2023-07-17 11:00:00 BUY SOXL: J=54.61 crossed > 22.2. Price=26.89
+2026-01-20T07:19:42.2860683Z TRACE:: Debug: 2023-07-18 10:00:00 SELL SOXL: J=58.69 crossed < 62.6.
+2026-01-20T07:19:42.2863093Z TRACE:: Log: 2023-07-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-17 15:50:00 ---
+2026-01-20T07:19:42.2864135Z TRACE:: Log: 2023-07-17 15:50:00 HOLDING WINNER: SOXL is up $743.00. Letting it ride overnight.
+2026-01-20T07:19:42.2865260Z TRACE:: Debug: 2023-07-21 10:00:00 BUY SOXL: J=24.37 crossed > 22.2. Price=24.75
+2026-01-20T07:19:42.2866620Z TRACE:: Log: 2023-07-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-21 15:50:00 ---
+2026-01-20T07:19:42.2867316Z TRACE:: Log: 2023-07-21 15:50:00 HOLDING WINNER: SOXL is up $307.04. Letting it ride overnight.
+2026-01-20T07:19:42.2874564Z TRACE:: Debug: 2023-07-24 16:00:00 SELL SOXL: J=34.62 crossed < 62.6.
+2026-01-20T07:19:42.2875495Z TRACE:: Log: 2023-07-24 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-24 15:50:00 ---
+2026-01-20T07:19:42.2876760Z TRACE:: Log: 2023-07-24 15:50:00 HOLDING WINNER: SOXL is up $145.44. Letting it ride overnight.
+2026-01-20T07:19:42.2877578Z TRACE:: Debug: 2023-07-26 13:00:00 BUY SOXL: J=28.31 crossed > 22.2. Price=24.62
+2026-01-20T07:19:42.2878439Z TRACE:: Log: 2023-07-26 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-26 15:50:00 ---
+2026-01-20T07:19:42.2880065Z TRACE:: Log: 2023-07-26 15:50:00 HOLDING WINNER: SOXL is up $617.12. Letting it ride overnight.
+2026-01-20T07:19:42.2881304Z TRACE:: Debug: 2023-07-27 15:00:00 SELL SOXL: J=39.72 crossed < 62.6.
+2026-01-20T07:19:42.2882397Z TRACE:: Debug: 2023-08-01 11:00:00 BUY SOXL: J=40.44 crossed > 22.2. Price=28.36
+2026-01-20T07:19:42.2883662Z TRACE:: Log: 2023-08-01 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-01 15:50:00 ---
+2026-01-20T07:19:42.2884618Z TRACE:: Log: 2023-08-01 15:50:00 HOLDING WINNER: SOXL is up $169.20. Letting it ride overnight.
+2026-01-20T07:19:42.2885827Z TRACE:: Log: 2023-08-02 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=26.48 < Stop=26.94. P/L=-1325.40
+2026-01-20T07:19:42.3437486Z TRACE:: Debug: 2023-08-03 13:00:00 BUY SOXL: J=33.55 crossed > 22.2. Price=25.44
+2026-01-20T07:19:42.3439110Z TRACE:: Debug: 2023-08-03 16:00:00 BUY SOXL: J=31.32 crossed > 22.2. Price=25.1
+2026-01-20T07:19:42.3440086Z TRACE:: Log: 2023-08-03 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-03 15:50:00 ---
+2026-01-20T07:19:42.3441181Z TRACE:: Log: 2023-08-03 15:50:00 CLOSING LOSER: SOXL is down $-235.80. avoiding overnight risk.
+2026-01-20T07:19:42.3441973Z TRACE:: Debug: 2023-08-04 15:00:00 SELL SOXL: J=15.43 crossed < 62.6.
+2026-01-20T07:19:42.3443410Z TRACE:: Debug: 2023-08-04 16:00:00 BUY SOXL: J=22.34 crossed > 22.2. Price=24.89
+2026-01-20T07:19:42.3444358Z TRACE:: Debug: 2023-08-07 14:00:00 SELL SOXL: J=56.95 crossed < 62.6.
+2026-01-20T07:19:42.3445110Z TRACE:: Debug: 2023-08-08 14:00:00 BUY SOXL: J=33.05 crossed > 22.2. Price=24.13
+2026-01-20T07:19:42.3445887Z TRACE:: Log: 2023-08-08 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-08 15:50:00 ---
+2026-01-20T07:19:42.3446695Z TRACE:: Log: 2023-08-08 15:50:00 HOLDING WINNER: SOXL is up $198.72. Letting it ride overnight.
+2026-01-20T07:19:42.3453328Z TRACE:: Debug: 2023-08-10 10:00:00 BUY SOXL: J=74.12 crossed > 22.2. Price=24.3
+2026-01-20T07:19:42.3454068Z TRACE:: Log: 2023-08-09 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-09 15:50:00 ---
+2026-01-20T07:19:42.3454597Z TRACE:: Log: 2023-08-09 15:50:00 CLOSING LOSER: SOXL is down $-339.48. avoiding overnight risk.
+2026-01-20T07:19:42.3455417Z TRACE:: Debug: 2023-08-10 12:00:00 SELL SOXL: J=-14.27 crossed < 62.6.
+2026-01-20T07:19:42.3459017Z TRACE:: Debug: 2023-08-10 15:00:00 BUY SOXL: J=31.47 crossed > 22.2. Price=23.03
+2026-01-20T07:19:42.3462539Z TRACE:: Log: 2023-08-10 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-10 15:50:00 ---
+2026-01-20T07:19:42.3463220Z TRACE:: Log: 2023-08-10 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:42.3463645Z TRACE:: Log: 2023-08-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-11 15:50:00 ---
+2026-01-20T07:19:42.3464635Z TRACE:: Log: 2023-08-11 15:50:00 CLOSING LOSER: SOXL is down $-1501.64. avoiding overnight risk.
+2026-01-20T07:19:42.3465559Z TRACE:: Debug: 2023-08-14 11:00:00 BUY SOXL: J=62.21 crossed > 22.2. Price=22.25
+2026-01-20T07:19:42.3466195Z TRACE:: Log: 2023-08-14 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-14 15:50:00 ---
+2026-01-20T07:19:42.3467540Z TRACE:: Log: 2023-08-14 15:50:00 HOLDING WINNER: SOXL is up $350.22. Letting it ride overnight.
+2026-01-20T07:19:42.3468896Z TRACE:: Debug: 2023-08-15 11:00:00 SELL SOXL: J=45.43 crossed < 62.6.
+2026-01-20T07:19:42.3474304Z TRACE:: Debug: 2023-08-17 13:00:00 BUY SOXL: J=26.95 crossed > 22.2. Price=20.52
+2026-01-20T07:19:42.3475149Z TRACE:: Log: 2023-08-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-17 15:50:00 ---
+2026-01-20T07:19:42.3476022Z TRACE:: Log: 2023-08-17 15:50:00 CLOSING LOSER: SOXL is down $-516.22. avoiding overnight risk.
+2026-01-20T07:19:42.3476991Z TRACE:: Debug: 2023-08-18 12:00:00 BUY SOXL: J=41.83 crossed > 22.2. Price=19.88
+2026-01-20T07:19:42.3478192Z TRACE:: Log: 2023-08-18 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-18 15:50:00 ---
+2026-01-20T07:19:42.3479163Z TRACE:: Log: 2023-08-18 15:50:00 HOLDING WINNER: SOXL is up $372.22. Letting it ride overnight.
+2026-01-20T07:19:42.3480284Z TRACE:: Log: 2023-08-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-21 15:50:00 ---
+2026-01-20T07:19:42.3481384Z TRACE:: Log: 2023-08-21 15:50:00 HOLDING WINNER: SOXL is up $1901.34. Letting it ride overnight.
+2026-01-20T07:19:42.3482343Z TRACE:: Debug: 2023-08-22 12:00:00 SELL SOXL: J=60.57 crossed < 62.6.
+2026-01-20T07:19:42.3483111Z TRACE:: Debug: 2023-08-25 14:00:00 BUY SOXL: J=22.46 crossed > 22.2. Price=20.18
+2026-01-20T07:19:42.3484251Z TRACE:: Log: 2023-08-25 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-25 15:50:00 ---
+2026-01-20T07:19:42.3484896Z TRACE:: Log: 2023-08-25 15:50:00 HOLDING WINNER: SOXL is up $574.78. Letting it ride overnight.
+2026-01-20T07:19:42.3486399Z TRACE:: Log: 2023-08-28 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-28 15:50:00 ---
+2026-01-20T07:19:42.3503850Z TRACE:: Log: 2023-08-28 15:50:00 HOLDING WINNER: SOXL is up $951.36. Letting it ride overnight.
+2026-01-20T07:19:42.3505380Z TRACE:: Log: 2023-08-29 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-29 15:50:00 ---
+2026-01-20T07:19:42.3507313Z TRACE:: Log: 2023-08-29 15:50:00 HOLDING WINNER: SOXL is up $3022.55. Letting it ride overnight.
+2026-01-20T07:19:42.3508310Z TRACE:: Log: 2023-08-30 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-30 15:50:00 ---
+2026-01-20T07:19:42.3509501Z TRACE:: Log: 2023-08-30 15:50:00 HOLDING WINNER: SOXL is up $3339.67. Letting it ride overnight.
+2026-01-20T07:19:42.3511211Z TRACE:: Debug: 2023-08-31 13:00:00 SELL SOXL: J=60.21 crossed < 62.6.
+2026-01-20T07:19:42.3512470Z TRACE:: Debug: 2023-09-05 11:00:00 BUY SOXL: J=26.09 crossed > 22.2. Price=23.99
+2026-01-20T07:19:42.3516370Z TRACE:: Debug: 2023-09-05 16:00:00 SELL SOXL: J=58.02 crossed < 62.6.
+2026-01-20T07:19:42.3519450Z TRACE:: Log: 2023-09-05 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-05 15:50:00 ---
+2026-01-20T07:19:42.3522142Z TRACE:: Log: 2023-09-05 15:50:00 HOLDING WINNER: SOXL is up $408.17. Letting it ride overnight.
+2026-01-20T07:19:42.3523718Z TRACE:: Debug: 2023-09-06 14:00:00 BUY SOXL: J=27.14 crossed > 22.2. Price=23.2
+2026-01-20T07:19:42.3526116Z TRACE:: Log: 2023-09-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-06 15:50:00 ---
+2026-01-20T07:19:42.3527580Z TRACE:: Log: 2023-09-06 15:50:00 HOLDING WINNER: SOXL is up $181.02. Letting it ride overnight.
+2026-01-20T07:19:42.3529738Z TRACE:: Log: 2023-09-07 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=21.21 < Stop=21.66. P/L=-1715.38
+2026-01-20T07:19:42.3533867Z TRACE:: Debug: 2023-09-07 14:00:00 BUY SOXL: J=24.86 crossed > 22.2. Price=21.74
+2026-01-20T07:19:42.3535158Z TRACE:: Log: 2023-09-07 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-07 15:50:00 ---
+2026-01-20T07:19:42.3535927Z TRACE:: Log: 2023-09-07 15:50:00 HOLDING WINNER: SOXL is up $156.23. Letting it ride overnight.
+2026-01-20T07:19:42.3538065Z TRACE:: Debug: 2023-09-08 16:00:00 BUY SOXL: J=36.79 crossed > 22.2. Price=21.48
+2026-01-20T07:19:42.3539695Z TRACE:: Log: 2023-09-08 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-08 15:50:00 ---
+2026-01-20T07:19:42.3540821Z TRACE:: Log: 2023-09-08 15:50:00 CLOSING LOSER: SOXL is down $-367.60. avoiding overnight risk.
+2026-01-20T07:19:42.3543050Z TRACE:: Log: 2023-09-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-11 15:50:00 ---
+2026-01-20T07:19:42.3544096Z TRACE:: Log: 2023-09-11 15:50:00 CLOSING LOSER: SOXL is down $-809.97. avoiding overnight risk.
+2026-01-20T07:19:42.3545382Z TRACE:: Debug: 2023-09-13 10:00:00 BUY SOXL: J=39.36 crossed > 22.2. Price=21.23
+2026-01-20T07:19:42.3545958Z TRACE:: Debug: 2023-09-13 15:00:00 SELL SOXL: J=41.60 crossed < 62.6.
+2026-01-20T07:19:42.3547201Z TRACE:: Debug: 2023-09-14 10:00:00 BUY SOXL: J=44.12 crossed > 22.2. Price=21.34
+2026-01-20T07:19:42.3550461Z TRACE:: Debug: 2023-09-15 10:00:00 SELL SOXL: J=9.01 crossed < 62.6.
+2026-01-20T07:19:42.3551953Z TRACE:: Log: 2023-09-14 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-14 15:50:00 ---
+2026-01-20T07:19:42.3554797Z TRACE:: Log: 2023-09-14 15:50:00 HOLDING WINNER: SOXL is up $299.84. Letting it ride overnight.
+2026-01-20T07:19:42.3556976Z TRACE:: Debug: 2023-09-18 10:00:00 BUY SOXL: J=29.54 crossed > 22.2. Price=19.88
+2026-01-20T07:19:42.4113610Z TRACE:: Debug: 2023-09-18 16:00:00 BUY SOXL: J=32.75 crossed > 22.2. Price=19.96
+2026-01-20T07:19:42.4115052Z TRACE:: Log: 2023-09-18 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-18 15:50:00 ---
+2026-01-20T07:19:42.4115667Z TRACE:: Log: 2023-09-18 15:50:00 CLOSING LOSER: SOXL is down $-130.78. avoiding overnight risk.
+2026-01-20T07:19:42.4116119Z TRACE:: Debug: 2023-09-20 10:00:00 BUY SOXL: J=51.82 crossed > 22.2. Price=19.67
+2026-01-20T07:19:42.4116528Z TRACE:: Log: 2023-09-19 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-19 15:50:00 ---
+2026-01-20T07:19:42.4117081Z TRACE:: Log: 2023-09-19 15:50:00 CLOSING LOSER: SOXL is down $-320.64. avoiding overnight risk.
+2026-01-20T07:19:42.4118231Z TRACE:: Log: 2023-09-20 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-20 15:50:00 ---
+2026-01-20T07:19:42.4119931Z TRACE:: Log: 2023-09-20 15:50:00 CLOSING LOSER: SOXL is down $-497.84. avoiding overnight risk.
+2026-01-20T07:19:42.4121021Z TRACE:: Log: 2023-09-22 10:00:00 FILTERED BUY: Signal valid but Price (17.96) < 200 SMA (18.06925). Staying Cash.
+2026-01-20T07:19:42.4122492Z TRACE:: Log: 2023-09-22 16:00:00 FILTERED BUY: Signal valid but Price (17.86) < 200 SMA (18.0956). Staying Cash.
+2026-01-20T07:19:42.4123001Z TRACE:: Log: 2023-09-27 10:00:00 FILTERED BUY: Signal valid but Price (17.69) < 200 SMA (18.1558). Staying Cash.
+2026-01-20T07:19:42.4123552Z TRACE:: Log: 2023-09-27 15:00:00 FILTERED BUY: Signal valid but Price (17.68) < 200 SMA (18.1558). Staying Cash.
+2026-01-20T07:19:42.4124602Z TRACE:: Debug: 2023-10-02 16:00:00 BUY SOXL: J=44.62 crossed > 22.2. Price=19.12
+2026-01-20T07:19:42.4125801Z TRACE:: Debug: 2023-10-03 11:00:00 SELL SOXL: J=3.55 crossed < 62.6.
+2026-01-20T07:19:42.4126950Z TRACE:: Debug: 2023-10-03 13:00:00 BUY SOXL: J=26.05 crossed > 22.2. Price=18.32
+2026-01-20T07:19:42.4127318Z TRACE:: Debug: 2023-10-04 10:00:00 BUY SOXL: J=43.25 crossed > 22.2. Price=18.3
+2026-01-20T07:19:42.4127747Z TRACE:: Log: 2023-10-03 15:50:00 --- Running End-of-Day Risk Check @ 2023-10-03 15:50:00 ---
+2026-01-20T07:19:42.4128379Z TRACE:: Log: 2023-10-03 15:50:00 CLOSING LOSER: SOXL is down $-610.96. avoiding overnight risk.
+2026-01-20T07:19:42.4128911Z TRACE:: Debug: 2023-10-04 14:00:00 SELL SOXL: J=30.11 crossed < 62.6.
+2026-01-20T07:19:42.4129817Z TRACE:: Debug: 2023-10-06 11:00:00 BUY SOXL: J=64.92 crossed > 22.2. Price=18.66
+2026-01-20T07:19:42.4130270Z TRACE:: Debug: 2023-10-09 10:00:00 SELL SOXL: J=45.82 crossed < 62.6.
+2026-01-20T07:19:42.4130984Z TRACE:: Log: 2023-10-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-10-06 15:50:00 ---
+2026-01-20T07:19:42.4131385Z TRACE:: Log: 2023-10-06 15:50:00 HOLDING WINNER: SOXL is up $1060.29. Letting it ride overnight.
+2026-01-20T07:19:42.4633178Z TRACE:: Debug: 2023-10-12 16:00:00 BUY SOXL: J=48.57 crossed > 22.2. Price=20.68
+2026-01-20T07:19:42.4634470Z TRACE:: Debug: 2023-10-16 10:00:00 BUY SOXL: J=23.90 crossed > 22.2. Price=19.54
+2026-01-20T07:19:42.4635891Z TRACE:: Log: 2023-10-13 14:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=19.01 < Stop=19.06. P/L=-1730.93
+2026-01-20T07:19:42.4636594Z TRACE:: Log: 2023-10-16 15:50:00 --- Running End-of-Day Risk Check @ 2023-10-16 15:50:00 ---
+2026-01-20T07:19:42.4637124Z TRACE:: Log: 2023-10-16 15:50:00 HOLDING WINNER: SOXL is up $173.91. Letting it ride overnight.
+2026-01-20T07:19:42.4637692Z TRACE:: Log: 2023-10-17 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=18.14 < Stop=18.14. P/L=-1432.20
+2026-01-20T07:19:42.4638850Z TRACE:: Debug: 2023-10-17 11:00:00 BUY SOXL: J=40.18 crossed > 22.2. Price=19.13
+2026-01-20T07:19:42.4640106Z TRACE:: Debug: 2023-10-17 14:00:00 SELL SOXL: J=51.19 crossed < 62.6.
+2026-01-20T07:19:42.4640968Z TRACE:: Log: 2023-10-18 12:00:00 FILTERED BUY: Signal valid but Price (18.4) < 200 SMA (18.75975). Staying Cash.
+2026-01-20T07:19:42.4642330Z TRACE:: Log: 2023-10-18 14:00:00 FILTERED BUY: Signal valid but Price (18.51) < 200 SMA (18.75975). Staying Cash.
+2026-01-20T07:19:42.4644127Z TRACE:: Log: 2023-10-19 13:00:00 FILTERED BUY: Signal valid but Price (18.21) < 200 SMA (18.80275). Staying Cash.
+2026-01-20T07:19:42.4644793Z TRACE:: Log: 2023-10-20 10:00:00 FILTERED BUY: Signal valid but Price (17.57) < 200 SMA (18.84305). Staying Cash.
+2026-01-20T07:19:42.4645605Z TRACE:: Log: 2023-10-20 13:00:00 FILTERED BUY: Signal valid but Price (17.11) < 200 SMA (18.84305). Staying Cash.
+2026-01-20T07:19:42.4646209Z TRACE:: Log: 2023-10-23 11:00:00 FILTERED BUY: Signal valid but Price (16.65) < 200 SMA (18.8756). Staying Cash.
+2026-01-20T07:19:42.4646766Z TRACE:: Log: 2023-10-26 10:00:00 FILTERED BUY: Signal valid but Price (15.43) < 200 SMA (18.95755). Staying Cash.
+2026-01-20T07:19:42.4647513Z TRACE:: Log: 2023-10-26 15:00:00 FILTERED BUY: Signal valid but Price (15.32) < 200 SMA (18.95755). Staying Cash.
+2026-01-20T07:19:42.4647997Z TRACE:: Log: 2023-10-27 10:00:00 FILTERED BUY: Signal valid but Price (15.17) < 200 SMA (18.97115). Staying Cash.
+2026-01-20T07:19:42.4648649Z TRACE:: Log: 2023-10-30 14:00:00 FILTERED BUY: Signal valid but Price (14.55) < 200 SMA (18.98475). Staying Cash.
+2026-01-20T07:19:42.4649052Z TRACE:: Log: 2023-10-31 11:00:00 FILTERED BUY: Signal valid but Price (14.75) < 200 SMA (18.99305). Staying Cash.
+2026-01-20T07:19:42.4649661Z TRACE:: Debug: 2023-11-10 10:00:00 BUY SOXL: J=67.96 crossed > 22.2. Price=19.34
+2026-01-20T07:19:42.4650094Z TRACE:: Debug: 2023-11-13 10:00:00 SELL SOXL: J=53.83 crossed < 62.6.
+2026-01-20T07:19:42.4650667Z TRACE:: Log: 2023-11-10 15:50:00 --- Running End-of-Day Risk Check @ 2023-11-10 15:50:00 ---
+2026-01-20T07:19:42.4651344Z TRACE:: Log: 2023-11-10 15:50:00 HOLDING WINNER: SOXL is up $1344.20. Letting it ride overnight.
+2026-01-20T07:19:42.4651642Z TRACE:: Debug: 2023-11-21 16:00:00 BUY SOXL: J=23.10 crossed > 22.2. Price=22.82
+2026-01-20T07:19:42.4666652Z TRACE:: Log: 2023-11-22 15:50:00 --- Running End-of-Day Risk Check @ 2023-11-22 15:50:00 ---
+2026-01-20T07:19:42.4667192Z TRACE:: Log: 2023-11-22 15:50:00 CLOSING LOSER: SOXL is down $-113.88. avoiding overnight risk.
+2026-01-20T07:19:42.4668620Z TRACE:: Debug: 2023-11-27 11:00:00 BUY SOXL: J=26.92 crossed > 22.2. Price=23.16
+2026-01-20T07:19:42.4669510Z TRACE:: Debug: 2023-11-27 15:00:00 SELL SOXL: J=52.52 crossed < 62.6.
+2026-01-20T07:19:42.4670415Z TRACE:: Debug: 2023-11-28 12:00:00 BUY SOXL: J=51.10 crossed > 22.2. Price=22.74
+2026-01-20T07:19:42.4672203Z TRACE:: Debug: 2023-11-28 16:00:00 BUY SOXL: J=42.68 crossed > 22.2. Price=22.54
+2026-01-20T07:19:42.4673025Z TRACE:: Log: 2023-11-28 15:50:00 --- Running End-of-Day Risk Check @ 2023-11-28 15:50:00 ---
+2026-01-20T07:19:42.4673818Z TRACE:: Log: 2023-11-28 15:50:00 CLOSING LOSER: SOXL is down $-386.76. avoiding overnight risk.
+2026-01-20T07:19:42.4674320Z TRACE:: Debug: 2023-11-29 15:00:00 SELL SOXL: J=61.80 crossed < 62.6.
+2026-01-20T07:19:42.4675022Z TRACE:: Debug: 2023-11-30 14:00:00 BUY SOXL: J=22.30 crossed > 22.2. Price=22.39
+2026-01-20T07:19:42.4675771Z TRACE:: Log: 2023-11-30 15:50:00 --- Running End-of-Day Risk Check @ 2023-11-30 15:50:00 ---
+2026-01-20T07:19:42.4676192Z TRACE:: Log: 2023-11-30 15:50:00 HOLDING WINNER: SOXL is up $160.74. Letting it ride overnight.
+2026-01-20T07:19:42.5185973Z TRACE:: Debug: 2023-12-04 10:00:00 SELL SOXL: J=19.03 crossed < 62.6.
+2026-01-20T07:19:42.5188106Z TRACE:: Log: 2023-12-01 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-01 15:50:00 ---
+2026-01-20T07:19:42.5189277Z TRACE:: Log: 2023-12-01 15:50:00 HOLDING WINNER: SOXL is up $589.38. Letting it ride overnight.
+2026-01-20T07:19:42.5190504Z TRACE:: Debug: 2023-12-04 12:00:00 BUY SOXL: J=30.55 crossed > 22.2. Price=22.01
+2026-01-20T07:19:42.5191681Z TRACE:: Debug: 2023-12-04 14:00:00 SELL SOXL: J=38.74 crossed < 62.6.
+2026-01-20T07:19:42.5192635Z TRACE:: Debug: 2023-12-05 14:00:00 BUY SOXL: J=33.71 crossed > 22.2. Price=21.83
+2026-01-20T07:19:42.5194106Z TRACE:: Log: 2023-12-05 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-05 15:50:00 ---
+2026-01-20T07:19:42.5195315Z TRACE:: Log: 2023-12-05 15:50:00 HOLDING WINNER: SOXL is up $91.60. Letting it ride overnight.
+2026-01-20T07:19:42.5196327Z TRACE:: Debug: 2023-12-06 13:00:00 SELL SOXL: J=31.89 crossed < 62.6.
+2026-01-20T07:19:42.5197108Z TRACE:: Debug: 2023-12-07 10:00:00 BUY SOXL: J=37.05 crossed > 22.2. Price=22.0
+2026-01-20T07:19:42.5197593Z TRACE:: Log: 2023-12-07 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-07 15:50:00 ---
+2026-01-20T07:19:42.5198630Z TRACE:: Log: 2023-12-07 15:50:00 HOLDING WINNER: SOXL is up $1072.62. Letting it ride overnight.
+2026-01-20T07:19:42.5199444Z TRACE:: Log: 2023-12-08 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-08 15:50:00 ---
+2026-01-20T07:19:42.5201256Z TRACE:: Log: 2023-12-08 15:50:00 HOLDING WINNER: SOXL is up $1708.92. Letting it ride overnight.
+2026-01-20T07:19:42.5202074Z TRACE:: Log: 2023-12-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-11 15:50:00 ---
+2026-01-20T07:19:42.5203422Z TRACE:: Log: 2023-12-11 15:50:00 HOLDING WINNER: SOXL is up $3735.99. Letting it ride overnight.
+2026-01-20T07:19:42.5204086Z TRACE:: Log: 2023-12-12 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-12 15:50:00 ---
+2026-01-20T07:19:42.5204770Z TRACE:: Log: 2023-12-12 15:50:00 HOLDING WINNER: SOXL is up $4281.39. Letting it ride overnight.
+2026-01-20T07:19:42.5205314Z TRACE:: Debug: 2023-12-13 13:00:00 SELL SOXL: J=60.56 crossed < 62.6.
+2026-01-20T07:19:42.5206746Z TRACE:: Debug: 2023-12-18 12:00:00 BUY SOXL: J=23.32 crossed > 22.2. Price=29.93
+2026-01-20T07:19:42.5208722Z TRACE:: Log: 2023-12-18 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-18 15:50:00 ---
+2026-01-20T07:19:42.5210470Z TRACE:: Log: 2023-12-18 15:50:00 HOLDING WINNER: SOXL is up $260.52. Letting it ride overnight.
+2026-01-20T07:19:42.5211944Z TRACE:: Debug: 2023-12-20 10:00:00 SELL SOXL: J=38.49 crossed < 62.6.
+2026-01-20T07:19:42.5221897Z TRACE:: Log: 2023-12-19 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-19 15:50:00 ---
+2026-01-20T07:19:42.5222808Z TRACE:: Log: 2023-12-19 15:50:00 HOLDING WINNER: SOXL is up $541.08. Letting it ride overnight.
+2026-01-20T07:19:42.5223820Z TRACE:: Debug: 2023-12-21 10:00:00 BUY SOXL: J=56.41 crossed > 22.2. Price=29.7
+2026-01-20T07:19:42.5224682Z TRACE:: Debug: 2023-12-21 13:00:00 SELL SOXL: J=59.59 crossed < 62.6.
+2026-01-20T07:19:42.5226442Z TRACE:: Debug: 2023-12-29 13:00:00 BUY SOXL: J=39.62 crossed > 22.2. Price=31.51
+2026-01-20T07:19:42.5227001Z TRACE:: Log: 2023-12-29 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-29 15:50:00 ---
+2026-01-20T07:19:42.5227519Z TRACE:: Log: 2023-12-29 15:50:00 HOLDING WINNER: SOXL is up $145.82. Letting it ride overnight.
+2026-01-20T07:19:42.5227964Z TRACE:: Log: 2024-01-02 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=29.05 < Stop=30.02. P/L=-1559.64
+2026-01-20T07:19:42.5228353Z TRACE:: Debug: 2024-01-04 11:00:00 BUY SOXL: J=24.58 crossed > 22.2. Price=25.92
+2026-01-20T07:19:42.5228746Z TRACE:: Log: 2024-01-04 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-04 15:50:00 ---
+2026-01-20T07:19:42.5229189Z TRACE:: Log: 2024-01-04 15:50:00 CLOSING LOSER: SOXL is down $-177.33. avoiding overnight risk.
+2026-01-20T07:19:42.5229546Z TRACE:: Debug: 2024-01-10 12:00:00 BUY SOXL: J=60.88 crossed > 22.2. Price=27.91
+2026-01-20T07:19:42.5229950Z TRACE:: Debug: 2024-01-10 16:00:00 SELL SOXL: J=56.59 crossed < 62.6.
+2026-01-20T07:19:42.5230462Z TRACE:: Log: 2024-01-10 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-10 15:50:00 ---
+2026-01-20T07:19:42.5230885Z TRACE:: Log: 2024-01-10 15:50:00 HOLDING WINNER: SOXL is up $336.52. Letting it ride overnight.
+2026-01-20T07:19:42.5231324Z TRACE:: Debug: 2024-01-11 13:00:00 BUY SOXL: J=32.76 crossed > 22.2. Price=27.64
+2026-01-20T07:19:42.5231680Z TRACE:: Log: 2024-01-11 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-11 15:50:00 ---
+2026-01-20T07:19:42.5231954Z TRACE:: Log: 2024-01-11 15:50:00 HOLDING WINNER: SOXL is up $636.24. Letting it ride overnight.
+2026-01-20T07:19:42.5232317Z TRACE:: Debug: 2024-01-12 11:00:00 SELL SOXL: J=42.70 crossed < 62.6.
+2026-01-20T07:19:42.5233360Z TRACE:: Debug: 2024-01-17 12:00:00 BUY SOXL: J=30.30 crossed > 22.2. Price=27.65
+2026-01-20T07:19:42.5235637Z TRACE:: Log: 2024-01-17 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-17 15:50:00 ---
+2026-01-20T07:19:42.5236323Z TRACE:: Log: 2024-01-17 15:50:00 HOLDING WINNER: SOXL is up $310.89. Letting it ride overnight.
+2026-01-20T07:19:42.5238075Z TRACE:: Log: 2024-01-18 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-18 15:50:00 ---
+2026-01-20T07:19:42.5239476Z TRACE:: Log: 2024-01-18 15:50:00 HOLDING WINNER: SOXL is up $2501.58. Letting it ride overnight.
+2026-01-20T07:19:42.5240167Z TRACE:: Log: 2024-01-19 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-19 15:50:00 ---
+2026-01-20T07:19:42.5240922Z TRACE:: Log: 2024-01-19 15:50:00 HOLDING WINNER: SOXL is up $5147.76. Letting it ride overnight.
+2026-01-20T07:19:42.5241479Z TRACE:: Debug: 2024-01-22 11:00:00 SELL SOXL: J=62.11 crossed < 62.6.
+2026-01-20T07:19:42.5243381Z TRACE:: Debug: 2024-01-29 16:00:00 BUY SOXL: J=80.38 crossed > 22.2. Price=35.09
+2026-01-20T07:19:42.5755795Z TRACE:: Debug: 2024-01-30 11:00:00 SELL SOXL: J=39.46 crossed < 62.6.
+2026-01-20T07:19:42.5757156Z TRACE:: Debug: 2024-01-30 16:00:00 BUY SOXL: J=28.11 crossed > 22.2. Price=33.51
+2026-01-20T07:19:42.5759152Z TRACE:: Log: 2024-01-31 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-31 15:50:00 ---
+2026-01-20T07:19:42.5760332Z TRACE:: Log: 2024-01-31 15:50:00 HOLDING WINNER: SOXL is up $572.16. Letting it ride overnight.
+2026-01-20T07:19:42.5760868Z TRACE:: Log: 2024-02-01 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-01 15:50:00 ---
+2026-01-20T07:19:42.5762473Z TRACE:: Log: 2024-02-01 15:50:00 HOLDING WINNER: SOXL is up $298.00. Letting it ride overnight.
+2026-01-20T07:19:42.5763128Z TRACE:: Log: 2024-02-02 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-02 15:50:00 ---
+2026-01-20T07:19:42.5765280Z TRACE:: Log: 2024-02-02 15:50:00 HOLDING WINNER: SOXL is up $1072.80. Letting it ride overnight.
+2026-01-20T07:19:42.5766449Z TRACE:: Debug: 2024-02-06 10:00:00 SELL SOXL: J=43.00 crossed < 62.6.
+2026-01-20T07:19:42.5767290Z TRACE:: Log: 2024-02-05 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-05 15:50:00 ---
+2026-01-20T07:19:42.5768341Z TRACE:: Log: 2024-02-05 15:50:00 HOLDING WINNER: SOXL is up $2068.12. Letting it ride overnight.
+2026-01-20T07:19:42.5769676Z TRACE:: Debug: 2024-02-06 14:00:00 BUY SOXL: J=30.35 crossed > 22.2. Price=33.55
+2026-01-20T07:19:42.5770731Z TRACE:: Log: 2024-02-06 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-06 15:50:00 ---
+2026-01-20T07:19:42.5771287Z TRACE:: Log: 2024-02-06 15:50:00 HOLDING WINNER: SOXL is up $166.88. Letting it ride overnight.
+2026-01-20T07:19:42.5772450Z TRACE:: Log: 2024-02-07 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-07 15:50:00 ---
+2026-01-20T07:19:42.5773436Z TRACE:: Log: 2024-02-07 15:50:00 HOLDING WINNER: SOXL is up $1084.72. Letting it ride overnight.
+2026-01-20T07:19:42.5774869Z TRACE:: Log: 2024-02-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-08 15:50:00 ---
+2026-01-20T07:19:42.5775686Z TRACE:: Log: 2024-02-08 15:50:00 HOLDING WINNER: SOXL is up $2384.00. Letting it ride overnight.
+2026-01-20T07:19:42.5776411Z TRACE:: Log: 2024-02-09 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-09 15:50:00 ---
+2026-01-20T07:19:42.5777066Z TRACE:: Log: 2024-02-09 15:50:00 HOLDING WINNER: SOXL is up $3427.00. Letting it ride overnight.
+2026-01-20T07:19:42.5779666Z TRACE:: Debug: 2024-02-12 15:00:00 SELL SOXL: J=35.86 crossed < 62.6.
+2026-01-20T07:19:42.5780636Z TRACE:: Debug: 2024-02-13 12:00:00 BUY SOXL: J=44.08 crossed > 22.2. Price=37.36
+2026-01-20T07:19:42.5782140Z TRACE:: Debug: 2024-02-14 10:00:00 BUY SOXL: J=66.21 crossed > 22.2. Price=38.89
+2026-01-20T07:19:42.5783298Z TRACE:: Log: 2024-02-13 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-13 15:50:00 ---
+2026-01-20T07:19:42.5783903Z TRACE:: Log: 2024-02-13 15:50:00 CLOSING LOSER: SOXL is down $-700.85. avoiding overnight risk.
+2026-01-20T07:19:42.5784541Z TRACE:: Debug: 2024-02-14 12:00:00 SELL SOXL: J=45.07 crossed < 62.6.
+2026-01-20T07:19:42.5785692Z TRACE:: Debug: 2024-02-16 11:00:00 BUY SOXL: J=35.15 crossed > 22.2. Price=39.15
+2026-01-20T07:19:42.5786787Z TRACE:: Debug: 2024-02-16 14:00:00 SELL SOXL: J=56.64 crossed < 62.6.
+2026-01-20T07:19:42.5788437Z TRACE:: Debug: 2024-02-20 15:00:00 BUY SOXL: J=29.82 crossed > 22.2. Price=36.27
+2026-01-20T07:19:42.5789219Z TRACE:: Log: 2024-02-20 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-20 15:50:00 ---
+2026-01-20T07:19:42.5790100Z TRACE:: Log: 2024-02-20 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:42.5791062Z TRACE:: Debug: 2024-02-21 16:00:00 BUY SOXL: J=48.02 crossed > 22.2. Price=36.14
+2026-01-20T07:19:42.5792632Z TRACE:: Log: 2024-02-21 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-21 15:50:00 ---
+2026-01-20T07:19:42.5794081Z TRACE:: Log: 2024-02-21 15:50:00 CLOSING LOSER: SOXL is down $-743.85. avoiding overnight risk.
+2026-01-20T07:19:42.5795075Z TRACE:: Log: 2024-02-22 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-22 15:50:00 ---
+2026-01-20T07:19:42.5795782Z TRACE:: Log: 2024-02-22 15:50:00 HOLDING WINNER: SOXL is up $658.07. Letting it ride overnight.
+2026-01-20T07:19:42.5796367Z TRACE:: Debug: 2024-02-23 16:00:00 SELL SOXL: J=19.14 crossed < 62.6.
+2026-01-20T07:19:42.5796944Z TRACE:: Log: 2024-02-23 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-23 15:50:00 ---
+2026-01-20T07:19:42.5797445Z TRACE:: Log: 2024-02-23 15:50:00 HOLDING WINNER: SOXL is up $77.42. Letting it ride overnight.
+2026-01-20T07:19:42.5798026Z TRACE:: Debug: 2024-02-26 11:00:00 BUY SOXL: J=74.31 crossed > 22.2. Price=41.41
+2026-01-20T07:19:42.5798482Z TRACE:: Debug: 2024-02-26 14:00:00 SELL SOXL: J=61.47 crossed < 62.6.
+2026-01-20T07:19:42.5799185Z TRACE:: Debug: 2024-02-28 12:00:00 BUY SOXL: J=42.19 crossed > 22.2. Price=40.26
+2026-01-20T07:19:42.5800368Z TRACE:: Debug: 2024-02-29 10:00:00 BUY SOXL: J=80.91 crossed > 22.2. Price=41.55
+2026-01-20T07:19:42.5801125Z TRACE:: Log: 2024-02-28 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-28 15:50:00 ---
+2026-01-20T07:19:42.5801600Z TRACE:: Log: 2024-02-28 15:50:00 CLOSING LOSER: SOXL is down $-213.28. avoiding overnight risk.
+2026-01-20T07:19:42.5802288Z TRACE:: Log: 2024-02-29 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-29 15:50:00 ---
+2026-01-20T07:19:42.5802931Z TRACE:: Log: 2024-02-29 15:50:00 HOLDING WINNER: SOXL is up $481.00. Letting it ride overnight.
+2026-01-20T07:19:42.5803879Z TRACE:: Log: 2024-03-01 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-01 15:50:00 ---
+2026-01-20T07:19:42.5805052Z TRACE:: Log: 2024-03-01 15:50:00 HOLDING WINNER: SOXL is up $3472.82. Letting it ride overnight.
+2026-01-20T07:19:42.5806899Z TRACE:: Debug: 2024-03-05 10:00:00 SELL SOXL: J=40.97 crossed < 62.6.
+2026-01-20T07:19:42.5807322Z TRACE:: Log: 2024-03-04 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-04 15:50:00 ---
+2026-01-20T07:19:42.5807740Z TRACE:: Log: 2024-03-04 15:50:00 HOLDING WINNER: SOXL is up $4622.41. Letting it ride overnight.
+2026-01-20T07:19:42.5809941Z TRACE:: Debug: 2024-03-05 16:00:00 BUY SOXL: J=26.36 crossed > 22.2. Price=46.84
+2026-01-20T07:19:42.5812962Z TRACE:: Log: 2024-03-06 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-06 15:50:00 ---
+2026-01-20T07:19:42.5816795Z TRACE:: Log: 2024-03-06 15:50:00 HOLDING WINNER: SOXL is up $25.56. Letting it ride overnight.
+2026-01-20T07:19:42.5819785Z TRACE:: Log: 2024-03-07 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-07 15:50:00 ---
+2026-01-20T07:19:42.5821795Z TRACE:: Log: 2024-03-07 15:50:00 HOLDING WINNER: SOXL is up $2415.42. Letting it ride overnight.
+2026-01-20T07:19:42.5824182Z TRACE:: Debug: 2024-03-08 12:00:00 SELL SOXL: J=26.01 crossed < 62.6.
+2026-01-20T07:19:42.5825720Z TRACE:: Debug: 2024-03-08 15:00:00 BUY SOXL: J=22.76 crossed > 22.2. Price=50.65
+2026-01-20T07:19:42.5828940Z TRACE:: Log: 2024-03-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-08 15:50:00 ---
+2026-01-20T07:19:42.5831427Z TRACE:: Log: 2024-03-08 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:42.5846567Z TRACE:: Log: 2024-03-11 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-11 15:50:00 ---
+2026-01-20T07:19:42.5848305Z TRACE:: Log: 2024-03-11 15:50:00 CLOSING LOSER: SOXL is down $-1572.06. avoiding overnight risk.
+2026-01-20T07:19:42.6390996Z TRACE:: Debug: 2024-03-12 11:00:00 BUY SOXL: J=36.90 crossed > 22.2. Price=48.71
+2026-01-20T07:19:42.6406200Z TRACE:: Log: 2024-03-12 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-12 15:50:00 ---
+2026-01-20T07:19:42.6408871Z TRACE:: Log: 2024-03-12 15:50:00 CLOSING LOSER: SOXL is down $-98.40. avoiding overnight risk.
+2026-01-20T07:19:42.6411673Z TRACE:: Debug: 2024-03-13 14:00:00 BUY SOXL: J=26.20 crossed > 22.2. Price=46.3
+2026-01-20T07:19:42.6416187Z TRACE:: Log: 2024-03-13 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-13 15:50:00 ---
+2026-01-20T07:19:42.6419102Z TRACE:: Log: 2024-03-13 15:50:00 HOLDING WINNER: SOXL is up $94.82. Letting it ride overnight.
+2026-01-20T07:19:42.6420207Z TRACE:: Debug: 2024-03-15 10:00:00 BUY SOXL: J=25.39 crossed > 22.2. Price=42.5
+2026-01-20T07:19:42.6421135Z TRACE:: Log: 2024-03-14 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-14 15:50:00 ---
+2026-01-20T07:19:42.6423301Z TRACE:: Log: 2024-03-14 15:50:00 CLOSING LOSER: SOXL is down $-1236.97. avoiding overnight risk.
+2026-01-20T07:19:42.6426079Z TRACE:: Log: 2024-03-15 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-15 15:50:00 ---
+2026-01-20T07:19:42.6427914Z TRACE:: Log: 2024-03-15 15:50:00 HOLDING WINNER: SOXL is up $357.20. Letting it ride overnight.
+2026-01-20T07:19:42.6429659Z TRACE:: Debug: 2024-03-18 12:00:00 SELL SOXL: J=41.76 crossed < 62.6.
+2026-01-20T07:19:42.6431386Z TRACE:: Debug: 2024-03-18 14:00:00 BUY SOXL: J=27.88 crossed > 22.2. Price=42.96
+2026-01-20T07:19:42.6434792Z TRACE:: Log: 2024-03-18 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-18 15:50:00 ---
+2026-01-20T07:19:42.6439615Z TRACE:: Log: 2024-03-18 15:50:00 HOLDING WINNER: SOXL is up $106.95. Letting it ride overnight.
+2026-01-20T07:19:42.6441634Z TRACE:: Debug: 2024-03-19 13:00:00 BUY SOXL: J=41.85 crossed > 22.2. Price=41.45
+2026-01-20T07:19:42.6443402Z TRACE:: Log: 2024-03-19 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=39.66 < Stop=39.73. P/L=-1534.50
+2026-01-20T07:19:42.6444397Z TRACE:: Log: 2024-03-19 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-19 15:50:00 ---
+2026-01-20T07:19:42.6445924Z TRACE:: Log: 2024-03-19 15:50:00 HOLDING WINNER: SOXL is up $38.56. Letting it ride overnight.
+2026-01-20T07:19:42.6447585Z TRACE:: Log: 2024-03-20 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-20 15:50:00 ---
+2026-01-20T07:19:42.6448443Z TRACE:: Log: 2024-03-20 15:50:00 HOLDING WINNER: SOXL is up $351.86. Letting it ride overnight.
+2026-01-20T07:19:42.6449803Z TRACE:: Log: 2024-03-21 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-21 15:50:00 ---
+2026-01-20T07:19:42.6454360Z TRACE:: Log: 2024-03-21 15:50:00 HOLDING WINNER: SOXL is up $2342.52. Letting it ride overnight.
+2026-01-20T07:19:42.6457109Z TRACE:: Debug: 2024-03-22 11:00:00 SELL SOXL: J=58.29 crossed < 62.6.
+2026-01-20T07:19:42.6458683Z TRACE:: Debug: 2024-03-25 11:00:00 BUY SOXL: J=47.55 crossed > 22.2. Price=46.53
+2026-01-20T07:19:42.6460566Z TRACE:: Debug: 2024-03-25 13:00:00 SELL SOXL: J=51.32 crossed < 62.6.
+2026-01-20T07:19:42.6467431Z TRACE:: Debug: 2024-03-27 11:00:00 BUY SOXL: J=27.26 crossed > 22.2. Price=45.27
+2026-01-20T07:19:42.6470186Z TRACE:: Debug: 2024-03-27 15:00:00 SELL SOXL: J=52.75 crossed < 62.6.
+2026-01-20T07:19:42.7267877Z TRACE:: Debug: 2024-04-02 16:00:00 BUY SOXL: J=29.54 crossed > 22.2. Price=45.84
+2026-01-20T07:19:42.7269509Z TRACE:: Debug: 2024-04-03 13:00:00 SELL SOXL: J=59.85 crossed < 62.6.
+2026-01-20T07:19:42.7281986Z TRACE:: Debug: 2024-04-05 11:00:00 BUY SOXL: J=36.09 crossed > 22.2. Price=43.9
+2026-01-20T07:19:42.7283170Z TRACE:: Debug: 2024-04-05 16:00:00 BUY SOXL: J=24.89 crossed > 22.2. Price=43.71
+2026-01-20T07:19:42.7284180Z TRACE:: Log: 2024-04-05 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-05 15:50:00 ---
+2026-01-20T07:19:42.7285806Z TRACE:: Log: 2024-04-05 15:50:00 CLOSING LOSER: SOXL is down $-273.00. avoiding overnight risk.
+2026-01-20T07:19:42.7797665Z TRACE:: Log: 2024-04-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-08 15:50:00 ---
+2026-01-20T07:19:42.7799562Z TRACE:: Log: 2024-04-08 15:50:00 CLOSING LOSER: SOXL is down $-77.69. avoiding overnight risk.
+2026-01-20T07:19:42.7800626Z TRACE:: Debug: 2024-04-11 10:00:00 BUY SOXL: J=58.29 crossed > 22.2. Price=43.72
+2026-01-20T07:19:42.7802842Z TRACE:: Debug: 2024-04-12 10:00:00 SELL SOXL: J=29.58 crossed < 62.6.
+2026-01-20T07:19:42.7805774Z TRACE:: Log: 2024-04-11 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-11 15:50:00 ---
+2026-01-20T07:19:42.7813954Z TRACE:: Log: 2024-04-11 15:50:00 HOLDING WINNER: SOXL is up $749.48. Letting it ride overnight.
+2026-01-20T07:19:42.7815643Z TRACE:: Debug: 2024-04-15 10:00:00 BUY SOXL: J=44.40 crossed > 22.2. Price=43.13
+2026-01-20T07:19:42.7816772Z TRACE:: Debug: 2024-04-16 10:00:00 BUY SOXL: J=22.83 crossed > 22.2. Price=39.87
+2026-01-20T07:19:42.7818164Z TRACE:: Log: 2024-04-15 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-15 15:50:00 ---
+2026-01-20T07:19:42.7819408Z TRACE:: Log: 2024-04-15 15:50:00 CLOSING LOSER: SOXL is down $-1611.24. avoiding overnight risk.
+2026-01-20T07:19:42.7820076Z TRACE:: Log: 2024-04-16 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-16 15:50:00 ---
+2026-01-20T07:19:42.7821656Z TRACE:: Log: 2024-04-16 15:50:00 HOLDING WINNER: SOXL is up $561.12. Letting it ride overnight.
+2026-01-20T07:19:42.8335510Z TRACE:: Debug: 2024-04-17 14:00:00 BUY SOXL: J=28.47 crossed > 22.2. Price=37.93
+2026-01-20T07:19:42.8343784Z TRACE:: Log: 2024-04-17 13:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=37.02 < Stop=37.56. P/L=-1427.85
+2026-01-20T07:19:42.8374920Z TRACE:: Log: 2024-04-17 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-17 15:50:00 ---
+2026-01-20T07:19:42.8377388Z TRACE:: Log: 2024-04-17 15:50:00 CLOSING LOSER: SOXL is down $-252.96. avoiding overnight risk.
+2026-01-20T07:19:42.8378716Z TRACE:: Debug: 2024-04-18 11:00:00 BUY SOXL: J=29.57 crossed > 22.2. Price=36.22
+2026-01-20T07:19:42.8379898Z TRACE:: Log: 2024-04-18 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-18 15:50:00 ---
+2026-01-20T07:19:42.8381875Z TRACE:: Log: 2024-04-18 15:50:00 CLOSING LOSER: SOXL is down $-811.44. avoiding overnight risk.
+2026-01-20T07:19:42.8382525Z TRACE:: Debug: 2024-04-22 13:00:00 BUY SOXL: J=28.54 crossed > 22.2. Price=31.56
+2026-01-20T07:19:42.8383355Z TRACE:: Log: 2024-04-22 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-22 15:50:00 ---
+2026-01-20T07:19:42.8384109Z TRACE:: Log: 2024-04-22 15:50:00 HOLDING WINNER: SOXL is up $677.31. Letting it ride overnight.
+2026-01-20T07:19:42.8393862Z TRACE:: Log: 2024-04-23 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-23 15:50:00 ---
+2026-01-20T07:19:42.8395144Z TRACE:: Log: 2024-04-23 15:50:00 HOLDING WINNER: SOXL is up $1886.34. Letting it ride overnight.
+2026-01-20T07:19:42.8395920Z TRACE:: Debug: 2024-04-24 12:00:00 SELL SOXL: J=54.76 crossed < 62.6.
+2026-01-20T07:19:42.8396872Z TRACE:: Debug: 2024-05-01 15:00:00 BUY SOXL: J=54.40 crossed > 22.2. Price=37.54
+2026-01-20T07:19:42.8397883Z TRACE:: Log: 2024-05-01 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-01 15:50:00 ---
+2026-01-20T07:19:42.8399444Z TRACE:: Log: 2024-05-01 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:42.8400376Z TRACE:: Log: 2024-05-02 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-02 15:50:00 ---
+2026-01-20T07:19:42.8402053Z TRACE:: Log: 2024-05-02 15:50:00 CLOSING LOSER: SOXL is down $-489.44. avoiding overnight risk.
+2026-01-20T07:19:42.8403265Z TRACE:: Debug: 2024-05-08 14:00:00 BUY SOXL: J=31.69 crossed > 22.2. Price=39.7
+2026-01-20T07:19:42.8404578Z TRACE:: Log: 2024-05-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-08 15:50:00 ---
+2026-01-20T07:19:42.8405245Z TRACE:: Log: 2024-05-08 15:50:00 HOLDING WINNER: SOXL is up $45.27. Letting it ride overnight.
+2026-01-20T07:19:42.8406435Z TRACE:: Log: 2024-05-09 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-09 15:50:00 ---
+2026-01-20T07:19:42.8407384Z TRACE:: Log: 2024-05-09 15:50:00 HOLDING WINNER: SOXL is up $271.62. Letting it ride overnight.
+2026-01-20T07:19:43.0556044Z TRACE:: DownloaderDataProvider.Get(): custom data is not supported, requested: interest-rate 2S
+2026-01-20T07:19:43.5032054Z TRACE:: Synchronizer.GetEnumerator(): Exited thread.
+2026-01-20T07:19:43.5082438Z TRACE:: AlgorithmManager.Run(): Firing On End Of Algorithm...
+2026-01-20T07:19:43.5123900Z TRACE:: Engine.Run(): Exiting Algorithm Manager
+2026-01-20T07:19:43.5184491Z TRACE:: StopSafely(): Waiting for 'Isolator Thread' thread to stop...
+2026-01-20T07:19:43.5249453Z TRACE:: FileSystemDataFeed.Exit(): Start. Setting cancellation token...
+2026-01-20T07:19:43.5916493Z TRACE:: FileSystemDataFeed.Exit(): Exit Finished.
+2026-01-20T07:19:43.5924355Z TRACE:: BacktestingResultHandler.Exit(): starting...
+2026-01-20T07:19:43.5931190Z TRACE:: BacktestingResultHandler.Exit(): Saving logs...
+2026-01-20T07:19:43.5975732Z TRACE:: StopSafely(): Waiting for 'Result Thread' thread to stop...
+2026-01-20T07:19:43.6721552Z TRACE:: Debug: 2024-05-10 12:00:00 SELL SOXL: J=39.48 crossed < 62.6.
+2026-01-20T07:19:43.6723143Z TRACE:: Debug: 2024-05-17 16:00:00 BUY SOXL: J=40.84 crossed > 22.2. Price=45.43
+2026-01-20T07:19:43.6723985Z TRACE:: Debug: 2024-05-21 10:00:00 SELL SOXL: J=45.37 crossed < 62.6.
+2026-01-20T07:19:43.6725133Z TRACE:: Log: 2024-05-20 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-20 15:50:00 ---
+2026-01-20T07:19:43.6726387Z TRACE:: Log: 2024-05-20 15:50:00 HOLDING WINNER: SOXL is up $954.80. Letting it ride overnight.
+2026-01-20T07:19:43.6727326Z TRACE:: Debug: 2024-05-23 12:00:00 BUY SOXL: J=43.35 crossed > 22.2. Price=50.98
+2026-01-20T07:19:43.6728061Z TRACE:: Debug: 2024-05-24 10:00:00 BUY SOXL: J=60.07 crossed > 22.2. Price=50.36
+2026-01-20T07:19:43.6729974Z TRACE:: Log: 2024-05-23 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-23 15:50:00 ---
+2026-01-20T07:19:43.6730415Z TRACE:: Log: 2024-05-23 15:50:00 CLOSING LOSER: SOXL is down $-1262.24. avoiding overnight risk.
+2026-01-20T07:19:43.6731084Z TRACE:: Log: 2024-05-24 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-24 15:50:00 ---
+2026-01-20T07:19:43.6731593Z TRACE:: Log: 2024-05-24 15:50:00 HOLDING WINNER: SOXL is up $377.15. Letting it ride overnight.
+2026-01-20T07:19:43.6732475Z TRACE:: Debug: 2024-05-29 10:00:00 SELL SOXL: J=26.17 crossed < 62.6.
+2026-01-20T07:19:43.6734406Z TRACE:: Log: 2024-05-28 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-28 15:50:00 ---
+2026-01-20T07:19:43.6735414Z TRACE:: Log: 2024-05-28 15:50:00 HOLDING WINNER: SOXL is up $1187.03. Letting it ride overnight.
+2026-01-20T07:19:43.6735921Z TRACE:: Debug: 2024-05-29 13:00:00 BUY SOXL: J=25.71 crossed > 22.2. Price=51.78
+2026-01-20T07:19:43.6736316Z TRACE:: Log: 2024-05-29 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-29 15:50:00 ---
+2026-01-20T07:19:43.6736954Z TRACE:: Log: 2024-05-29 15:50:00 CLOSING LOSER: SOXL is down $-173.70. avoiding overnight risk.
+2026-01-20T07:19:43.6737515Z TRACE:: Debug: 2024-05-30 13:00:00 BUY SOXL: J=25.38 crossed > 22.2. Price=50.69
+2026-01-20T07:19:43.6738050Z TRACE:: Log: 2024-05-30 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-30 15:50:00 ---
+2026-01-20T07:19:43.6738636Z TRACE:: Log: 2024-05-30 15:50:00 CLOSING LOSER: SOXL is down $-47.28. avoiding overnight risk.
+2026-01-20T07:19:43.6739153Z TRACE:: Debug: 2024-05-31 15:00:00 BUY SOXL: J=23.61 crossed > 22.2. Price=45.9
+2026-01-20T07:19:43.6739853Z TRACE:: Log: 2024-05-31 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-31 15:50:00 ---
+2026-01-20T07:19:43.6740461Z TRACE:: Log: 2024-05-31 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:43.6740980Z TRACE:: Debug: 2024-06-03 11:00:00 SELL SOXL: J=49.38 crossed < 62.6.
+2026-01-20T07:19:43.6741553Z TRACE:: Debug: 2024-06-07 13:00:00 BUY SOXL: J=45.64 crossed > 22.2. Price=52.51
+2026-01-20T07:19:43.6742125Z TRACE:: Debug: 2024-06-07 16:00:00 BUY SOXL: J=26.31 crossed > 22.2. Price=51.91
+2026-01-20T07:19:43.6742785Z TRACE:: Log: 2024-06-07 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-07 15:50:00 ---
+2026-01-20T07:19:43.6743496Z TRACE:: Log: 2024-06-07 15:50:00 CLOSING LOSER: SOXL is down $-425.60. avoiding overnight risk.
+2026-01-20T07:19:43.6744275Z TRACE:: Debug: 2024-06-11 10:00:00 SELL SOXL: J=39.78 crossed < 62.6.
+2026-01-20T07:19:43.6745239Z TRACE:: Log: 2024-06-10 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-10 15:50:00 ---
+2026-01-20T07:19:43.6747615Z TRACE:: Log: 2024-06-10 15:50:00 HOLDING WINNER: SOXL is up $1235.85. Letting it ride overnight.
+2026-01-20T07:19:43.6748451Z TRACE:: Debug: 2024-06-21 11:00:00 BUY SOXL: J=25.61 crossed > 22.2. Price=58.86
+2026-01-20T07:19:43.6750036Z TRACE:: Log: 2024-06-21 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-21 15:50:00 ---
+2026-01-20T07:19:43.6750632Z TRACE:: Log: 2024-06-21 15:50:00 CLOSING LOSER: SOXL is down $-318.66. avoiding overnight risk.
+2026-01-20T07:19:43.6751220Z TRACE:: Debug: 2024-06-25 11:00:00 BUY SOXL: J=24.60 crossed > 22.2. Price=53.63
+2026-01-20T07:19:43.6751734Z TRACE:: Log: 2024-06-25 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-25 15:50:00 ---
+2026-01-20T07:19:43.6752285Z TRACE:: Log: 2024-06-25 15:50:00 HOLDING WINNER: SOXL is up $520.80. Letting it ride overnight.
+2026-01-20T07:19:43.6753059Z TRACE:: Debug: 2024-06-26 12:00:00 SELL SOXL: J=50.31 crossed < 62.6.
+2026-01-20T07:19:43.6753758Z TRACE:: Debug: 2024-06-27 14:00:00 BUY SOXL: J=33.68 crossed > 22.2. Price=53.87
+2026-01-20T07:19:43.6754890Z TRACE:: Log: 2024-06-27 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-27 15:50:00 ---
+2026-01-20T07:19:43.6755426Z TRACE:: Log: 2024-06-27 15:50:00 HOLDING WINNER: SOXL is up $189.21. Letting it ride overnight.
+2026-01-20T07:19:43.6756128Z TRACE:: Debug: 2024-06-28 12:00:00 SELL SOXL: J=55.12 crossed < 62.6.
+2026-01-20T07:19:43.6757707Z TRACE:: Debug: 2024-07-01 12:00:00 BUY SOXL: J=34.75 crossed > 22.2. Price=54.48
+2026-01-20T07:19:43.6758497Z TRACE:: Log: 2024-07-01 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-01 15:50:00 ---
+2026-01-20T07:19:43.6759003Z TRACE:: Log: 2024-07-01 15:50:00 HOLDING WINNER: SOXL is up $183.50. Letting it ride overnight.
+2026-01-20T07:19:43.6760050Z TRACE:: Log: 2024-07-02 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-02 15:50:00 ---
+2026-01-20T07:19:43.6761189Z TRACE:: Log: 2024-07-02 15:50:00 HOLDING WINNER: SOXL is up $1027.60. Letting it ride overnight.
+2026-01-20T07:19:43.6761635Z TRACE:: Log: 2024-07-03 12:50:00 --- Running End-of-Day Risk Check @ 2024-07-03 12:50:00 ---
+2026-01-20T07:19:43.6762082Z TRACE:: Log: 2024-07-03 12:50:00 HOLDING WINNER: SOXL is up $2202.00. Letting it ride overnight.
+2026-01-20T07:19:43.6763372Z TRACE:: Log: 2024-07-05 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-05 15:50:00 ---
+2026-01-20T07:19:43.6765112Z TRACE:: Log: 2024-07-05 15:50:00 HOLDING WINNER: SOXL is up $2466.24. Letting it ride overnight.
+2026-01-20T07:19:43.6766779Z TRACE:: Log: 2024-07-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-08 15:50:00 ---
+2026-01-20T07:19:43.6767299Z TRACE:: Log: 2024-07-08 15:50:00 HOLDING WINNER: SOXL is up $3446.13. Letting it ride overnight.
+2026-01-20T07:19:43.6767937Z TRACE:: Debug: 2024-07-09 11:00:00 SELL SOXL: J=57.35 crossed < 62.6.
+2026-01-20T07:19:43.6768730Z TRACE:: Debug: 2024-07-12 10:00:00 BUY SOXL: J=25.73 crossed > 22.2. Price=64.01
+2026-01-20T07:19:43.6769434Z TRACE:: Debug: 2024-07-12 12:00:00 SELL SOXL: J=56.55 crossed < 62.6.
+2026-01-20T07:19:43.6770366Z TRACE:: Debug: 2024-07-16 12:00:00 BUY SOXL: J=48.85 crossed > 22.2. Price=64.45
+2026-01-20T07:19:43.6771482Z TRACE:: Log: 2024-07-16 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-16 15:50:00 ---
+2026-01-20T07:19:43.6772031Z TRACE:: Log: 2024-07-16 15:50:00 HOLDING WINNER: SOXL is up $80.60. Letting it ride overnight.
+2026-01-20T07:19:43.6772738Z TRACE:: Log: 2024-07-17 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=57.51 < Stop=59.54. P/L=-2151.40
+2026-01-20T07:19:43.6773532Z TRACE:: Debug: 2024-07-18 16:00:00 BUY SOXL: J=25.77 crossed > 22.2. Price=51.78
+2026-01-20T07:19:43.6774275Z TRACE:: Debug: 2024-07-22 10:00:00 BUY SOXL: J=46.09 crossed > 22.2. Price=50.42
+2026-01-20T07:19:43.6775620Z TRACE:: Log: 2024-07-19 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-19 15:50:00 ---
+2026-01-20T07:19:43.6776869Z TRACE:: Log: 2024-07-19 15:50:00 CLOSING LOSER: SOXL is down $-1563.30. avoiding overnight risk.
+2026-01-20T07:19:43.6777544Z TRACE:: Log: 2024-07-22 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-22 15:50:00 ---
+2026-01-20T07:19:43.6778499Z TRACE:: Log: 2024-07-22 15:50:00 HOLDING WINNER: SOXL is up $594.00. Letting it ride overnight.
+2026-01-20T07:19:43.6779304Z TRACE:: Debug: 2024-07-23 11:00:00 SELL SOXL: J=53.15 crossed < 62.6.
+2026-01-20T07:19:43.6780146Z TRACE:: Debug: 2024-07-25 11:00:00 BUY SOXL: J=31.21 crossed > 22.2. Price=41.88
+2026-01-20T07:19:43.6781180Z TRACE:: Debug: 2024-07-26 10:00:00 BUY SOXL: J=41.85 crossed > 22.2. Price=41.87
+2026-01-20T07:19:43.6781633Z TRACE:: Log: 2024-07-25 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-25 15:50:00 ---
+2026-01-20T07:19:43.6782410Z TRACE:: Log: 2024-07-25 15:50:00 CLOSING LOSER: SOXL is down $-419.76. avoiding overnight risk.
+2026-01-20T07:19:43.6783022Z TRACE:: Debug: 2024-07-26 15:00:00 SELL SOXL: J=56.12 crossed < 62.6.
+2026-01-20T07:19:43.6783518Z TRACE:: Debug: 2024-07-30 15:00:00 BUY SOXL: J=29.80 crossed > 22.2. Price=38.51
+2026-01-20T07:19:43.6783784Z TRACE:: Log: 2024-07-30 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-30 15:50:00 ---
+2026-01-20T07:19:43.6784996Z TRACE:: Log: 2024-07-30 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:43.6786982Z TRACE:: Log: 2024-07-31 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-31 15:50:00 ---
+2026-01-20T07:19:43.6788867Z TRACE:: Log: 2024-07-31 15:50:00 HOLDING WINNER: SOXL is up $3108.81. Letting it ride overnight.
+2026-01-20T07:19:43.6790242Z TRACE:: Debug: 2024-08-01 11:00:00 SELL SOXL: J=19.24 crossed < 62.6.
+2026-01-20T07:19:43.6791730Z TRACE:: Log: 2024-08-05 11:00:00 FILTERED BUY: Signal valid but Price (27.1) < 200 SMA (38.51085). Staying Cash.
+2026-01-20T07:19:43.6792857Z TRACE:: Log: 2024-08-08 10:00:00 FILTERED BUY: Signal valid but Price (28.05) < 200 SMA (38.6488). Staying Cash.
+2026-01-20T07:19:43.6794232Z TRACE:: Debug: 2024-08-19 11:00:00 BUY SOXL: J=29.33 crossed > 22.2. Price=39.37
+2026-01-20T07:19:43.6794956Z TRACE:: Debug: 2024-08-19 13:00:00 SELL SOXL: J=60.47 crossed < 62.6.
+2026-01-20T07:19:43.6795429Z TRACE:: Log: 2024-08-23 10:00:00 FILTERED BUY: Signal valid but Price (39.42) < 200 SMA (39.79585). Staying Cash.
+2026-01-20T07:19:43.6795874Z TRACE:: Log: 2024-08-26 16:00:00 FILTERED BUY: Signal valid but Price (37.34) < 200 SMA (40.0001). Staying Cash.
+2026-01-20T07:19:43.6797671Z TRACE:: Log: 2024-08-27 11:00:00 FILTERED BUY: Signal valid but Price (38.22) < 200 SMA (40.0001). Staying Cash.
+2026-01-20T07:19:43.6798314Z TRACE:: Log: 2024-08-28 13:00:00 FILTERED BUY: Signal valid but Price (36.65) < 200 SMA (40.09955). Staying Cash.
+2026-01-20T07:19:43.6800647Z TRACE:: Log: 2024-08-28 15:00:00 FILTERED BUY: Signal valid but Price (36.8) < 200 SMA (40.09955). Staying Cash.
+2026-01-20T07:19:43.6801547Z TRACE:: Log: 2024-08-30 10:00:00 FILTERED BUY: Signal valid but Price (38.98) < 200 SMA (40.268). Staying Cash.
+2026-01-20T07:19:43.6802444Z TRACE:: Log: 2024-09-04 11:00:00 FILTERED BUY: Signal valid but Price (31.41) < 200 SMA (40.402). Staying Cash.
+2026-01-20T07:19:43.6803614Z TRACE:: Log: 2024-09-04 14:00:00 FILTERED BUY: Signal valid but Price (30.87) < 200 SMA (40.402). Staying Cash.
+2026-01-20T07:19:43.6804154Z TRACE:: Log: 2024-09-05 10:00:00 FILTERED BUY: Signal valid but Price (30.28) < 200 SMA (40.43995). Staying Cash.
+2026-01-20T07:19:43.6805122Z TRACE:: Log: 2024-09-05 13:00:00 FILTERED BUY: Signal valid but Price (29.9) < 200 SMA (40.43995). Staying Cash.
+2026-01-20T07:19:43.6805980Z TRACE:: Log: 2024-09-09 10:00:00 FILTERED BUY: Signal valid but Price (27.34) < 200 SMA (40.48925). Staying Cash.
+2026-01-20T07:19:43.6806421Z TRACE:: Log: 2024-09-16 14:00:00 FILTERED BUY: Signal valid but Price (31.83) < 200 SMA (40.67545). Staying Cash.
+2026-01-20T07:19:43.6806907Z TRACE:: Log: 2024-09-17 15:00:00 FILTERED BUY: Signal valid but Price (31.76) < 200 SMA (40.7234). Staying Cash.
+2026-01-20T07:19:43.6808509Z TRACE:: Log: 2024-09-18 13:00:00 FILTERED BUY: Signal valid but Price (32.21) < 200 SMA (40.7682). Staying Cash.
+2026-01-20T07:19:43.6809291Z TRACE:: Log: 2024-09-19 10:00:00 FILTERED BUY: Signal valid but Price (34.53) < 200 SMA (40.81). Staying Cash.
+2026-01-20T07:19:43.6810201Z TRACE:: Log: 2024-09-20 12:00:00 FILTERED BUY: Signal valid but Price (32.92) < 200 SMA (40.8702). Staying Cash.
+2026-01-20T07:19:43.6811333Z TRACE:: Log: 2024-09-30 16:00:00 FILTERED BUY: Signal valid but Price (36.63) < 200 SMA (41.30435). Staying Cash.
+2026-01-20T07:19:43.6812074Z TRACE:: Log: 2024-10-01 15:00:00 FILTERED BUY: Signal valid but Price (34.32) < 200 SMA (41.30435). Staying Cash.
+2026-01-20T07:19:43.6813097Z TRACE:: Log: 2024-10-02 10:00:00 FILTERED BUY: Signal valid but Price (34.25) < 200 SMA (41.33245). Staying Cash.
+2026-01-20T07:19:43.6813760Z TRACE:: Log: 2024-10-08 10:00:00 FILTERED BUY: Signal valid but Price (36.38) < 200 SMA (41.4396). Staying Cash.
+2026-01-20T07:19:43.6814909Z TRACE:: Log: 2024-10-17 10:00:00 FILTERED BUY: Signal valid but Price (36.37) < 200 SMA (41.66595). Staying Cash.
+2026-01-20T07:19:43.6815627Z TRACE:: Log: 2024-10-21 13:00:00 FILTERED BUY: Signal valid but Price (34.37) < 200 SMA (41.7474). Staying Cash.
+2026-01-20T07:19:43.6816385Z TRACE:: Log: 2024-10-22 12:00:00 FILTERED BUY: Signal valid but Price (34.16) < 200 SMA (41.7954). Staying Cash.
+2026-01-20T07:19:43.6816816Z TRACE:: Log: 2024-10-23 15:00:00 FILTERED BUY: Signal valid but Price (33.2) < 200 SMA (41.8391). Staying Cash.
+2026-01-20T07:19:43.6817322Z TRACE:: Log: 2024-11-01 10:00:00 FILTERED BUY: Signal valid but Price (31.29) < 200 SMA (42.0459). Staying Cash.
+2026-01-20T07:19:43.6818116Z TRACE:: Log: 2024-11-05 10:00:00 FILTERED BUY: Signal valid but Price (31.25) < 200 SMA (42.0217). Staying Cash.
+2026-01-20T07:19:43.6818656Z TRACE:: Log: 2024-11-11 16:00:00 FILTERED BUY: Signal valid but Price (32.77) < 200 SMA (41.9729). Staying Cash.
+2026-01-20T07:19:43.6819310Z TRACE:: Log: 2024-11-12 15:00:00 FILTERED BUY: Signal valid but Price (31.4) < 200 SMA (41.9729). Staying Cash.
+2026-01-20T07:19:43.6819914Z TRACE:: Log: 2024-11-13 14:00:00 FILTERED BUY: Signal valid but Price (30.24) < 200 SMA (41.9558). Staying Cash.
+2026-01-20T07:19:43.6820392Z TRACE:: Log: 2024-11-14 10:00:00 FILTERED BUY: Signal valid but Price (30.29) < 200 SMA (41.93635). Staying Cash.
+2026-01-20T07:19:43.6820819Z TRACE:: Log: 2024-11-18 11:00:00 FILTERED BUY: Signal valid but Price (27.42) < 200 SMA (41.89515). Staying Cash.
+2026-01-20T07:19:43.6821255Z TRACE:: Log: 2024-11-20 12:00:00 FILTERED BUY: Signal valid but Price (26.84) < 200 SMA (41.8289). Staying Cash.
+2026-01-20T07:19:43.6821683Z TRACE:: Log: 2024-11-20 16:00:00 FILTERED BUY: Signal valid but Price (27.16) < 200 SMA (41.79555). Staying Cash.
+2026-01-20T07:19:43.6822142Z TRACE:: Log: 2024-11-27 14:00:00 FILTERED BUY: Signal valid but Price (26.7) < 200 SMA (41.61235). Staying Cash.
+2026-01-20T07:19:43.6822807Z TRACE:: Log: 2024-12-06 10:00:00 FILTERED BUY: Signal valid but Price (29.37) < 200 SMA (41.35815). Staying Cash.
+2026-01-20T07:19:43.6823607Z TRACE:: Log: 2024-12-11 10:00:00 FILTERED BUY: Signal valid but Price (28.83) < 200 SMA (41.17425). Staying Cash.
+2026-01-20T07:19:43.6825168Z TRACE:: Log: 2024-12-17 12:00:00 FILTERED BUY: Signal valid but Price (31.32) < 200 SMA (40.9184). Staying Cash.
+2026-01-20T07:19:43.6826036Z TRACE:: Log: 2024-12-17 16:00:00 FILTERED BUY: Signal valid but Price (31.12) < 200 SMA (40.8252). Staying Cash.
+2026-01-20T07:19:43.6827512Z TRACE:: Log: 2024-12-20 11:00:00 FILTERED BUY: Signal valid but Price (27.32) < 200 SMA (40.61). Staying Cash.
+2026-01-20T07:19:43.6828777Z TRACE:: Log: 2024-12-27 12:00:00 FILTERED BUY: Signal valid but Price (29.07) < 200 SMA (40.198). Staying Cash.
+2026-01-20T07:19:43.6829380Z TRACE:: Log: 2024-12-27 14:00:00 FILTERED BUY: Signal valid but Price (29.65) < 200 SMA (40.198). Staying Cash.
+2026-01-20T07:19:43.6830900Z TRACE:: Log: 2024-12-30 12:00:00 FILTERED BUY: Signal valid but Price (28.0) < 200 SMA (40.11685). Staying Cash.
+2026-01-20T07:19:43.6831867Z TRACE:: Log: 2024-12-31 10:00:00 FILTERED BUY: Signal valid but Price (28.03) < 200 SMA (40.0389). Staying Cash.
+2026-01-20T07:19:43.6832457Z TRACE:: Log: 2024-12-31 16:00:00 FILTERED BUY: Signal valid but Price (27.3) < 200 SMA (39.96205). Staying Cash.
+2026-01-20T07:19:43.6833115Z TRACE:: Log: 2025-01-02 16:00:00 FILTERED BUY: Signal valid but Price (27.71) < 200 SMA (39.8882). Staying Cash.
+2026-01-20T07:19:43.6834256Z TRACE:: Log: 2025-01-08 12:00:00 FILTERED BUY: Signal valid but Price (30.41) < 200 SMA (39.7005). Staying Cash.
+2026-01-20T07:19:43.6835237Z TRACE:: Log: 2025-01-08 16:00:00 FILTERED BUY: Signal valid but Price (30.2) < 200 SMA (39.61945). Staying Cash.
+2026-01-20T07:19:43.6837413Z TRACE:: Log: 2025-01-10 14:00:00 FILTERED BUY: Signal valid but Price (28.65) < 200 SMA (39.61945). Staying Cash.
+2026-01-20T07:19:43.6838289Z TRACE:: Log: 2025-01-13 13:00:00 FILTERED BUY: Signal valid but Price (27.45) < 200 SMA (39.5301). Staying Cash.
+2026-01-20T07:19:43.6839085Z TRACE:: Log: 2025-01-23 12:00:00 FILTERED BUY: Signal valid but Price (34.2) < 200 SMA (39.01465). Staying Cash.
+2026-01-20T07:19:43.6839667Z TRACE:: Log: 2025-01-28 16:00:00 FILTERED BUY: Signal valid but Price (25.36) < 200 SMA (38.7239). Staying Cash.
+2026-01-20T07:19:43.6841015Z TRACE:: Log: 2025-02-03 11:00:00 FILTERED BUY: Signal valid but Price (26.18) < 200 SMA (38.48855). Staying Cash.
+2026-01-20T07:19:43.6841551Z TRACE:: Log: 2025-02-07 14:00:00 FILTERED BUY: Signal valid but Price (26.18) < 200 SMA (38.3099). Staying Cash.
+2026-01-20T07:19:43.6842891Z TRACE:: Log: 2025-02-10 10:00:00 FILTERED BUY: Signal valid but Price (27.35) < 200 SMA (38.2807). Staying Cash.
+2026-01-20T07:19:43.6843460Z TRACE:: Log: 2025-02-24 12:00:00 FILTERED BUY: Signal valid but Price (28.21) < 200 SMA (37.90915). Staying Cash.
+2026-01-20T07:19:43.6844660Z TRACE:: Log: 2025-02-26 10:00:00 FILTERED BUY: Signal valid but Price (26.31) < 200 SMA (37.7595). Staying Cash.
+2026-01-20T07:19:43.6845374Z TRACE:: Log: 2025-02-26 15:00:00 FILTERED BUY: Signal valid but Price (25.74) < 200 SMA (37.7595). Staying Cash.
+2026-01-20T07:19:43.6846442Z TRACE:: Log: 2025-02-28 11:00:00 FILTERED BUY: Signal valid but Price (22.81) < 200 SMA (37.5983). Staying Cash.
+2026-01-20T07:19:43.6847026Z TRACE:: Log: 2025-02-28 16:00:00 FILTERED BUY: Signal valid but Price (22.73) < 200 SMA (37.50685). Staying Cash.
+2026-01-20T07:19:43.6847607Z TRACE:: Log: 2025-03-04 12:00:00 FILTERED BUY: Signal valid but Price (20.11) < 200 SMA (37.4029). Staying Cash.
+2026-01-20T07:19:43.6847925Z TRACE:: Log: 2025-03-07 10:00:00 FILTERED BUY: Signal valid but Price (19.82) < 200 SMA (37.02915). Staying Cash.
+2026-01-20T07:19:43.6848446Z TRACE:: Log: 2025-03-07 14:00:00 FILTERED BUY: Signal valid but Price (20.35) < 200 SMA (37.02915). Staying Cash.
+2026-01-20T07:19:43.6850728Z TRACE:: Log: 2025-03-11 10:00:00 FILTERED BUY: Signal valid but Price (17.96) < 200 SMA (36.7543). Staying Cash.
+2026-01-20T07:19:43.6851493Z TRACE:: Log: 2025-03-11 15:00:00 FILTERED BUY: Signal valid but Price (18.29) < 200 SMA (36.7543). Staying Cash.
+2026-01-20T07:19:43.6852025Z TRACE:: Log: 2025-03-18 13:00:00 FILTERED BUY: Signal valid but Price (20.25) < 200 SMA (35.96615). Staying Cash.
+2026-01-20T07:19:43.6853142Z TRACE:: Log: 2025-03-19 12:00:00 FILTERED BUY: Signal valid but Price (20.34) < 200 SMA (35.8115). Staying Cash.
+2026-01-20T07:19:43.6854048Z TRACE:: Log: 2025-03-20 11:00:00 FILTERED BUY: Signal valid but Price (20.35) < 200 SMA (35.6646). Staying Cash.
+2026-01-20T07:19:43.6854730Z TRACE:: Log: 2025-03-21 13:00:00 FILTERED BUY: Signal valid but Price (19.43) < 200 SMA (35.52135). Staying Cash.
+2026-01-20T07:19:43.6855389Z TRACE:: Log: 2025-03-27 10:00:00 FILTERED BUY: Signal valid but Price (17.96) < 200 SMA (34.9065). Staying Cash.
+2026-01-20T07:19:43.6856153Z TRACE:: Log: 2025-03-31 15:00:00 FILTERED BUY: Signal valid but Price (15.56) < 200 SMA (34.5449). Staying Cash.
+2026-01-20T07:19:43.6856747Z TRACE:: Log: 2025-04-07 10:00:00 FILTERED BUY: Signal valid but Price (8.73) < 200 SMA (33.40345). Staying Cash.
+2026-01-20T07:19:43.6857685Z TRACE:: Log: 2025-04-09 10:00:00 FILTERED BUY: Signal valid but Price (8.63) < 200 SMA (32.8657). Staying Cash.
+2026-01-20T07:19:43.6858543Z TRACE:: Log: 2025-04-10 12:00:00 FILTERED BUY: Signal valid but Price (9.3) < 200 SMA (32.63985). Staying Cash.
+2026-01-20T07:19:43.6860419Z TRACE:: Log: 2025-04-11 12:00:00 FILTERED BUY: Signal valid but Price (9.61) < 200 SMA (32.42245). Staying Cash.
+2026-01-20T07:19:43.6861582Z TRACE:: Log: 2025-04-16 16:00:00 FILTERED BUY: Signal valid but Price (9.35) < 200 SMA (31.52935). Staying Cash.
+2026-01-20T07:19:43.6864045Z TRACE:: Log: 2025-04-17 13:00:00 FILTERED BUY: Signal valid but Price (9.26) < 200 SMA (31.52935). Staying Cash.
+2026-01-20T07:19:43.6864802Z TRACE:: Log: 2025-04-21 16:00:00 FILTERED BUY: Signal valid but Price (8.68) < 200 SMA (31.0531). Staying Cash.
+2026-01-20T07:19:43.6866127Z TRACE:: Log: 2025-04-28 15:00:00 FILTERED BUY: Signal valid but Price (11.96) < 200 SMA (30.022). Staying Cash.
+2026-01-20T07:19:43.6867246Z TRACE:: Log: 2025-04-29 14:00:00 FILTERED BUY: Signal valid but Price (12.13) < 200 SMA (29.74005). Staying Cash.
+2026-01-20T07:19:43.6868390Z TRACE:: Log: 2025-04-30 12:00:00 FILTERED BUY: Signal valid but Price (11.51) < 200 SMA (29.4905). Staying Cash.
+2026-01-20T07:19:43.6868993Z TRACE:: Log: 2025-05-06 12:00:00 FILTERED BUY: Signal valid but Price (12.63) < 200 SMA (28.5178). Staying Cash.
+2026-01-20T07:19:43.6870430Z TRACE:: Log: 2025-05-06 15:00:00 FILTERED BUY: Signal valid but Price (12.79) < 200 SMA (28.5178). Staying Cash.
+2026-01-20T07:19:43.6872008Z TRACE:: Log: 2025-05-15 12:00:00 FILTERED BUY: Signal valid but Price (18.44) < 200 SMA (27.4281). Staying Cash.
+2026-01-20T07:19:43.6873119Z TRACE:: Log: 2025-05-16 13:00:00 FILTERED BUY: Signal valid but Price (18.09) < 200 SMA (27.31185). Staying Cash.
+2026-01-20T07:19:43.6874691Z TRACE:: Log: 2025-05-22 10:00:00 FILTERED BUY: Signal valid but Price (17.2) < 200 SMA (26.9387). Staying Cash.
+2026-01-20T07:19:43.6875688Z TRACE:: Log: 2025-05-23 14:00:00 FILTERED BUY: Signal valid but Price (15.85) < 200 SMA (26.88175). Staying Cash.
+2026-01-20T07:19:43.6876567Z TRACE:: Log: 2025-05-30 15:00:00 FILTERED BUY: Signal valid but Price (15.99) < 200 SMA (26.6321). Staying Cash.
+2026-01-20T07:19:43.6877264Z TRACE:: Log: 2025-06-13 12:00:00 FILTERED BUY: Signal valid but Price (20.95) < 200 SMA (25.68835). Staying Cash.
+2026-01-20T07:19:43.6877850Z TRACE:: Log: 2025-06-16 10:00:00 FILTERED BUY: Signal valid but Price (21.46) < 200 SMA (25.6018). Staying Cash.
+2026-01-20T07:19:43.6879006Z TRACE:: Log: 2025-06-20 10:00:00 FILTERED BUY: Signal valid but Price (22.07) < 200 SMA (25.3703). Staying Cash.
+2026-01-20T07:19:43.6879785Z TRACE:: Log: 2025-06-20 13:00:00 FILTERED BUY: Signal valid but Price (21.17) < 200 SMA (25.3703). Staying Cash.
+2026-01-20T07:19:43.6881207Z TRACE:: Log: 2025-06-23 14:00:00 FILTERED BUY: Signal valid but Price (21.48) < 200 SMA (25.28175). Staying Cash.
+2026-01-20T07:19:43.6882532Z TRACE:: Log: 2025-06-27 16:00:00 FILTERED BUY: Signal valid but Price (25.09) < 200 SMA (25.1664). Staying Cash.
+2026-01-20T07:19:43.6897472Z TRACE:: Log: 2025-07-01 12:00:00 FILTERED BUY: Signal valid but Price (24.58) < 200 SMA (25.14995). Staying Cash.
+2026-01-20T07:19:43.6898502Z TRACE:: Debug: 2025-07-07 12:00:00 BUY SOXL: J=30.40 crossed > 22.2. Price=25.45
+2026-01-20T07:19:43.6899777Z TRACE:: Debug: 2025-07-08 10:00:00 BUY SOXL: J=54.52 crossed > 22.2. Price=25.8
+2026-01-20T07:19:43.6900633Z TRACE:: Log: 2025-07-07 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-07 15:50:00 ---
+2026-01-20T07:19:43.6901765Z TRACE:: Log: 2025-07-07 15:50:00 CLOSING LOSER: SOXL is down $-345.40. avoiding overnight risk.
+2026-01-20T07:19:43.6902437Z TRACE:: Log: 2025-07-08 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-08 15:50:00 ---
+2026-01-20T07:19:43.6903601Z TRACE:: Log: 2025-07-08 15:50:00 HOLDING WINNER: SOXL is up $627.75. Letting it ride overnight.
+2026-01-20T07:19:43.6904519Z TRACE:: Debug: 2025-07-09 12:00:00 SELL SOXL: J=41.04 crossed < 62.6.
+2026-01-20T07:19:43.6906280Z TRACE:: Debug: 2025-07-14 12:00:00 BUY SOXL: J=58.39 crossed > 22.2. Price=26.39
+2026-01-20T07:19:43.6906897Z TRACE:: Log: 2025-07-14 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-14 15:50:00 ---
+2026-01-20T07:19:43.6908959Z TRACE:: Log: 2025-07-14 15:50:00 HOLDING WINNER: SOXL is up $158.97. Letting it ride overnight.
+2026-01-20T07:19:43.6910403Z TRACE:: Debug: 2025-07-15 16:00:00 SELL SOXL: J=56.21 crossed < 62.6.
+2026-01-20T07:19:43.6911001Z TRACE:: Log: 2025-07-15 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-15 15:50:00 ---
+2026-01-20T07:19:43.6912036Z TRACE:: Log: 2025-07-15 15:50:00 HOLDING WINNER: SOXL is up $741.86. Letting it ride overnight.
+2026-01-20T07:19:43.6913019Z TRACE:: Debug: 2025-07-16 13:00:00 BUY SOXL: J=49.92 crossed > 22.2. Price=26.29
+2026-01-20T07:19:43.6913593Z TRACE:: Log: 2025-07-16 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-16 15:50:00 ---
+2026-01-20T07:19:43.6914867Z TRACE:: Log: 2025-07-16 15:50:00 HOLDING WINNER: SOXL is up $197.60. Letting it ride overnight.
+2026-01-20T07:19:43.6915578Z TRACE:: Log: 2025-07-17 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-17 15:50:00 ---
+2026-01-20T07:19:43.6916350Z TRACE:: Log: 2025-07-17 15:50:00 HOLDING WINNER: SOXL is up $767.60. Letting it ride overnight.
+2026-01-20T07:19:43.6916991Z TRACE:: Debug: 2025-07-18 14:00:00 SELL SOXL: J=52.90 crossed < 62.6.
+2026-01-20T07:19:43.6918266Z TRACE:: Debug: 2025-07-22 12:00:00 BUY SOXL: J=43.20 crossed > 22.2. Price=26.41
+2026-01-20T07:19:43.6919066Z TRACE:: Log: 2025-07-22 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-22 15:50:00 ---
+2026-01-20T07:19:43.6920502Z TRACE:: Log: 2025-07-22 15:50:00 HOLDING WINNER: SOXL is up $121.12. Letting it ride overnight.
+2026-01-20T07:19:43.6921401Z TRACE:: Log: 2025-07-23 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-23 15:50:00 ---
+2026-01-20T07:19:43.6921948Z TRACE:: Log: 2025-07-23 15:50:00 CLOSING LOSER: SOXL is down $-545.04. avoiding overnight risk.
+2026-01-20T07:19:43.6923450Z TRACE:: Debug: 2025-07-25 12:00:00 BUY SOXL: J=44.44 crossed > 22.2. Price=25.26
+2026-01-20T07:19:43.6923983Z TRACE:: Log: 2025-07-25 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-25 15:50:00 ---
+2026-01-20T07:19:43.6924670Z TRACE:: Log: 2025-07-25 15:50:00 HOLDING WINNER: SOXL is up $205.66. Letting it ride overnight.
+2026-01-20T07:19:43.6925157Z TRACE:: Log: 2025-07-28 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-28 15:50:00 ---
+2026-01-20T07:19:43.6925903Z TRACE:: Log: 2025-07-28 15:50:00 HOLDING WINNER: SOXL is up $1297.24. Letting it ride overnight.
+2026-01-20T07:19:43.6926602Z TRACE:: Debug: 2025-07-29 12:00:00 SELL SOXL: J=55.48 crossed < 62.6.
+2026-01-20T07:19:43.6927443Z TRACE:: Debug: 2025-07-31 16:00:00 BUY SOXL: J=27.74 crossed > 22.2. Price=24.97
+2026-01-20T07:19:43.6928649Z TRACE:: Log: 2025-08-01 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-01 15:50:00 ---
+2026-01-20T07:19:43.6929854Z TRACE:: Log: 2025-08-01 15:50:00 HOLDING WINNER: SOXL is up $192.00. Letting it ride overnight.
+2026-01-20T07:19:43.6930776Z TRACE:: Log: 2025-08-04 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-04 15:50:00 ---
+2026-01-20T07:19:43.6931846Z TRACE:: Log: 2025-08-04 15:50:00 HOLDING WINNER: SOXL is up $1168.00. Letting it ride overnight.
+2026-01-20T07:19:43.6933363Z TRACE:: Debug: 2025-08-05 11:00:00 SELL SOXL: J=31.42 crossed < 62.6.
+2026-01-20T07:19:43.6934770Z TRACE:: Debug: 2025-08-05 13:00:00 BUY SOXL: J=43.58 crossed > 22.2. Price=24.35
+2026-01-20T07:19:43.6935546Z TRACE:: Debug: 2025-08-05 15:00:00 SELL SOXL: J=56.11 crossed < 62.6.
+2026-01-20T07:19:43.6936705Z TRACE:: Log: 2025-08-06 12:00:00 FILTERED BUY: Signal valid but Price (23.68) < 200 SMA (24.00685). Staying Cash.
+2026-01-20T07:19:43.6937721Z TRACE:: Debug: 2025-08-18 16:00:00 BUY SOXL: J=29.55 crossed > 22.2. Price=27.52
+2026-01-20T07:19:43.6938251Z TRACE:: Log: 2025-08-19 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-19 15:50:00 ---
+2026-01-20T07:19:43.6939660Z TRACE:: Log: 2025-08-19 15:50:00 CLOSING LOSER: SOXL is down $-892.98. avoiding overnight risk.
+2026-01-20T07:19:43.6940477Z TRACE:: Debug: 2025-08-20 12:00:00 BUY SOXL: J=25.95 crossed > 22.2. Price=24.63
+2026-01-20T07:19:43.6941074Z TRACE:: Log: 2025-08-20 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-20 15:50:00 ---
+2026-01-20T07:19:43.6941647Z TRACE:: Log: 2025-08-20 15:50:00 HOLDING WINNER: SOXL is up $381.64. Letting it ride overnight.
+2026-01-20T07:19:43.6942212Z TRACE:: Log: 2025-08-21 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-21 15:50:00 ---
+2026-01-20T07:19:43.6942901Z TRACE:: Log: 2025-08-21 15:50:00 HOLDING WINNER: SOXL is up $584.64. Letting it ride overnight.
+2026-01-20T07:19:43.6943633Z TRACE:: Debug: 2025-08-25 10:00:00 SELL SOXL: J=59.21 crossed < 62.6.
+2026-01-20T07:19:43.6944542Z TRACE:: Log: 2025-08-22 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-22 15:50:00 ---
+2026-01-20T07:19:43.6945252Z TRACE:: Log: 2025-08-22 15:50:00 HOLDING WINNER: SOXL is up $2574.04. Letting it ride overnight.
+2026-01-20T07:19:43.6946147Z TRACE:: Debug: 2025-09-02 16:00:00 BUY SOXL: J=42.76 crossed > 22.2. Price=25.24
+2026-01-20T07:19:43.6946867Z TRACE:: Debug: 2025-09-03 16:00:00 BUY SOXL: J=67.30 crossed > 22.2. Price=24.88
+2026-01-20T07:19:43.6947752Z TRACE:: Debug: 2025-09-04 10:00:00 SELL SOXL: J=42.51 crossed < 62.6.
+2026-01-20T07:19:43.6948310Z TRACE:: Log: 2025-09-03 15:50:00 --- Running End-of-Day Risk Check @ 2025-09-03 15:50:00 ---
+2026-01-20T07:19:43.6948930Z TRACE:: Log: 2025-09-03 15:50:00 CLOSING LOSER: SOXL is down $-831.60. avoiding overnight risk.
+2026-01-20T07:19:43.6950267Z TRACE:: Debug: 2025-09-24 14:00:00 BUY SOXL: J=69.26 crossed > 22.2. Price=34.14
+2026-01-20T07:19:43.6951460Z TRACE:: Debug: 2025-09-24 16:00:00 SELL SOXL: J=57.03 crossed < 62.6.
+2026-01-20T07:19:43.6952345Z TRACE:: Log: 2025-09-24 15:50:00 --- Running End-of-Day Risk Check @ 2025-09-24 15:50:00 ---
+2026-01-20T07:19:43.6953140Z TRACE:: Log: 2025-09-24 15:50:00 HOLDING WINNER: SOXL is up $81.90. Letting it ride overnight.
+2026-01-20T07:19:43.6954173Z TRACE:: Debug: 2025-09-25 11:00:00 BUY SOXL: J=24.37 crossed > 22.2. Price=33.07
+2026-01-20T07:19:43.6955773Z TRACE:: Debug: 2025-09-25 14:00:00 SELL SOXL: J=52.90 crossed < 62.6.
+2026-01-20T07:19:43.6956440Z TRACE:: Debug: 2025-09-30 15:00:00 BUY SOXL: J=34.37 crossed > 22.2. Price=34.13
+2026-01-20T07:19:43.6957065Z TRACE:: Debug: 2025-10-01 10:00:00 SELL SOXL: J=61.20 crossed < 62.6.
+2026-01-20T07:19:43.6958074Z TRACE:: Log: 2025-09-30 15:50:00 --- Running End-of-Day Risk Check @ 2025-09-30 15:50:00 ---
+2026-01-20T07:19:43.6958768Z TRACE:: Log: 2025-09-30 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:43.6960416Z TRACE:: Debug: 2025-10-08 10:00:00 BUY SOXL: J=28.35 crossed > 22.2. Price=40.36
+2026-01-20T07:19:43.6961570Z TRACE:: Log: 2025-10-08 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-08 15:50:00 ---
+2026-01-20T07:19:43.6963184Z TRACE:: Log: 2025-10-08 15:50:00 HOLDING WINNER: SOXL is up $757.35. Letting it ride overnight.
+2026-01-20T07:19:43.6965827Z TRACE:: Debug: 2025-10-09 14:00:00 SELL SOXL: J=59.62 crossed < 62.6.
+2026-01-20T07:19:43.6967715Z TRACE:: Debug: 2025-10-13 10:00:00 BUY SOXL: J=52.01 crossed > 22.2. Price=38.68
+2026-01-20T07:19:43.6969186Z TRACE:: Debug: 2025-10-13 12:00:00 SELL SOXL: J=53.69 crossed < 62.6.
+2026-01-20T07:19:43.6969724Z TRACE:: Debug: 2025-10-15 10:00:00 BUY SOXL: J=56.98 crossed > 22.2. Price=39.13
+2026-01-20T07:19:43.6970249Z TRACE:: Log: 2025-10-15 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-15 15:50:00 ---
+2026-01-20T07:19:43.6972038Z TRACE:: Log: 2025-10-15 15:50:00 HOLDING WINNER: SOXL is up $413.91. Letting it ride overnight.
+2026-01-20T07:19:43.6972556Z TRACE:: Debug: 2025-10-17 10:00:00 SELL SOXL: J=54.58 crossed < 62.6.
+2026-01-20T07:19:43.6974256Z TRACE:: Log: 2025-10-16 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-16 15:50:00 ---
+2026-01-20T07:19:43.6975080Z TRACE:: Log: 2025-10-16 15:50:00 HOLDING WINNER: SOXL is up $679.63. Letting it ride overnight.
+2026-01-20T07:19:43.6976884Z TRACE:: Debug: 2025-10-22 16:00:00 BUY SOXL: J=46.94 crossed > 22.2. Price=38.38
+2026-01-20T07:19:43.6977652Z TRACE:: Log: 2025-10-23 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-23 15:50:00 ---
+2026-01-20T07:19:43.6978930Z TRACE:: Log: 2025-10-23 15:50:00 HOLDING WINNER: SOXL is up $1880.81. Letting it ride overnight.
+2026-01-20T07:19:43.6979752Z TRACE:: Log: 2025-10-24 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-24 15:50:00 ---
+2026-01-20T07:19:43.6980358Z TRACE:: Log: 2025-10-24 15:50:00 HOLDING WINNER: SOXL is up $3021.80. Letting it ride overnight.
+2026-01-20T07:19:43.6981053Z TRACE:: Log: 2025-10-27 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-27 15:50:00 ---
+2026-01-20T07:19:43.6981617Z TRACE:: Log: 2025-10-27 15:50:00 HOLDING WINNER: SOXL is up $4657.74. Letting it ride overnight.
+2026-01-20T07:19:43.6983220Z TRACE:: Log: 2025-10-28 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-28 15:50:00 ---
+2026-01-20T07:19:43.6984113Z TRACE:: Log: 2025-10-28 15:50:00 HOLDING WINNER: SOXL is up $4970.34. Letting it ride overnight.
+2026-01-20T07:19:43.6986152Z TRACE:: Log: 2025-10-29 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-29 15:50:00 ---
+2026-01-20T07:19:43.6987763Z TRACE:: Log: 2025-10-29 15:50:00 HOLDING WINNER: SOXL is up $6106.12. Letting it ride overnight.
+2026-01-20T07:19:43.6988215Z TRACE:: Debug: 2025-10-30 11:00:00 SELL SOXL: J=43.09 crossed < 62.6.
+2026-01-20T07:19:43.6988759Z TRACE:: Debug: 2025-10-30 13:00:00 BUY SOXL: J=39.89 crossed > 22.2. Price=48.68
+2026-01-20T07:19:43.6989899Z TRACE:: Debug: 2025-10-31 10:00:00 BUY SOXL: J=26.55 crossed > 22.2. Price=48.87
+2026-01-20T07:19:43.6992595Z TRACE:: Log: 2025-10-30 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-30 15:50:00 ---
+2026-01-20T07:19:43.6994148Z TRACE:: Log: 2025-10-30 15:50:00 CLOSING LOSER: SOXL is down $-77.90. avoiding overnight risk.
+2026-01-20T07:19:43.6994682Z TRACE:: Debug: 2025-10-31 12:00:00 SELL SOXL: J=49.64 crossed < 62.6.
+2026-01-20T07:19:43.6995962Z TRACE:: Debug: 2025-10-31 15:00:00 BUY SOXL: J=39.63 crossed > 22.2. Price=47.91
+2026-01-20T07:19:43.6996780Z TRACE:: Log: 2025-10-31 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-31 15:50:00 ---
+2026-01-20T07:19:43.6997670Z TRACE:: Log: 2025-10-31 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2026-01-20T07:19:43.6998255Z TRACE:: Debug: 2025-11-03 12:00:00 SELL SOXL: J=61.93 crossed < 62.6.
+2026-01-20T07:19:43.6998687Z TRACE:: Debug: 2025-11-05 10:00:00 BUY SOXL: J=48.16 crossed > 22.2. Price=45.79
+2026-01-20T07:19:43.6999042Z TRACE:: Debug: 2025-11-05 12:00:00 SELL SOXL: J=61.06 crossed < 62.6.
+2026-01-20T07:19:43.6999369Z TRACE:: Debug: 2025-11-06 13:00:00 BUY SOXL: J=26.28 crossed > 22.2. Price=43.81
+2026-01-20T07:19:43.6999807Z TRACE:: Log: 2025-11-06 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-06 15:50:00 ---
+2026-01-20T07:19:43.7000365Z TRACE:: Log: 2025-11-06 15:50:00 HOLDING WINNER: SOXL is up $310.08. Letting it ride overnight.
+2026-01-20T07:19:43.7000899Z TRACE:: Debug: 2025-11-07 14:00:00 BUY SOXL: J=24.54 crossed > 22.2. Price=39.26
+2026-01-20T07:19:43.7001268Z TRACE:: Log: 2025-11-07 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=38.20 < Stop=39.17. P/L=-2558.16
+2026-01-20T07:19:43.7001633Z TRACE:: Log: 2025-11-07 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-07 15:50:00 ---
+2026-01-20T07:19:43.7001912Z TRACE:: Log: 2025-11-07 15:50:00 HOLDING WINNER: SOXL is up $738.05. Letting it ride overnight.
+2026-01-20T07:19:43.7002437Z TRACE:: Log: 2025-11-10 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-10 15:50:00 ---
+2026-01-20T07:19:43.7002948Z TRACE:: Log: 2025-11-10 15:50:00 HOLDING WINNER: SOXL is up $2921.66. Letting it ride overnight.
+2026-01-20T07:19:43.7003202Z TRACE:: Debug: 2025-11-11 11:00:00 SELL SOXL: J=52.06 crossed < 62.6.
+2026-01-20T07:19:43.7003921Z TRACE:: Debug: 2025-11-12 10:00:00 BUY SOXL: J=28.30 crossed > 22.2. Price=43.38
+2026-01-20T07:19:43.7004552Z TRACE:: Debug: 2025-11-12 12:00:00 SELL SOXL: J=61.84 crossed < 62.6.
+2026-01-20T07:19:43.7005248Z TRACE:: Debug: 2025-11-14 10:00:00 BUY SOXL: J=46.40 crossed > 22.2. Price=38.97
+2026-01-20T07:19:43.7005728Z TRACE:: Debug: 2025-11-14 13:00:00 SELL SOXL: J=56.29 crossed < 62.6.
+2026-01-20T07:19:43.7006505Z TRACE:: Debug: 2025-11-18 12:00:00 BUY SOXL: J=25.63 crossed > 22.2. Price=34.76
+2026-01-20T07:19:43.7007664Z TRACE:: Log: 2025-11-18 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-18 15:50:00 ---
+2026-01-20T07:19:43.7008342Z TRACE:: Log: 2025-11-18 15:50:00 HOLDING WINNER: SOXL is up $310.50. Letting it ride overnight.
+2026-01-20T07:19:43.7009487Z TRACE:: Debug: 2025-11-19 12:00:00 SELL SOXL: J=43.80 crossed < 62.6.
+2026-01-20T07:19:43.7010654Z TRACE:: Debug: 2025-11-21 12:00:00 BUY SOXL: J=35.05 crossed > 22.2. Price=32.0
+2026-01-20T07:19:43.7012417Z TRACE:: Log: 2025-11-21 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-21 15:50:00 ---
+2026-01-20T07:19:43.7013032Z TRACE:: Log: 2025-11-21 15:50:00 HOLDING WINNER: SOXL is up $156.25. Letting it ride overnight.
+2026-01-20T07:19:43.7013790Z TRACE:: Log: 2025-11-24 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-24 15:50:00 ---
+2026-01-20T07:19:43.7014678Z TRACE:: Log: 2025-11-24 15:50:00 HOLDING WINNER: SOXL is up $2225.00. Letting it ride overnight.
+2026-01-20T07:19:43.7015670Z TRACE:: Debug: 2025-11-25 11:00:00 SELL SOXL: J=57.29 crossed < 62.6.
+2026-01-20T07:19:43.7016259Z TRACE:: Debug: 2025-12-11 12:00:00 BUY SOXL: J=43.22 crossed > 22.2. Price=46.2
+2026-01-20T07:19:43.7016717Z TRACE:: Debug: 2025-12-12 10:00:00 SELL SOXL: J=38.86 crossed < 62.6.
+2026-01-20T07:19:43.7018470Z TRACE:: Log: 2025-12-11 15:50:00 --- Running End-of-Day Risk Check @ 2025-12-11 15:50:00 ---
+2026-01-20T07:19:43.7019872Z TRACE:: Log: 2025-12-11 15:50:00 HOLDING WINNER: SOXL is up $825.12. Letting it ride overnight.
+2026-01-20T07:19:43.7020705Z TRACE:: Debug: 2025-12-16 11:00:00 BUY SOXL: J=32.70 crossed > 22.2. Price=40.5
+2026-01-20T07:19:43.7021285Z TRACE:: Debug: 2025-12-16 16:00:00 BUY SOXL: J=26.91 crossed > 22.2. Price=40.44
+2026-01-20T07:19:43.7021938Z TRACE:: Log: 2025-12-16 15:50:00 --- Running End-of-Day Risk Check @ 2025-12-16 15:50:00 ---
+2026-01-20T07:19:43.7022505Z TRACE:: Log: 2025-12-16 15:50:00 CLOSING LOSER: SOXL is down $-295.80. avoiding overnight risk.
+2026-01-20T07:19:43.7024573Z TRACE:: Debug: 2025-12-18 10:00:00 BUY SOXL: J=70.58 crossed > 22.2. Price=39.89
+2026-01-20T07:19:43.7025397Z TRACE:: Log: 2025-12-17 14:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=36.17 < Stop=36.60. P/L=-2386.02
+2026-01-20T07:19:43.7026095Z TRACE:: Debug: 2025-12-18 15:00:00 SELL SOXL: J=51.51 crossed < 62.6.
+2026-01-20T07:19:43.7026708Z TRACE:: Debug: 2025-12-29 12:00:00 BUY SOXL: J=30.94 crossed > 22.2. Price=43.19
+2026-01-20T07:19:43.7027552Z TRACE:: Log: 2025-12-29 15:50:00 --- Running End-of-Day Risk Check @ 2025-12-29 15:50:00 ---
+2026-01-20T07:19:43.7028098Z TRACE:: Log: 2025-12-29 15:50:00 HOLDING WINNER: SOXL is up $199.09. Letting it ride overnight.
+2026-01-20T07:19:43.7028494Z TRACE:: Debug: 2025-12-30 15:00:00 SELL SOXL: J=58.33 crossed < 62.6.
+2026-01-20T07:19:43.7028842Z TRACE:: Debug: Algorithm Id:(1675259144) completed in 3.81 seconds at 5k data points per second. Processing total of 19,466 data points.
+2026-01-20T07:19:43.7029297Z TRACE:: Debug: Your log was successfully created and can be retrieved from: /Results/1675259144-log.txt
+2026-01-20T07:19:43.7029772Z TRACE:: BacktestingResultHandler.Run(): Ending Thread...
+2026-01-20T07:19:44.8153092Z TRACE:: 
+STATISTICS:: Total Orders 526
+STATISTICS:: Average Win 2.52%
+STATISTICS:: Average Loss -1.40%
+STATISTICS:: Compounding Annual Return 14.546%
+STATISTICS:: Drawdown 22.500%
+STATISTICS:: Expectancy 0.215
+STATISTICS:: Start Equity 30000
+STATISTICS:: End Equity 59172.82
+STATISTICS:: Net Profit 97.243%
+STATISTICS:: Sharpe Ratio 0.446
+STATISTICS:: Sortino Ratio 0.391
+STATISTICS:: Probabilistic Sharpe Ratio 14.547%
+STATISTICS:: Loss Rate 57%
+STATISTICS:: Win Rate 43%
+STATISTICS:: Profit-Loss Ratio 1.80
+STATISTICS:: Alpha 0.053
+STATISTICS:: Beta 0.32
+STATISTICS:: Annual Standard Deviation 0.177
+STATISTICS:: Annual Variance 0.031
+STATISTICS:: Information Ratio -0.008
+STATISTICS:: Tracking Error 0.209
+STATISTICS:: Treynor Ratio 0.246
+STATISTICS:: Total Fees $0.00
+STATISTICS:: Estimated Strategy Capacity $15000000.00
+STATISTICS:: Lowest Capacity Asset SOXL 2T
+STATISTICS:: Portfolio Turnover 13.30%
+STATISTICS:: Drawdown Recovery 593
+STATISTICS:: OrderListHash 7faf18160949a1536c4412d655cb6352
+2026-01-20T07:19:44.8154788Z TRACE:: BacktestingResultHandler.SendAnalysisResult(): Processed final packet
+2026-01-20T07:19:44.8164180Z TRACE:: Engine.Run(): Disconnecting from brokerage...
+2026-01-20T07:19:44.8167406Z TRACE:: Engine.Run(): Disposing of setup handler...
+2026-01-20T07:19:44.8168463Z TRACE:: Engine.Main(): Analysis Completed and Results Posted.
+2026-01-20T07:19:44.8177272Z TRACE:: DataMonitor.Exit(): start...
+2026-01-20T07:19:44.8178303Z TRACE:: StopSafely(): Waiting for '' thread to stop...
+2026-01-20T07:19:44.8197887Z TRACE:: DataMonitor.GenerateReport():
+DATA USAGE:: Total data requests 3
+DATA USAGE:: Succeeded data requests 3
+DATA USAGE:: Failed data requests 0
+DATA USAGE:: Failed data requests percentage 0%
+DATA USAGE:: Total universe data requests 0
+DATA USAGE:: Succeeded universe data requests 0
+DATA USAGE:: Failed universe data requests 0
+DATA USAGE:: Failed universe data requests percentage 0%
+2026-01-20T07:19:44.8380220Z TRACE:: DataMonitor.Exit(): end
+2026-01-20T07:19:44.8688987Z TRACE:: Engine.Main(): Packet removed from queue: 1675259144
+2026-01-20T07:19:44.8692339Z TRACE:: LeanEngineSystemHandlers.Dispose(): start...
+2026-01-20T07:19:44.8713184Z TRACE:: LeanEngineSystemHandlers.Dispose(): Disposed of system handlers.
+2026-01-20T07:19:44.8720010Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): start...
+2026-01-20T07:19:44.8727900Z TRACE:: LocalObjectStore.Dispose(): start...
+2026-01-20T07:19:44.8730232Z TRACE:: LocalObjectStore.Dispose(): end
+2026-01-20T07:19:44.8736267Z TRACE:: LeanEngineAlgorithmHandlers.Dispose(): Disposed of algorithm handlers.

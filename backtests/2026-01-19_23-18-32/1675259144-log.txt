@@ -1,0 +1,1362 @@
+Algorithm Initialization: Logging into account. Check phone for two-factor authentication verification...
+Launching analysis for 1675259144 with LEAN Engine v2.5.0.0
+2021-01-01 00:00:00 Warning: SetBenchmark(QQQ): no existing symbol found, benchmark security will be added with Equity type.
+2021-01-01 00:00:00 Scheduled EOD Risk Check 10 minutes before close.
+2020-06-15 00:00:00 Algorithm starting warm up...
+2021-01-04 10:00:00 Algorithm finished warming up.
+2021-01-04 14:00:00 BUY SOXL: J=32.24 crossed > 22.2. Price=31.04
+2021-01-05 10:00:00 BUY SOXL: J=53.49 crossed > 22.2. Price=31.87
+2021-01-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-04 15:50:00 ---
+2021-01-04 15:50:00 CLOSING LOSER: SOXL is down $-302.68. avoiding overnight risk.
+2021-01-05 12:00:00 SELL SOXL: J=47.04 crossed < 62.6.
+2021-01-15 13:00:00 BUY SOXL: J=35.56 crossed > 22.2. Price=38.52
+2021-01-19 10:00:00 BUY SOXL: J=61.67 crossed > 22.2. Price=40.08
+2021-01-15 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-15 15:50:00 ---
+2021-01-15 15:50:00 CLOSING LOSER: SOXL is down $-119.37. avoiding overnight risk.
+2021-01-19 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-19 15:50:00 ---
+2021-01-19 15:50:00 HOLDING WINNER: SOXL is up $728.54. Letting it ride overnight.
+2021-01-20 12:00:00 SELL SOXL: J=56.46 crossed < 62.6.
+2021-01-21 14:00:00 BUY SOXL: J=29.20 crossed > 22.2. Price=42.05
+2021-01-22 10:00:00 SELL SOXL: J=60.31 crossed < 62.6.
+2021-01-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-21 15:50:00 ---
+2021-01-21 15:50:00 HOLDING WINNER: SOXL is up $247.00. Letting it ride overnight.
+2021-01-25 10:00:00 BUY SOXL: J=31.82 crossed > 22.2. Price=41.83
+2021-01-25 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-25 15:50:00 ---
+2021-01-25 15:50:00 CLOSING LOSER: SOXL is down $-568.82. avoiding overnight risk.
+2021-01-26 14:00:00 BUY SOXL: J=31.48 crossed > 22.2. Price=39.65
+2021-01-26 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-26 15:50:00 ---
+2021-01-26 15:50:00 CLOSING LOSER: SOXL is down $-151.20. avoiding overnight risk.
+2021-01-27 11:00:00 BUY SOXL: J=25.80 crossed > 22.2. Price=35.94
+2021-01-28 10:00:00 BUY SOXL: J=23.95 crossed > 22.2. Price=34.3
+2021-01-27 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-27 15:50:00 ---
+2021-01-27 15:50:00 CLOSING LOSER: SOXL is down $-1312.16. avoiding overnight risk.
+2021-01-28 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-28 15:50:00 ---
+2021-01-28 15:50:00 HOLDING WINNER: SOXL is up $1142.68. Letting it ride overnight.
+2021-01-29 12:00:00 SELL SOXL: J=57.80 crossed < 62.6.
+2021-01-29 15:00:00 BUY SOXL: J=23.39 crossed > 22.2. Price=33.36
+2021-01-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-01-29 15:50:00 ---
+2021-01-29 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2021-02-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-01 15:50:00 ---
+2021-02-01 15:50:00 HOLDING WINNER: SOXL is up $2324.12. Letting it ride overnight.
+2021-02-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-02 15:50:00 ---
+2021-02-02 15:50:00 HOLDING WINNER: SOXL is up $3294.50. Letting it ride overnight.
+2021-02-03 11:00:00 SELL SOXL: J=46.89 crossed < 62.6.
+2021-02-04 11:00:00 BUY SOXL: J=29.91 crossed > 22.2. Price=36.53
+2021-02-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-04 15:50:00 ---
+2021-02-04 15:50:00 HOLDING WINNER: SOXL is up $147.69. Letting it ride overnight.
+2021-02-05 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-05 15:50:00 ---
+2021-02-05 15:50:00 HOLDING WINNER: SOXL is up $229.74. Letting it ride overnight.
+2021-02-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-08 15:50:00 ---
+2021-02-08 15:50:00 HOLDING WINNER: SOXL is up $1750.40. Letting it ride overnight.
+2021-02-09 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-09 15:50:00 ---
+2021-02-09 15:50:00 HOLDING WINNER: SOXL is up $1794.16. Letting it ride overnight.
+2021-02-10 11:00:00 SELL SOXL: J=51.03 crossed < 62.6.
+2021-02-17 14:00:00 BUY SOXL: J=32.40 crossed > 22.2. Price=43.67
+2021-02-17 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-17 15:50:00 ---
+2021-02-17 15:50:00 HOLDING WINNER: SOXL is up $95.97. Letting it ride overnight.
+2021-02-18 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-18 15:50:00 ---
+2021-02-18 15:50:00 CLOSING LOSER: SOXL is down $-425.01. avoiding overnight risk.
+2021-02-23 11:00:00 BUY SOXL: J=38.95 crossed > 22.2. Price=39.03
+2021-02-23 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-23 15:50:00 ---
+2021-02-23 15:50:00 HOLDING WINNER: SOXL is up $199.68. Letting it ride overnight.
+2021-02-24 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-24 15:50:00 ---
+2021-02-24 15:50:00 HOLDING WINNER: SOXL is up $1955.84. Letting it ride overnight.
+2021-02-25 11:00:00 SELL SOXL: J=42.36 crossed < 62.6.
+2021-02-26 11:00:00 BUY SOXL: J=31.80 crossed > 22.2. Price=37.79
+2021-02-26 15:50:00 --- Running End-of-Day Risk Check @ 2021-02-26 15:50:00 ---
+2021-02-26 15:50:00 HOLDING WINNER: SOXL is up $613.64. Letting it ride overnight.
+2021-03-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-01 15:50:00 ---
+2021-03-01 15:50:00 HOLDING WINNER: SOXL is up $2264.12. Letting it ride overnight.
+2021-03-02 11:00:00 SELL SOXL: J=41.70 crossed < 62.6.
+2021-03-02 13:00:00 BUY SOXL: J=25.35 crossed > 22.2. Price=40.0
+2021-03-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-02 15:50:00 ---
+2021-03-02 15:50:00 CLOSING LOSER: SOXL is down $-10.00. avoiding overnight risk.
+2021-03-04 12:00:00 BUY SOXL: J=28.79 crossed > 22.2. Price=33.18
+2021-03-04 16:00:00 BUY SOXL: J=22.53 crossed > 22.2. Price=29.9
+2021-03-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-04 15:50:00 ---
+2021-03-04 15:50:00 CLOSING LOSER: SOXL is down $-1571.22. avoiding overnight risk.
+2021-03-05 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-05 15:50:00 ---
+2021-03-05 15:50:00 HOLDING WINNER: SOXL is up $367.40. Letting it ride overnight.
+2021-03-08 12:00:00 SELL SOXL: J=37.47 crossed < 62.6.
+2021-03-09 10:00:00 BUY SOXL: J=62.03 crossed > 22.2. Price=31.32
+2021-03-09 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-09 15:50:00 ---
+2021-03-09 15:50:00 HOLDING WINNER: SOXL is up $988.90. Letting it ride overnight.
+2021-03-10 14:00:00 SELL SOXL: J=51.79 crossed < 62.6.
+2021-03-11 10:00:00 BUY SOXL: J=59.36 crossed > 22.2. Price=33.45
+2021-03-12 10:00:00 SELL SOXL: J=61.43 crossed < 62.6.
+2021-03-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-11 15:50:00 ---
+2021-03-11 15:50:00 HOLDING WINNER: SOXL is up $662.67. Letting it ride overnight.
+2021-03-12 12:00:00 BUY SOXL: J=25.68 crossed > 22.2. Price=32.4
+2021-03-12 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-12 15:50:00 ---
+2021-03-12 15:50:00 HOLDING WINNER: SOXL is up $542.96. Letting it ride overnight.
+2021-03-15 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-15 15:50:00 ---
+2021-03-15 15:50:00 HOLDING WINNER: SOXL is up $1665.90. Letting it ride overnight.
+2021-03-17 10:00:00 SELL SOXL: J=55.14 crossed < 62.6.
+2021-03-16 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-16 15:50:00 ---
+2021-03-16 15:50:00 HOLDING WINNER: SOXL is up $2708.63. Letting it ride overnight.
+2021-03-18 12:00:00 BUY SOXL: J=33.30 crossed > 22.2. Price=36.17
+2021-03-18 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-18 15:50:00 ---
+2021-03-18 15:50:00 CLOSING LOSER: SOXL is down $-982.56. avoiding overnight risk.
+2021-03-19 11:00:00 BUY SOXL: J=35.30 crossed > 22.2. Price=34.36
+2021-03-19 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-19 15:50:00 ---
+2021-03-19 15:50:00 HOLDING WINNER: SOXL is up $325.92. Letting it ride overnight.
+2021-03-23 10:00:00 SELL SOXL: J=61.51 crossed < 62.6.
+2021-03-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-22 15:50:00 ---
+2021-03-22 15:50:00 HOLDING WINNER: SOXL is up $2037.00. Letting it ride overnight.
+2021-03-24 10:00:00 BUY SOXL: J=28.25 crossed > 22.2. Price=34.62
+2021-03-24 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-24 15:50:00 ---
+2021-03-24 15:50:00 CLOSING LOSER: SOXL is down $-490.45. avoiding overnight risk.
+2021-03-25 13:00:00 BUY SOXL: J=46.50 crossed > 22.2. Price=32.35
+2021-03-25 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-25 15:50:00 ---
+2021-03-25 15:50:00 HOLDING WINNER: SOXL is up $123.60. Letting it ride overnight.
+2021-03-26 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-26 15:50:00 ---
+2021-03-26 15:50:00 HOLDING WINNER: SOXL is up $2064.12. Letting it ride overnight.
+2021-03-29 11:00:00 SELL SOXL: J=53.66 crossed < 62.6.
+2021-03-30 15:00:00 BUY SOXL: J=31.79 crossed > 22.2. Price=35.34
+2021-03-30 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-30 15:50:00 ---
+2021-03-30 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2021-03-31 15:50:00 --- Running End-of-Day Risk Check @ 2021-03-31 15:50:00 ---
+2021-03-31 15:50:00 HOLDING WINNER: SOXL is up $1921.00. Letting it ride overnight.
+2021-04-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-01 15:50:00 ---
+2021-04-01 15:50:00 HOLDING WINNER: SOXL is up $3853.30. Letting it ride overnight.
+2021-04-05 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-05 15:50:00 ---
+2021-04-05 15:50:00 HOLDING WINNER: SOXL is up $5604.80. Letting it ride overnight.
+2021-04-06 14:00:00 SELL SOXL: J=40.34 crossed < 62.6.
+2021-04-07 14:00:00 BUY SOXL: J=41.49 crossed > 22.2. Price=43.28
+2021-04-07 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-07 15:50:00 ---
+2021-04-07 15:50:00 HOLDING WINNER: SOXL is up $207.90. Letting it ride overnight.
+2021-04-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-08 15:50:00 ---
+2021-04-08 15:50:00 HOLDING WINNER: SOXL is up $498.96. Letting it ride overnight.
+2021-04-09 11:00:00 SELL SOXL: J=44.92 crossed < 62.6.
+2021-04-12 12:00:00 BUY SOXL: J=37.98 crossed > 22.2. Price=42.67
+2021-04-12 16:00:00 BUY SOXL: J=52.41 crossed > 22.2. Price=43.03
+2021-04-12 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-12 15:50:00 ---
+2021-04-12 15:50:00 CLOSING LOSER: SOXL is down $-14.04. avoiding overnight risk.
+2021-04-13 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-13 15:50:00 ---
+2021-04-13 15:50:00 CLOSING LOSER: SOXL is down $-742.40. avoiding overnight risk.
+2021-04-15 10:00:00 BUY SOXL: J=58.69 crossed > 22.2. Price=42.24
+2021-04-15 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-15 15:50:00 ---
+2021-04-15 15:50:00 HOLDING WINNER: SOXL is up $577.06. Letting it ride overnight.
+2021-04-16 14:00:00 SELL SOXL: J=60.40 crossed < 62.6.
+2021-04-19 16:00:00 BUY SOXL: J=25.62 crossed > 22.2. Price=39.46
+2021-04-21 10:00:00 BUY SOXL: J=42.38 crossed > 22.2. Price=38.85
+2021-04-20 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-20 15:50:00 ---
+2021-04-20 15:50:00 CLOSING LOSER: SOXL is down $-941.16. avoiding overnight risk.
+2021-04-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-21 15:50:00 ---
+2021-04-21 15:50:00 HOLDING WINNER: SOXL is up $508.86. Letting it ride overnight.
+2021-04-22 11:00:00 SELL SOXL: J=56.28 crossed < 62.6.
+2021-04-22 16:00:00 BUY SOXL: J=25.65 crossed > 22.2. Price=37.94
+2021-04-23 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-23 15:50:00 ---
+2021-04-23 15:50:00 HOLDING WINNER: SOXL is up $1054.00. Letting it ride overnight.
+2021-04-26 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-26 15:50:00 ---
+2021-04-26 15:50:00 HOLDING WINNER: SOXL is up $2065.84. Letting it ride overnight.
+2021-04-27 11:00:00 SELL SOXL: J=45.32 crossed < 62.6.
+2021-04-29 11:00:00 BUY SOXL: J=36.06 crossed > 22.2. Price=39.58
+2021-04-30 10:00:00 SELL SOXL: J=28.50 crossed < 62.6.
+2021-04-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-04-29 15:50:00 ---
+2021-04-29 15:50:00 HOLDING WINNER: SOXL is up $308.05. Letting it ride overnight.
+2021-05-04 14:00:00 BUY SOXL: J=25.65 crossed > 22.2. Price=33.18
+2021-05-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-04 15:50:00 ---
+2021-05-04 15:50:00 HOLDING WINNER: SOXL is up $258.86. Letting it ride overnight.
+2021-05-05 16:00:00 SELL SOXL: J=61.68 crossed < 62.6.
+2021-05-05 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-05 15:50:00 ---
+2021-05-05 15:50:00 HOLDING WINNER: SOXL is up $1125.74. Letting it ride overnight.
+2021-05-06 16:00:00 BUY SOXL: J=79.88 crossed > 22.2. Price=35.37
+2021-05-10 10:00:00 SELL SOXL: J=21.87 crossed < 62.6.
+2021-05-07 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-07 15:50:00 ---
+2021-05-07 15:50:00 HOLDING WINNER: SOXL is up $56.50. Letting it ride overnight.
+2021-05-11 10:00:00 BUY SOXL: J=27.21 crossed > 22.2. Price=31.27
+2021-05-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-11 15:50:00 ---
+2021-05-11 15:50:00 HOLDING WINNER: SOXL is up $408.96. Letting it ride overnight.
+2021-05-13 10:00:00 BUY SOXL: J=53.63 crossed > 22.2. Price=30.19
+2021-05-12 15:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=28.36 < Stop=28.38. P/L=-1859.49
+2021-05-13 12:00:00 SELL SOXL: J=20.00 crossed < 62.6.
+2021-05-13 14:00:00 BUY SOXL: J=22.67 crossed > 22.2. Price=28.82
+2021-05-13 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-13 15:50:00 ---
+2021-05-13 15:50:00 HOLDING WINNER: SOXL is up $381.15. Letting it ride overnight.
+2021-05-14 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-14 15:50:00 ---
+2021-05-14 15:50:00 HOLDING WINNER: SOXL is up $2626.47. Letting it ride overnight.
+2021-05-17 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=29.74 < Stop=29.84. P/L=637.56
+2021-05-19 11:00:00 BUY SOXL: J=50.87 crossed > 22.2. Price=30.42
+2021-05-19 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-19 15:50:00 ---
+2021-05-19 15:50:00 HOLDING WINNER: SOXL is up $650.43. Letting it ride overnight.
+2021-05-20 15:50:00 --- Running End-of-Day Risk Check @ 2021-05-20 15:50:00 ---
+2021-05-20 15:50:00 HOLDING WINNER: SOXL is up $2943.36. Letting it ride overnight.
+2021-05-21 12:00:00 SELL SOXL: J=61.27 crossed < 62.6.
+2021-06-01 13:00:00 BUY SOXL: J=35.46 crossed > 22.2. Price=38.26
+2021-06-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-01 15:50:00 ---
+2021-06-01 15:50:00 HOLDING WINNER: SOXL is up $240.12. Letting it ride overnight.
+2021-06-02 13:00:00 SELL SOXL: J=50.00 crossed < 62.6.
+2021-06-03 11:00:00 BUY SOXL: J=24.17 crossed > 22.2. Price=37.93
+2021-06-04 10:00:00 BUY SOXL: J=85.50 crossed > 22.2. Price=39.29
+2021-06-03 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-03 15:50:00 ---
+2021-06-03 15:50:00 CLOSING LOSER: SOXL is down $-295.12. avoiding overnight risk.
+2021-06-04 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-04 15:50:00 ---
+2021-06-04 15:50:00 HOLDING WINNER: SOXL is up $259.59. Letting it ride overnight.
+2021-06-07 11:00:00 SELL SOXL: J=57.17 crossed < 62.6.
+2021-06-08 13:00:00 BUY SOXL: J=52.63 crossed > 22.2. Price=38.42
+2021-06-08 16:00:00 BUY SOXL: J=30.82 crossed > 22.2. Price=38.13
+2021-06-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-08 15:50:00 ---
+2021-06-08 15:50:00 CLOSING LOSER: SOXL is down $-187.20. avoiding overnight risk.
+2021-06-10 10:00:00 BUY SOXL: J=88.24 crossed > 22.2. Price=39.13
+2021-06-09 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-09 15:50:00 ---
+2021-06-09 15:50:00 CLOSING LOSER: SOXL is down $-382.52. avoiding overnight risk.
+2021-06-10 12:00:00 SELL SOXL: J=22.02 crossed < 62.6.
+2021-06-10 13:00:00 BUY SOXL: J=68.40 crossed > 22.2. Price=38.67
+2021-06-10 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-10 15:50:00 ---
+2021-06-10 15:50:00 HOLDING WINNER: SOXL is up $268.84. Letting it ride overnight.
+2021-06-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-11 15:50:00 ---
+2021-06-11 15:50:00 HOLDING WINNER: SOXL is up $294.69. Letting it ride overnight.
+2021-06-14 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-14 15:50:00 ---
+2021-06-14 15:50:00 HOLDING WINNER: SOXL is up $951.28. Letting it ride overnight.
+2021-06-15 12:00:00 SELL SOXL: J=49.22 crossed < 62.6.
+2021-06-16 16:00:00 BUY SOXL: J=29.39 crossed > 22.2. Price=39.17
+2021-06-17 13:00:00 SELL SOXL: J=49.91 crossed < 62.6.
+2021-06-21 10:00:00 BUY SOXL: J=38.18 crossed > 22.2. Price=38.07
+2021-06-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-06-21 15:50:00 ---
+2021-06-21 15:50:00 CLOSING LOSER: SOXL is down $-21.00. avoiding overnight risk.
+2021-07-01 12:00:00 BUY SOXL: J=26.22 crossed > 22.2. Price=42.75
+2021-07-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-01 15:50:00 ---
+2021-07-01 15:50:00 HOLDING WINNER: SOXL is up $84.06. Letting it ride overnight.
+2021-07-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-02 15:50:00 ---
+2021-07-02 15:50:00 HOLDING WINNER: SOXL is up $135.43. Letting it ride overnight.
+2021-07-06 11:00:00 SELL SOXL: J=51.97 crossed < 62.6.
+2021-07-07 15:00:00 BUY SOXL: J=22.32 crossed > 22.2. Price=41.46
+2021-07-07 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-07 15:50:00 ---
+2021-07-07 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2021-07-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-08 15:50:00 ---
+2021-07-08 15:50:00 CLOSING LOSER: SOXL is down $-1026.66. avoiding overnight risk.
+2021-07-14 14:00:00 BUY SOXL: J=32.76 crossed > 22.2. Price=42.39
+2021-07-14 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-14 15:50:00 ---
+2021-07-14 15:50:00 HOLDING WINNER: SOXL is up $94.20. Letting it ride overnight.
+2021-07-15 14:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=38.60 < Stop=39.18. P/L=-1785.09
+2021-07-19 11:00:00 BUY SOXL: J=30.90 crossed > 22.2. Price=36.54
+2021-07-19 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-19 15:50:00 ---
+2021-07-19 15:50:00 CLOSING LOSER: SOXL is down $-196.92. avoiding overnight risk.
+2021-07-27 15:00:00 BUY SOXL: J=42.14 crossed > 22.2. Price=38.62
+2021-07-27 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-27 15:50:00 ---
+2021-07-27 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2021-07-28 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-28 15:50:00 ---
+2021-07-28 15:50:00 HOLDING WINNER: SOXL is up $1328.69. Letting it ride overnight.
+2021-07-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-07-29 15:50:00 ---
+2021-07-29 15:50:00 HOLDING WINNER: SOXL is up $2429.90. Letting it ride overnight.
+2021-07-30 12:00:00 SELL SOXL: J=54.42 crossed < 62.6.
+2021-08-06 12:00:00 BUY SOXL: J=46.99 crossed > 22.2. Price=47.15
+2021-08-09 10:00:00 BUY SOXL: J=37.53 crossed > 22.2. Price=46.34
+2021-08-06 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-06 15:50:00 ---
+2021-08-06 15:50:00 CLOSING LOSER: SOXL is down $-267.12. avoiding overnight risk.
+2021-08-09 14:00:00 SELL SOXL: J=46.85 crossed < 62.6.
+2021-08-10 13:00:00 BUY SOXL: J=26.66 crossed > 22.2. Price=44.45
+2021-08-10 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-10 15:50:00 ---
+2021-08-10 15:50:00 HOLDING WINNER: SOXL is up $130.21. Letting it ride overnight.
+2021-08-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-11 15:50:00 ---
+2021-08-11 15:50:00 CLOSING LOSER: SOXL is down $-211.03. avoiding overnight risk.
+2021-08-12 12:00:00 BUY SOXL: J=50.37 crossed > 22.2. Price=42.88
+2021-08-12 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-12 15:50:00 ---
+2021-08-12 15:50:00 CLOSING LOSER: SOXL is down $-37.28. avoiding overnight risk.
+2021-08-16 13:00:00 BUY SOXL: J=30.24 crossed > 22.2. Price=42.33
+2021-08-16 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-16 15:50:00 ---
+2021-08-16 15:50:00 HOLDING WINNER: SOXL is up $169.92. Letting it ride overnight.
+2021-08-17 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=40.43 < Stop=40.83. P/L=-896.80
+2021-08-17 15:00:00 BUY SOXL: J=29.35 crossed > 22.2. Price=40.28
+2021-08-17 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-17 15:50:00 ---
+2021-08-17 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2021-08-18 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-18 15:50:00 ---
+2021-08-18 15:50:00 CLOSING LOSER: SOXL is down $-34.72. avoiding overnight risk.
+2021-08-19 11:00:00 BUY SOXL: J=47.32 crossed > 22.2. Price=38.95
+2021-08-19 15:00:00 SELL SOXL: J=59.29 crossed < 62.6.
+2021-08-31 12:00:00 BUY SOXL: J=45.27 crossed > 22.2. Price=46.85
+2021-08-31 15:50:00 --- Running End-of-Day Risk Check @ 2021-08-31 15:50:00 ---
+2021-08-31 15:50:00 HOLDING WINNER: SOXL is up $153.36. Letting it ride overnight.
+2021-09-02 10:00:00 BUY SOXL: J=23.48 crossed > 22.2. Price=45.96
+2021-09-01 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-01 15:50:00 ---
+2021-09-01 15:50:00 CLOSING LOSER: SOXL is down $-242.82. avoiding overnight risk.
+2021-09-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-02 15:50:00 ---
+2021-09-02 15:50:00 HOLDING WINNER: SOXL is up $100.05. Letting it ride overnight.
+2021-09-03 12:00:00 SELL SOXL: J=52.60 crossed < 62.6.
+2021-09-08 14:00:00 BUY SOXL: J=25.19 crossed > 22.2. Price=44.49
+2021-09-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-08 15:50:00 ---
+2021-09-08 15:50:00 HOLDING WINNER: SOXL is up $175.11. Letting it ride overnight.
+2021-09-09 14:00:00 SELL SOXL: J=57.62 crossed < 62.6.
+2021-09-16 12:00:00 BUY SOXL: J=45.48 crossed > 22.2. Price=47.8
+2021-09-17 10:00:00 SELL SOXL: J=8.14 crossed < 62.6.
+2021-09-16 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-16 15:50:00 ---
+2021-09-16 15:50:00 HOLDING WINNER: SOXL is up $535.04. Letting it ride overnight.
+2021-09-17 13:00:00 BUY SOXL: J=28.08 crossed > 22.2. Price=46.82
+2021-09-17 16:00:00 BUY SOXL: J=25.98 crossed > 22.2. Price=46.75
+2021-09-17 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-17 15:50:00 ---
+2021-09-17 15:50:00 CLOSING LOSER: SOXL is down $-72.59. avoiding overnight risk.
+2021-09-20 16:00:00 BUY SOXL: J=25.83 crossed > 22.2. Price=43.25
+2021-09-20 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=43.07 < Stop=43.51. P/L=-290.36
+2021-09-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-21 15:50:00 ---
+2021-09-21 15:50:00 HOLDING WINNER: SOXL is up $36.96. Letting it ride overnight.
+2021-09-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-22 15:50:00 ---
+2021-09-22 15:50:00 HOLDING WINNER: SOXL is up $674.52. Letting it ride overnight.
+2021-09-23 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-23 15:50:00 ---
+2021-09-23 15:50:00 HOLDING WINNER: SOXL is up $1949.64. Letting it ride overnight.
+2021-09-24 11:00:00 SELL SOXL: J=57.10 crossed < 62.6.
+2021-09-30 10:00:00 BUY SOXL: J=26.93 crossed > 22.2. Price=41.37
+2021-09-30 15:50:00 --- Running End-of-Day Risk Check @ 2021-09-30 15:50:00 ---
+2021-09-30 15:50:00 CLOSING LOSER: SOXL is down $-246.33. avoiding overnight risk.
+2021-10-01 11:00:00 FILTERED BUY: Signal valid but Price (38.98) < 200 SMA (39.3412). Staying Cash.
+2021-10-05 10:00:00 FILTERED BUY: Signal valid but Price (37.52) < 200 SMA (39.4219). Staying Cash.
+2021-10-11 10:00:00 BUY SOXL: J=28.08 crossed > 22.2. Price=40.07
+2021-10-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-10-11 15:50:00 ---
+2021-10-11 15:50:00 CLOSING LOSER: SOXL is down $-329.34. avoiding overnight risk.
+2021-10-13 10:00:00 FILTERED BUY: Signal valid but Price (37.69) < 200 SMA (39.6944). Staying Cash.
+2021-10-22 15:00:00 BUY SOXL: J=29.86 crossed > 22.2. Price=44.39
+2021-10-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-10-22 15:50:00 ---
+2021-10-22 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2021-10-25 16:00:00 SELL SOXL: J=47.56 crossed < 62.6.
+2021-10-25 15:50:00 --- Running End-of-Day Risk Check @ 2021-10-25 15:50:00 ---
+2021-10-25 15:50:00 HOLDING WINNER: SOXL is up $463.50. Letting it ride overnight.
+2021-10-28 10:00:00 BUY SOXL: J=68.36 crossed > 22.2. Price=46.7
+2021-10-28 15:50:00 --- Running End-of-Day Risk Check @ 2021-10-28 15:50:00 ---
+2021-10-28 15:50:00 CLOSING LOSER: SOXL is down $-55.64. avoiding overnight risk.
+2021-11-09 15:00:00 BUY SOXL: J=36.17 crossed > 22.2. Price=62.87
+2021-11-09 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-09 15:50:00 ---
+2021-11-09 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2021-11-11 10:00:00 BUY SOXL: J=53.40 crossed > 22.2. Price=60.61
+2021-11-10 15:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=57.34 < Stop=57.83. P/L=-1758.54
+2021-11-11 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-11 15:50:00 ---
+2021-11-11 15:50:00 HOLDING WINNER: SOXL is up $240.17. Letting it ride overnight.
+2021-11-12 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-12 15:50:00 ---
+2021-11-12 15:50:00 HOLDING WINNER: SOXL is up $973.84. Letting it ride overnight.
+2021-11-15 12:00:00 SELL SOXL: J=34.67 crossed < 62.6.
+2021-11-22 15:00:00 BUY SOXL: J=25.67 crossed > 22.2. Price=68.02
+2021-11-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-22 15:50:00 ---
+2021-11-22 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2021-11-23 16:00:00 BUY SOXL: J=33.93 crossed > 22.2. Price=64.68
+2021-11-23 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=61.77 < Stop=62.04. P/L=-1837.50
+2021-11-24 14:00:00 SELL SOXL: J=52.22 crossed < 62.6.
+2021-11-29 10:00:00 BUY SOXL: J=75.60 crossed > 22.2. Price=64.82
+2021-11-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-29 15:50:00 ---
+2021-11-29 15:50:00 HOLDING WINNER: SOXL is up $859.32. Letting it ride overnight.
+2021-11-30 11:00:00 SELL SOXL: J=44.54 crossed < 62.6.
+2021-11-30 13:00:00 BUY SOXL: J=42.62 crossed > 22.2. Price=63.82
+2021-11-30 15:50:00 --- Running End-of-Day Risk Check @ 2021-11-30 15:50:00 ---
+2021-11-30 15:50:00 HOLDING WINNER: SOXL is up $319.26. Letting it ride overnight.
+2021-12-01 14:00:00 SELL SOXL: J=57.25 crossed < 62.6.
+2021-12-02 11:00:00 BUY SOXL: J=27.47 crossed > 22.2. Price=61.15
+2021-12-02 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-02 15:50:00 ---
+2021-12-02 15:50:00 HOLDING WINNER: SOXL is up $699.78. Letting it ride overnight.
+2021-12-03 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-03 15:50:00 ---
+2021-12-03 15:50:00 HOLDING WINNER: SOXL is up $16.35. Letting it ride overnight.
+2021-12-06 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-06 15:50:00 ---
+2021-12-06 15:50:00 HOLDING WINNER: SOXL is up $451.26. Letting it ride overnight.
+2021-12-07 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-07 15:50:00 ---
+2021-12-07 15:50:00 HOLDING WINNER: SOXL is up $3410.61. Letting it ride overnight.
+2021-12-09 10:00:00 SELL SOXL: J=44.14 crossed < 62.6.
+2021-12-08 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-08 15:50:00 ---
+2021-12-08 15:50:00 HOLDING WINNER: SOXL is up $3018.21. Letting it ride overnight.
+2021-12-10 11:00:00 BUY SOXL: J=22.43 crossed > 22.2. Price=66.33
+2021-12-10 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-10 15:50:00 ---
+2021-12-10 15:50:00 HOLDING WINNER: SOXL is up $15.05. Letting it ride overnight.
+2021-12-13 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-13 15:50:00 ---
+2021-12-13 15:50:00 CLOSING LOSER: SOXL is down $-764.54. avoiding overnight risk.
+2021-12-14 16:00:00 BUY SOXL: J=30.19 crossed > 22.2. Price=61.49
+2021-12-15 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-15 15:50:00 ---
+2021-12-15 15:50:00 HOLDING WINNER: SOXL is up $175.50. Letting it ride overnight.
+2021-12-16 11:00:00 SELL SOXL: J=37.42 crossed < 62.6.
+2021-12-17 11:00:00 BUY SOXL: J=36.42 crossed > 22.2. Price=60.77
+2021-12-17 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-17 15:50:00 ---
+2021-12-17 15:50:00 CLOSING LOSER: SOXL is down $-302.68. avoiding overnight risk.
+2021-12-20 15:00:00 BUY SOXL: J=27.00 crossed > 22.2. Price=56.63
+2021-12-20 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-20 15:50:00 ---
+2021-12-20 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2021-12-21 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-21 15:50:00 ---
+2021-12-21 15:50:00 HOLDING WINNER: SOXL is up $2280.38. Letting it ride overnight.
+2021-12-22 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-22 15:50:00 ---
+2021-12-22 15:50:00 HOLDING WINNER: SOXL is up $2816.94. Letting it ride overnight.
+2021-12-23 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-23 15:50:00 ---
+2021-12-23 15:50:00 HOLDING WINNER: SOXL is up $4105.39. Letting it ride overnight.
+2021-12-27 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-27 15:50:00 ---
+2021-12-27 15:50:00 HOLDING WINNER: SOXL is up $5584.46. Letting it ride overnight.
+2021-12-28 11:00:00 SELL SOXL: J=45.86 crossed < 62.6.
+2021-12-29 14:00:00 BUY SOXL: J=26.22 crossed > 22.2. Price=70.71
+2021-12-29 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-29 15:50:00 ---
+2021-12-29 15:50:00 HOLDING WINNER: SOXL is up $112.80. Letting it ride overnight.
+2021-12-30 13:00:00 SELL SOXL: J=54.23 crossed < 62.6.
+2021-12-31 11:00:00 BUY SOXL: J=25.33 crossed > 22.2. Price=68.47
+2022-01-03 10:00:00 BUY SOXL: J=32.38 crossed > 22.2. Price=69.34
+2021-12-31 15:50:00 --- Running End-of-Day Risk Check @ 2021-12-31 15:50:00 ---
+2021-12-31 15:50:00 CLOSING LOSER: SOXL is down $-49.64. avoiding overnight risk.
+2022-01-03 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-03 15:50:00 ---
+2022-01-03 15:50:00 HOLDING WINNER: SOXL is up $705.60. Letting it ride overnight.
+2022-01-04 13:00:00 BUY SOXL: J=37.60 crossed > 22.2. Price=68.29
+2022-01-05 10:00:00 SELL SOXL: J=60.71 crossed < 62.6.
+2022-01-04 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=67.28 < Stop=68.39. P/L=-593.28
+2022-01-04 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-04 15:50:00 ---
+2022-01-04 15:50:00 HOLDING WINNER: SOXL is up $499.32. Letting it ride overnight.
+2022-01-06 11:00:00 BUY SOXL: J=33.99 crossed > 22.2. Price=64.95
+2022-01-06 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-06 15:50:00 ---
+2022-01-06 15:50:00 HOLDING WINNER: SOXL is up $288.58. Letting it ride overnight.
+2022-01-07 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-07 15:50:00 ---
+2022-01-07 15:50:00 CLOSING LOSER: SOXL is down $-1277.12. avoiding overnight risk.
+2022-01-10 15:00:00 BUY SOXL: J=36.95 crossed > 22.2. Price=57.57
+2022-01-10 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-10 15:50:00 ---
+2022-01-10 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2022-01-11 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-11 15:50:00 ---
+2022-01-11 15:50:00 HOLDING WINNER: SOXL is up $1852.98. Letting it ride overnight.
+2022-01-12 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-12 15:50:00 ---
+2022-01-12 15:50:00 HOLDING WINNER: SOXL is up $2363.07. Letting it ride overnight.
+2022-01-13 12:00:00 SELL SOXL: J=34.74 crossed < 62.6.
+2022-01-14 10:00:00 BUY SOXL: J=36.10 crossed > 22.2. Price=62.52
+2022-01-14 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-14 15:50:00 ---
+2022-01-14 15:50:00 HOLDING WINNER: SOXL is up $25.52. Letting it ride overnight.
+2022-01-18 14:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=57.26 < Stop=57.27. P/L=-1677.94
+2022-01-19 14:00:00 BUY SOXL: J=22.32 crossed > 22.2. Price=53.5
+2022-01-19 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-19 15:50:00 ---
+2022-01-19 15:50:00 CLOSING LOSER: SOXL is down $-354.35. avoiding overnight risk.
+2022-01-20 11:00:00 BUY SOXL: J=32.03 crossed > 22.2. Price=52.74
+2022-01-20 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-20 15:50:00 ---
+2022-01-20 15:50:00 CLOSING LOSER: SOXL is down $-1091.52. avoiding overnight risk.
+2022-01-21 11:00:00 BUY SOXL: J=36.58 crossed > 22.2. Price=47.52
+2022-01-21 15:50:00 --- Running End-of-Day Risk Check @ 2022-01-21 15:50:00 ---
+2022-01-21 15:50:00 CLOSING LOSER: SOXL is down $-1293.60. avoiding overnight risk.
+2022-01-24 14:00:00 FILTERED BUY: Signal valid but Price (41.71) < 200 SMA (47.3939). Staying Cash.
+2022-01-25 12:00:00 FILTERED BUY: Signal valid but Price (40.05) < 200 SMA (47.3986). Staying Cash.
+2022-01-28 12:00:00 FILTERED BUY: Signal valid but Price (37.01) < 200 SMA (47.35605). Staying Cash.
+2022-01-28 15:00:00 FILTERED BUY: Signal valid but Price (35.78) < 200 SMA (47.35605). Staying Cash.
+2022-02-03 14:00:00 FILTERED BUY: Signal valid but Price (44.71) < 200 SMA (47.4308). Staying Cash.
+2022-02-04 13:00:00 FILTERED BUY: Signal valid but Price (42.17) < 200 SMA (47.44035). Staying Cash.
+2022-02-14 13:00:00 FILTERED BUY: Signal valid but Price (40.83) < 200 SMA (47.58465). Staying Cash.
+2022-02-14 16:00:00 FILTERED BUY: Signal valid but Price (39.55) < 200 SMA (47.5979). Staying Cash.
+2022-02-17 12:00:00 FILTERED BUY: Signal valid but Price (42.8) < 200 SMA (47.7108). Staying Cash.
+2022-02-18 15:00:00 FILTERED BUY: Signal valid but Price (40.91) < 200 SMA (47.7426). Staying Cash.
+2022-02-22 15:00:00 FILTERED BUY: Signal valid but Price (39.6) < 200 SMA (47.76345). Staying Cash.
+2022-02-24 11:00:00 FILTERED BUY: Signal valid but Price (34.6) < 200 SMA (47.7918). Staying Cash.
+2022-03-02 10:00:00 FILTERED BUY: Signal valid but Price (38.52) < 200 SMA (47.9813). Staying Cash.
+2022-03-08 11:00:00 FILTERED BUY: Signal valid but Price (30.45) < 200 SMA (48.0505). Staying Cash.
+2022-03-10 15:00:00 FILTERED BUY: Signal valid but Price (32.75) < 200 SMA (48.028). Staying Cash.
+2022-03-14 11:00:00 FILTERED BUY: Signal valid but Price (30.44) < 200 SMA (47.9742). Staying Cash.
+2022-03-15 10:00:00 FILTERED BUY: Signal valid but Price (29.2) < 200 SMA (47.9246). Staying Cash.
+2022-03-23 12:00:00 FILTERED BUY: Signal valid but Price (39.76) < 200 SMA (47.87835). Staying Cash.
+2022-03-24 10:00:00 FILTERED BUY: Signal valid but Price (37.89) < 200 SMA (47.8708). Staying Cash.
+2022-03-28 14:00:00 FILTERED BUY: Signal valid but Price (40.88) < 200 SMA (47.9083). Staying Cash.
+2022-03-31 11:00:00 FILTERED BUY: Signal valid but Price (41.47) < 200 SMA (47.95375). Staying Cash.
+2022-04-01 16:00:00 FILTERED BUY: Signal valid but Price (36.23) < 200 SMA (47.93045). Staying Cash.
+2022-04-06 15:00:00 FILTERED BUY: Signal valid but Price (31.4) < 200 SMA (47.90715). Staying Cash.
+2022-04-07 14:00:00 FILTERED BUY: Signal valid but Price (30.2) < 200 SMA (47.8665). Staying Cash.
+2022-04-08 12:00:00 FILTERED BUY: Signal valid but Price (29.07) < 200 SMA (47.82395). Staying Cash.
+2022-04-12 10:00:00 FILTERED BUY: Signal valid but Price (28.6) < 200 SMA (47.6889). Staying Cash.
+2022-04-12 13:00:00 FILTERED BUY: Signal valid but Price (27.57) < 200 SMA (47.6889). Staying Cash.
+2022-04-13 10:00:00 FILTERED BUY: Signal valid but Price (27.12) < 200 SMA (47.60165). Staying Cash.
+2022-04-14 14:00:00 FILTERED BUY: Signal valid but Price (26.67) < 200 SMA (47.51895). Staying Cash.
+2022-04-18 10:00:00 FILTERED BUY: Signal valid but Price (26.16) < 200 SMA (47.42425). Staying Cash.
+2022-04-25 14:00:00 FILTERED BUY: Signal valid but Price (24.43) < 200 SMA (47.0491). Staying Cash.
+2022-04-26 13:00:00 FILTERED BUY: Signal valid but Price (23.59) < 200 SMA (46.9688). Staying Cash.
+2022-04-27 11:00:00 FILTERED BUY: Signal valid but Price (21.81) < 200 SMA (46.8639). Staying Cash.
+2022-04-27 13:00:00 FILTERED BUY: Signal valid but Price (22.76) < 200 SMA (46.8639). Staying Cash.
+2022-04-28 10:00:00 FILTERED BUY: Signal valid but Price (23.19) < 200 SMA (46.7602). Staying Cash.
+2022-05-02 11:00:00 FILTERED BUY: Signal valid but Price (22.87) < 200 SMA (46.59135). Staying Cash.
+2022-05-02 16:00:00 FILTERED BUY: Signal valid but Price (24.51) < 200 SMA (46.53015). Staying Cash.
+2022-05-06 11:00:00 FILTERED BUY: Signal valid but Price (24.18) < 200 SMA (46.33085). Staying Cash.
+2022-05-06 16:00:00 FILTERED BUY: Signal valid but Price (23.3) < 200 SMA (46.2437). Staying Cash.
+2022-05-10 10:00:00 FILTERED BUY: Signal valid but Price (21.39) < 200 SMA (46.1344). Staying Cash.
+2022-05-10 14:00:00 FILTERED BUY: Signal valid but Price (21.8) < 200 SMA (46.1344). Staying Cash.
+2022-05-12 11:00:00 FILTERED BUY: Signal valid but Price (19.64) < 200 SMA (45.9328). Staying Cash.
+2022-05-12 16:00:00 FILTERED BUY: Signal valid but Price (19.47) < 200 SMA (45.8246). Staying Cash.
+2022-05-19 11:00:00 FILTERED BUY: Signal valid but Price (21.24) < 200 SMA (45.37675). Staying Cash.
+2022-05-20 15:00:00 FILTERED BUY: Signal valid but Price (18.28) < 200 SMA (45.2412). Staying Cash.
+2022-05-24 12:00:00 FILTERED BUY: Signal valid but Price (19.03) < 200 SMA (44.97705). Staying Cash.
+2022-05-25 10:00:00 FILTERED BUY: Signal valid but Price (19.36) < 200 SMA (44.84195). Staying Cash.
+2022-06-01 14:00:00 FILTERED BUY: Signal valid but Price (23.57) < 200 SMA (44.43345). Staying Cash.
+2022-06-03 12:00:00 FILTERED BUY: Signal valid but Price (23.93) < 200 SMA (44.2656). Staying Cash.
+2022-06-06 10:00:00 FILTERED BUY: Signal valid but Price (24.95) < 200 SMA (44.1917). Staying Cash.
+2022-06-06 14:00:00 FILTERED BUY: Signal valid but Price (24.48) < 200 SMA (44.1917). Staying Cash.
+2022-06-07 10:00:00 FILTERED BUY: Signal valid but Price (23.28) < 200 SMA (44.1131). Staying Cash.
+2022-06-09 10:00:00 FILTERED BUY: Signal valid but Price (23.08) < 200 SMA (43.9302). Staying Cash.
+2022-06-09 13:00:00 FILTERED BUY: Signal valid but Price (23.0) < 200 SMA (43.9302). Staying Cash.
+2022-06-14 16:00:00 FILTERED BUY: Signal valid but Price (15.78) < 200 SMA (43.3834). Staying Cash.
+2022-06-17 10:00:00 FILTERED BUY: Signal valid but Price (13.93) < 200 SMA (43.063). Staying Cash.
+2022-06-17 14:00:00 FILTERED BUY: Signal valid but Price (13.77) < 200 SMA (43.063). Staying Cash.
+2022-06-17 16:00:00 FILTERED BUY: Signal valid but Price (13.68) < 200 SMA (42.9018). Staying Cash.
+2022-06-23 11:00:00 FILTERED BUY: Signal valid but Price (14.22) < 200 SMA (42.57955). Staying Cash.
+2022-06-23 15:00:00 FILTERED BUY: Signal valid but Price (13.7) < 200 SMA (42.57955). Staying Cash.
+2022-06-28 14:00:00 FILTERED BUY: Signal valid but Price (14.95) < 200 SMA (42.12205). Staying Cash.
+2022-06-30 12:00:00 FILTERED BUY: Signal valid but Price (13.49) < 200 SMA (41.79035). Staying Cash.
+2022-07-01 15:00:00 FILTERED BUY: Signal valid but Price (11.65) < 200 SMA (41.61625). Staying Cash.
+2022-07-05 14:00:00 FILTERED BUY: Signal valid but Price (11.36) < 200 SMA (41.431). Staying Cash.
+2022-07-11 13:00:00 FILTERED BUY: Signal valid but Price (13.13) < 200 SMA (40.77585). Staying Cash.
+2022-07-12 11:00:00 FILTERED BUY: Signal valid but Price (13.21) < 200 SMA (40.60885). Staying Cash.
+2022-07-18 16:00:00 FILTERED BUY: Signal valid but Price (14.89) < 200 SMA (39.8312). Staying Cash.
+2022-07-22 16:00:00 FILTERED BUY: Signal valid but Price (17.62) < 200 SMA (39.41255). Staying Cash.
+2022-07-25 12:00:00 FILTERED BUY: Signal valid but Price (17.05) < 200 SMA (39.41255). Staying Cash.
+2022-07-25 16:00:00 FILTERED BUY: Signal valid but Price (17.29) < 200 SMA (39.30375). Staying Cash.
+2022-07-26 14:00:00 FILTERED BUY: Signal valid but Price (16.54) < 200 SMA (39.30375). Staying Cash.
+2022-07-27 10:00:00 FILTERED BUY: Signal valid but Price (17.76) < 200 SMA (39.18385). Staying Cash.
+2022-08-05 13:00:00 FILTERED BUY: Signal valid but Price (21.39) < 200 SMA (38.5006). Staying Cash.
+2022-08-08 13:00:00 FILTERED BUY: Signal valid but Price (20.11) < 200 SMA (38.38605). Staying Cash.
+2022-08-08 16:00:00 FILTERED BUY: Signal valid but Price (20.51) < 200 SMA (38.2677). Staying Cash.
+2022-08-10 10:00:00 FILTERED BUY: Signal valid but Price (18.73) < 200 SMA (38.12795). Staying Cash.
+2022-08-16 12:00:00 FILTERED BUY: Signal valid but Price (21.38) < 200 SMA (37.65385). Staying Cash.
+2022-08-17 15:00:00 FILTERED BUY: Signal valid but Price (19.78) < 200 SMA (37.52405). Staying Cash.
+2022-08-23 10:00:00 FILTERED BUY: Signal valid but Price (17.71) < 200 SMA (36.89175). Staying Cash.
+2022-08-24 12:00:00 FILTERED BUY: Signal valid but Price (17.46) < 200 SMA (36.6823). Staying Cash.
+2022-08-24 15:00:00 FILTERED BUY: Signal valid but Price (17.2) < 200 SMA (36.6823). Staying Cash.
+2022-08-30 16:00:00 FILTERED BUY: Signal valid but Price (14.5) < 200 SMA (35.5563). Staying Cash.
+2022-09-01 15:00:00 FILTERED BUY: Signal valid but Price (12.94) < 200 SMA (35.30965). Staying Cash.
+2022-09-02 15:00:00 FILTERED BUY: Signal valid but Price (12.85) < 200 SMA (35.0597). Staying Cash.
+2022-09-07 11:00:00 FILTERED BUY: Signal valid but Price (12.54) < 200 SMA (34.53255). Staying Cash.
+2022-09-14 11:00:00 FILTERED BUY: Signal valid but Price (12.5) < 200 SMA (33.20585). Staying Cash.
+2022-09-14 16:00:00 FILTERED BUY: Signal valid but Price (12.49) < 200 SMA (32.9622). Staying Cash.
+2022-09-15 13:00:00 FILTERED BUY: Signal valid but Price (12.11) < 200 SMA (32.9622). Staying Cash.
+2022-09-16 12:00:00 FILTERED BUY: Signal valid but Price (11.6) < 200 SMA (32.67945). Staying Cash.
+2022-09-20 16:00:00 FILTERED BUY: Signal valid but Price (11.69) < 200 SMA (31.9047). Staying Cash.
+2022-09-23 16:00:00 FILTERED BUY: Signal valid but Price (9.96) < 200 SMA (31.0756). Staying Cash.
+2022-09-27 10:00:00 FILTERED BUY: Signal valid but Price (9.98) < 200 SMA (30.7699). Staying Cash.
+2022-09-27 15:00:00 FILTERED BUY: Signal valid but Price (9.84) < 200 SMA (30.7699). Staying Cash.
+2022-09-29 16:00:00 FILTERED BUY: Signal valid but Price (9.24) < 200 SMA (29.939). Staying Cash.
+2022-10-03 10:00:00 FILTERED BUY: Signal valid but Price (9.25) < 200 SMA (29.6754). Staying Cash.
+2022-10-11 13:00:00 FILTERED BUY: Signal valid but Price (7.81) < 200 SMA (28.115). Staying Cash.
+2022-10-12 10:00:00 FILTERED BUY: Signal valid but Price (7.49) < 200 SMA (27.8156). Staying Cash.
+2022-10-12 13:00:00 FILTERED BUY: Signal valid but Price (7.43) < 200 SMA (27.8156). Staying Cash.
+2022-10-13 10:00:00 FILTERED BUY: Signal valid but Price (6.68) < 200 SMA (27.4872). Staying Cash.
+2022-10-18 13:00:00 FILTERED BUY: Signal valid but Price (7.39) < 200 SMA (26.55025). Staying Cash.
+2022-10-19 10:00:00 FILTERED BUY: Signal valid but Price (7.31) < 200 SMA (26.2476). Staying Cash.
+2022-10-27 12:00:00 FILTERED BUY: Signal valid but Price (8.75) < 200 SMA (24.54165). Staying Cash.
+2022-10-28 10:00:00 FILTERED BUY: Signal valid but Price (8.9) < 200 SMA (24.26765). Staying Cash.
+2022-10-31 12:00:00 FILTERED BUY: Signal valid but Price (8.98) < 200 SMA (23.99275). Staying Cash.
+2022-11-03 11:00:00 FILTERED BUY: Signal valid but Price (8.23) < 200 SMA (23.2213). Staying Cash.
+2022-11-04 10:00:00 FILTERED BUY: Signal valid but Price (8.78) < 200 SMA (23.0069). Staying Cash.
+2022-11-09 12:00:00 FILTERED BUY: Signal valid but Price (9.68) < 200 SMA (22.4758). Staying Cash.
+2022-11-10 10:00:00 FILTERED BUY: Signal valid but Price (11.01) < 200 SMA (22.32125). Staying Cash.
+2022-11-17 11:00:00 FILTERED BUY: Signal valid but Price (12.02) < 200 SMA (21.60525). Staying Cash.
+2022-11-22 10:00:00 FILTERED BUY: Signal valid but Price (11.98) < 200 SMA (21.11285). Staying Cash.
+2022-11-29 11:00:00 FILTERED BUY: Signal valid but Price (12.03) < 200 SMA (20.43055). Staying Cash.
+2022-11-30 12:00:00 FILTERED BUY: Signal valid but Price (11.83) < 200 SMA (20.29215). Staying Cash.
+2022-12-02 12:00:00 FILTERED BUY: Signal valid but Price (12.66) < 200 SMA (20.0007). Staying Cash.
+2022-12-02 15:00:00 FILTERED BUY: Signal valid but Price (12.89) < 200 SMA (20.0007). Staying Cash.
+2022-12-05 16:00:00 FILTERED BUY: Signal valid but Price (12.59) < 200 SMA (19.69455). Staying Cash.
+2022-12-07 12:00:00 FILTERED BUY: Signal valid but Price (11.77) < 200 SMA (19.55545). Staying Cash.
+2022-12-07 15:00:00 FILTERED BUY: Signal valid but Price (11.69) < 200 SMA (19.55545). Staying Cash.
+2022-12-12 12:00:00 FILTERED BUY: Signal valid but Price (12.38) < 200 SMA (19.16705). Staying Cash.
+2022-12-16 16:00:00 FILTERED BUY: Signal valid but Price (11.1) < 200 SMA (18.4926). Staying Cash.
+2022-12-19 16:00:00 FILTERED BUY: Signal valid but Price (10.68) < 200 SMA (18.3723). Staying Cash.
+2022-12-22 15:00:00 FILTERED BUY: Signal valid but Price (9.61) < 200 SMA (18.17715). Staying Cash.
+2022-12-23 12:00:00 FILTERED BUY: Signal valid but Price (9.57) < 200 SMA (18.0511). Staying Cash.
+2022-12-27 12:00:00 FILTERED BUY: Signal valid but Price (9.38) < 200 SMA (17.9364). Staying Cash.
+2022-12-28 10:00:00 FILTERED BUY: Signal valid but Price (9.3) < 200 SMA (17.82965). Staying Cash.
+2022-12-28 13:00:00 FILTERED BUY: Signal valid but Price (9.02) < 200 SMA (17.82965). Staying Cash.
+2022-12-29 10:00:00 FILTERED BUY: Signal valid but Price (9.61) < 200 SMA (17.73485). Staying Cash.
+2023-01-03 14:00:00 FILTERED BUY: Signal valid but Price (9.43) < 200 SMA (17.4923). Staying Cash.
+2023-01-06 11:00:00 FILTERED BUY: Signal valid but Price (10.24) < 200 SMA (17.06185). Staying Cash.
+2023-01-18 14:00:00 FILTERED BUY: Signal valid but Price (13.03) < 200 SMA (16.03945). Staying Cash.
+2023-01-19 15:00:00 FILTERED BUY: Signal valid but Price (12.19) < 200 SMA (15.9109). Staying Cash.
+2023-01-20 12:00:00 FILTERED BUY: Signal valid but Price (12.1) < 200 SMA (15.7885). Staying Cash.
+2023-01-25 12:00:00 FILTERED BUY: Signal valid but Price (13.99) < 200 SMA (15.4924). Staying Cash.
+2023-01-30 12:00:00 FILTERED BUY: Signal valid but Price (14.27) < 200 SMA (15.29015). Staying Cash.
+2023-01-31 11:00:00 FILTERED BUY: Signal valid but Price (14.28) < 200 SMA (15.228). Staying Cash.
+2023-02-06 11:00:00 BUY SOXL: J=24.28 crossed > 22.2. Price=16.57
+2023-02-07 10:00:00 BUY SOXL: J=26.03 crossed > 22.2. Price=16.42
+2023-02-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-02-06 15:50:00 ---
+2023-02-06 15:50:00 CLOSING LOSER: SOXL is down $-470.73. avoiding overnight risk.
+2023-02-07 15:00:00 SELL SOXL: J=51.87 crossed < 62.6.
+2023-02-09 10:00:00 BUY SOXL: J=76.88 crossed > 22.2. Price=17.64
+2023-02-09 13:00:00 SELL SOXL: J=52.87 crossed < 62.6.
+2023-02-13 10:00:00 BUY SOXL: J=37.74 crossed > 22.2. Price=16.15
+2023-02-13 15:50:00 --- Running End-of-Day Risk Check @ 2023-02-13 15:50:00 ---
+2023-02-13 15:50:00 HOLDING WINNER: SOXL is up $309.50. Letting it ride overnight.
+2023-02-14 12:00:00 SELL SOXL: J=40.49 crossed < 62.6.
+2023-02-16 12:00:00 BUY SOXL: J=51.79 crossed > 22.2. Price=16.96
+2023-02-16 15:50:00 --- Running End-of-Day Risk Check @ 2023-02-16 15:50:00 ---
+2023-02-16 15:50:00 HOLDING WINNER: SOXL is up $35.37. Letting it ride overnight.
+2023-02-17 15:00:00 BUY SOXL: J=23.33 crossed > 22.2. Price=15.58
+2023-02-17 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=15.48 < Stop=15.60. P/L=-1744.92
+2023-02-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-02-17 15:50:00 ---
+2023-02-17 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2023-02-21 15:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=14.17 < Stop=14.26. P/L=-1809.03
+2023-02-23 10:00:00 BUY SOXL: J=94.67 crossed > 22.2. Price=15.13
+2023-02-22 14:00:00 FILTERED BUY: Signal valid but Price (14.07) < 200 SMA (14.5377). Staying Cash.
+2023-02-23 12:00:00 SELL SOXL: J=26.82 crossed < 62.6.
+2023-02-24 12:00:00 FILTERED BUY: Signal valid but Price (14.31) < 200 SMA (14.4458). Staying Cash.
+2023-03-02 12:00:00 FILTERED BUY: Signal valid but Price (14.04) < 200 SMA (14.3397). Staying Cash.
+2023-03-07 13:00:00 BUY SOXL: J=40.64 crossed > 22.2. Price=15.16
+2023-03-08 10:00:00 BUY SOXL: J=47.44 crossed > 22.2. Price=15.25
+2023-03-07 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-07 15:50:00 ---
+2023-03-07 15:50:00 CLOSING LOSER: SOXL is down $-830.97. avoiding overnight risk.
+2023-03-08 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-08 15:50:00 ---
+2023-03-08 15:50:00 HOLDING WINNER: SOXL is up $419.52. Letting it ride overnight.
+2023-03-09 14:00:00 SELL SOXL: J=33.90 crossed < 62.6.
+2023-03-10 11:00:00 BUY SOXL: J=33.91 crossed > 22.2. Price=14.81
+2023-03-10 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-10 15:50:00 ---
+2023-03-10 15:50:00 CLOSING LOSER: SOXL is down $-850.50. avoiding overnight risk.
+2023-03-13 11:00:00 FILTERED BUY: Signal valid but Price (13.86) < 200 SMA (14.1123). Staying Cash.
+2023-03-15 15:00:00 BUY SOXL: J=55.03 crossed > 22.2. Price=14.6
+2023-03-15 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-15 15:50:00 ---
+2023-03-15 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2023-03-16 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-16 15:50:00 ---
+2023-03-16 15:50:00 HOLDING WINNER: SOXL is up $2108.26. Letting it ride overnight.
+2023-03-20 10:00:00 SELL SOXL: J=59.09 crossed < 62.6.
+2023-03-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-17 15:50:00 ---
+2023-03-17 15:50:00 HOLDING WINNER: SOXL is up $1957.67. Letting it ride overnight.
+2023-03-21 14:00:00 BUY SOXL: J=43.43 crossed > 22.2. Price=16.39
+2023-03-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-21 15:50:00 ---
+2023-03-21 15:50:00 HOLDING WINNER: SOXL is up $366.00. Letting it ride overnight.
+2023-03-22 16:00:00 SELL SOXL: J=4.24 crossed < 62.6.
+2023-03-23 10:00:00 BUY SOXL: J=48.56 crossed > 22.2. Price=17.49
+2023-03-22 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-22 15:50:00 ---
+2023-03-22 15:50:00 HOLDING WINNER: SOXL is up $1098.00. Letting it ride overnight.
+2023-03-23 14:00:00 SELL SOXL: J=61.74 crossed < 62.6.
+2023-03-24 16:00:00 BUY SOXL: J=27.23 crossed > 22.2. Price=16.56
+2023-03-27 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-27 15:50:00 ---
+2023-03-27 15:50:00 CLOSING LOSER: SOXL is down $-458.66. avoiding overnight risk.
+2023-03-28 13:00:00 BUY SOXL: J=23.76 crossed > 22.2. Price=15.29
+2023-03-28 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-28 15:50:00 ---
+2023-03-28 15:50:00 HOLDING WINNER: SOXL is up $39.24. Letting it ride overnight.
+2023-03-29 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-29 15:50:00 ---
+2023-03-29 15:50:00 HOLDING WINNER: SOXL is up $2367.48. Letting it ride overnight.
+2023-03-30 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-30 15:50:00 ---
+2023-03-30 15:50:00 HOLDING WINNER: SOXL is up $3479.28. Letting it ride overnight.
+2023-04-03 10:00:00 SELL SOXL: J=44.33 crossed < 62.6.
+2023-03-31 15:50:00 --- Running End-of-Day Risk Check @ 2023-03-31 15:50:00 ---
+2023-03-31 15:50:00 HOLDING WINNER: SOXL is up $3597.00. Letting it ride overnight.
+2023-04-03 15:00:00 BUY SOXL: J=43.39 crossed > 22.2. Price=17.56
+2023-04-04 10:00:00 SELL SOXL: J=39.26 crossed < 62.6.
+2023-04-03 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-03 15:50:00 ---
+2023-04-03 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2023-04-04 14:00:00 BUY SOXL: J=24.04 crossed > 22.2. Price=17.12
+2023-04-04 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-04 15:50:00 ---
+2023-04-04 15:50:00 CLOSING LOSER: SOXL is down $-373.76. avoiding overnight risk.
+2023-04-05 16:00:00 BUY SOXL: J=24.51 crossed > 22.2. Price=15.9
+2023-04-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-06 15:50:00 ---
+2023-04-06 15:50:00 HOLDING WINNER: SOXL is up $389.67. Letting it ride overnight.
+2023-04-10 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-10 15:50:00 ---
+2023-04-10 15:50:00 HOLDING WINNER: SOXL is up $1294.71. Letting it ride overnight.
+2023-04-12 10:00:00 SELL SOXL: J=17.03 crossed < 62.6.
+2023-04-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-11 15:50:00 ---
+2023-04-11 15:50:00 HOLDING WINNER: SOXL is up $1269.57. Letting it ride overnight.
+2023-04-12 13:00:00 BUY SOXL: J=47.67 crossed > 22.2. Price=15.98
+2023-04-12 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-12 15:50:00 ---
+2023-04-12 15:50:00 CLOSING LOSER: SOXL is down $-587.97. avoiding overnight risk.
+2023-04-13 11:00:00 BUY SOXL: J=23.10 crossed > 22.2. Price=15.38
+2023-04-13 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-13 15:50:00 ---
+2023-04-13 15:50:00 HOLDING WINNER: SOXL is up $611.00. Letting it ride overnight.
+2023-04-14 12:00:00 SELL SOXL: J=10.00 crossed < 62.6.
+2023-04-14 15:00:00 BUY SOXL: J=46.96 crossed > 22.2. Price=15.54
+2023-04-14 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-14 15:50:00 ---
+2023-04-14 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2023-04-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-17 15:50:00 ---
+2023-04-17 15:50:00 CLOSING LOSER: SOXL is down $-231.66. avoiding overnight risk.
+2023-04-19 14:00:00 BUY SOXL: J=26.23 crossed > 22.2. Price=15.29
+2023-04-20 10:00:00 BUY SOXL: J=51.38 crossed > 22.2. Price=15.36
+2023-04-19 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-19 15:50:00 ---
+2023-04-19 15:50:00 CLOSING LOSER: SOXL is down $-26.16. avoiding overnight risk.
+2023-04-20 15:00:00 SELL SOXL: J=48.34 crossed < 62.6.
+2023-04-21 12:00:00 BUY SOXL: J=31.34 crossed > 22.2. Price=14.81
+2023-04-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-21 15:50:00 ---
+2023-04-21 15:50:00 HOLDING WINNER: SOXL is up $81.00. Letting it ride overnight.
+2023-04-24 15:50:00 --- Running End-of-Day Risk Check @ 2023-04-24 15:50:00 ---
+2023-04-24 15:50:00 CLOSING LOSER: SOXL is down $-175.50. avoiding overnight risk.
+2023-04-26 11:00:00 FILTERED BUY: Signal valid but Price (13.56) < 200 SMA (13.83085). Staying Cash.
+2023-04-27 11:00:00 FILTERED BUY: Signal valid but Price (12.97) < 200 SMA (13.83335). Staying Cash.
+2023-05-02 13:00:00 BUY SOXL: J=45.33 crossed > 22.2. Price=14.38
+2023-05-02 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-02 15:50:00 ---
+2023-05-02 15:50:00 HOLDING WINNER: SOXL is up $41.70. Letting it ride overnight.
+2023-05-03 16:00:00 SELL SOXL: J=10.53 crossed < 62.6.
+2023-05-03 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-03 15:50:00 ---
+2023-05-03 15:50:00 HOLDING WINNER: SOXL is up $97.30. Letting it ride overnight.
+2023-05-05 10:00:00 BUY SOXL: J=50.36 crossed > 22.2. Price=13.93
+2023-05-04 13:00:00 FILTERED BUY: Signal valid but Price (13.52) < 200 SMA (13.8345). Staying Cash.
+2023-05-08 10:00:00 SELL SOXL: J=58.56 crossed < 62.6.
+2023-05-05 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-05 15:50:00 ---
+2023-05-05 15:50:00 HOLDING WINNER: SOXL is up $990.15. Letting it ride overnight.
+2023-05-09 14:00:00 BUY SOXL: J=22.84 crossed > 22.2. Price=13.92
+2023-05-09 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-09 15:50:00 ---
+2023-05-09 15:50:00 HOLDING WINNER: SOXL is up $57.44. Letting it ride overnight.
+2023-05-10 14:00:00 SELL SOXL: J=31.25 crossed < 62.6.
+2023-05-11 13:00:00 BUY SOXL: J=34.50 crossed > 22.2. Price=13.97
+2023-05-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-11 15:50:00 ---
+2023-05-11 15:50:00 HOLDING WINNER: SOXL is up $114.48. Letting it ride overnight.
+2023-05-12 16:00:00 BUY SOXL: J=53.84 crossed > 22.2. Price=14.01
+2023-05-12 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-12 15:50:00 ---
+2023-05-12 15:50:00 CLOSING LOSER: SOXL is down $-386.37. avoiding overnight risk.
+2023-05-15 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-15 15:50:00 ---
+2023-05-15 15:50:00 HOLDING WINNER: SOXL is up $1141.60. Letting it ride overnight.
+2023-05-17 10:00:00 SELL SOXL: J=60.62 crossed < 62.6.
+2023-05-16 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-16 15:50:00 ---
+2023-05-16 15:50:00 HOLDING WINNER: SOXL is up $1897.91. Letting it ride overnight.
+2023-05-25 10:00:00 BUY SOXL: J=96.33 crossed > 22.2. Price=17.95
+2023-05-25 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-25 15:50:00 ---
+2023-05-25 15:50:00 HOLDING WINNER: SOXL is up $1114.00. Letting it ride overnight.
+2023-05-26 15:50:00 --- Running End-of-Day Risk Check @ 2023-05-26 15:50:00 ---
+2023-05-26 15:50:00 HOLDING WINNER: SOXL is up $5469.74. Letting it ride overnight.
+2023-05-30 14:00:00 SELL SOXL: J=61.60 crossed < 62.6.
+2023-06-01 11:00:00 BUY SOXL: J=26.36 crossed > 22.2. Price=21.44
+2023-06-02 10:00:00 SELL SOXL: J=39.69 crossed < 62.6.
+2023-06-01 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-01 15:50:00 ---
+2023-06-01 15:50:00 HOLDING WINNER: SOXL is up $913.36. Letting it ride overnight.
+2023-06-05 12:00:00 BUY SOXL: J=25.78 crossed > 22.2. Price=21.21
+2023-06-06 10:00:00 BUY SOXL: J=44.45 crossed > 22.2. Price=21.24
+2023-06-05 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-05 15:50:00 ---
+2023-06-05 15:50:00 CLOSING LOSER: SOXL is down $-273.18. avoiding overnight risk.
+2023-06-06 13:00:00 SELL SOXL: J=54.64 crossed < 62.6.
+2023-06-20 13:00:00 BUY SOXL: J=24.11 crossed > 22.2. Price=24.58
+2023-06-20 16:00:00 BUY SOXL: J=23.58 crossed > 22.2. Price=24.61
+2023-06-20 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-20 15:50:00 ---
+2023-06-20 15:50:00 CLOSING LOSER: SOXL is down $-154.47. avoiding overnight risk.
+2023-06-21 15:00:00 BUY SOXL: J=33.79 crossed > 22.2. Price=23.52
+2023-06-21 12:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=22.87 < Stop=22.95. P/L=-1055.60
+2023-06-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-21 15:50:00 ---
+2023-06-21 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2023-06-22 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-22 15:50:00 ---
+2023-06-22 15:50:00 CLOSING LOSER: SOXL is down $-323.00. avoiding overnight risk.
+2023-06-23 14:00:00 BUY SOXL: J=37.75 crossed > 22.2. Price=22.2
+2023-06-26 10:00:00 BUY SOXL: J=95.27 crossed > 22.2. Price=23.27
+2023-06-23 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-23 15:50:00 ---
+2023-06-23 15:50:00 CLOSING LOSER: SOXL is down $-324.00. avoiding overnight risk.
+2023-06-26 13:00:00 SELL SOXL: J=45.45 crossed < 62.6.
+2023-06-29 15:00:00 BUY SOXL: J=28.26 crossed > 22.2. Price=23.65
+2023-06-29 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-29 15:50:00 ---
+2023-06-29 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2023-06-30 15:50:00 --- Running End-of-Day Risk Check @ 2023-06-30 15:50:00 ---
+2023-06-30 15:50:00 HOLDING WINNER: SOXL is up $1183.00. Letting it ride overnight.
+2023-07-03 11:00:00 SELL SOXL: J=58.44 crossed < 62.6.
+2023-07-06 15:00:00 BUY SOXL: J=25.72 crossed > 22.2. Price=22.87
+2023-07-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-06 15:50:00 ---
+2023-07-06 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2023-07-07 16:00:00 SELL SOXL: J=43.12 crossed < 62.6.
+2023-07-07 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-07 15:50:00 ---
+2023-07-07 15:50:00 HOLDING WINNER: SOXL is up $672.98. Letting it ride overnight.
+2023-07-17 11:00:00 BUY SOXL: J=54.61 crossed > 22.2. Price=26.89
+2023-07-18 10:00:00 SELL SOXL: J=58.69 crossed < 62.6.
+2023-07-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-17 15:50:00 ---
+2023-07-17 15:50:00 HOLDING WINNER: SOXL is up $743.00. Letting it ride overnight.
+2023-07-21 10:00:00 BUY SOXL: J=24.37 crossed > 22.2. Price=24.75
+2023-07-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-21 15:50:00 ---
+2023-07-21 15:50:00 HOLDING WINNER: SOXL is up $307.04. Letting it ride overnight.
+2023-07-24 16:00:00 SELL SOXL: J=34.62 crossed < 62.6.
+2023-07-24 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-24 15:50:00 ---
+2023-07-24 15:50:00 HOLDING WINNER: SOXL is up $145.44. Letting it ride overnight.
+2023-07-26 13:00:00 BUY SOXL: J=28.31 crossed > 22.2. Price=24.62
+2023-07-26 15:50:00 --- Running End-of-Day Risk Check @ 2023-07-26 15:50:00 ---
+2023-07-26 15:50:00 HOLDING WINNER: SOXL is up $617.12. Letting it ride overnight.
+2023-07-27 15:00:00 SELL SOXL: J=39.72 crossed < 62.6.
+2023-08-01 11:00:00 BUY SOXL: J=40.44 crossed > 22.2. Price=28.36
+2023-08-01 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-01 15:50:00 ---
+2023-08-01 15:50:00 HOLDING WINNER: SOXL is up $169.20. Letting it ride overnight.
+2023-08-02 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=26.48 < Stop=26.94. P/L=-1325.40
+2023-08-03 13:00:00 BUY SOXL: J=33.55 crossed > 22.2. Price=25.44
+2023-08-03 16:00:00 BUY SOXL: J=31.32 crossed > 22.2. Price=25.1
+2023-08-03 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-03 15:50:00 ---
+2023-08-03 15:50:00 CLOSING LOSER: SOXL is down $-235.80. avoiding overnight risk.
+2023-08-04 15:00:00 SELL SOXL: J=15.43 crossed < 62.6.
+2023-08-04 16:00:00 BUY SOXL: J=22.34 crossed > 22.2. Price=24.89
+2023-08-07 14:00:00 SELL SOXL: J=56.95 crossed < 62.6.
+2023-08-08 14:00:00 BUY SOXL: J=33.05 crossed > 22.2. Price=24.13
+2023-08-08 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-08 15:50:00 ---
+2023-08-08 15:50:00 HOLDING WINNER: SOXL is up $198.72. Letting it ride overnight.
+2023-08-10 10:00:00 BUY SOXL: J=74.12 crossed > 22.2. Price=24.3
+2023-08-09 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-09 15:50:00 ---
+2023-08-09 15:50:00 CLOSING LOSER: SOXL is down $-339.48. avoiding overnight risk.
+2023-08-10 12:00:00 SELL SOXL: J=-14.27 crossed < 62.6.
+2023-08-10 15:00:00 BUY SOXL: J=31.47 crossed > 22.2. Price=23.03
+2023-08-10 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-10 15:50:00 ---
+2023-08-10 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2023-08-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-11 15:50:00 ---
+2023-08-11 15:50:00 CLOSING LOSER: SOXL is down $-1501.64. avoiding overnight risk.
+2023-08-14 11:00:00 BUY SOXL: J=62.21 crossed > 22.2. Price=22.25
+2023-08-14 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-14 15:50:00 ---
+2023-08-14 15:50:00 HOLDING WINNER: SOXL is up $350.22. Letting it ride overnight.
+2023-08-15 11:00:00 SELL SOXL: J=45.43 crossed < 62.6.
+2023-08-17 13:00:00 BUY SOXL: J=26.95 crossed > 22.2. Price=20.52
+2023-08-17 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-17 15:50:00 ---
+2023-08-17 15:50:00 CLOSING LOSER: SOXL is down $-516.22. avoiding overnight risk.
+2023-08-18 12:00:00 BUY SOXL: J=41.83 crossed > 22.2. Price=19.88
+2023-08-18 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-18 15:50:00 ---
+2023-08-18 15:50:00 HOLDING WINNER: SOXL is up $372.22. Letting it ride overnight.
+2023-08-21 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-21 15:50:00 ---
+2023-08-21 15:50:00 HOLDING WINNER: SOXL is up $1901.34. Letting it ride overnight.
+2023-08-22 12:00:00 SELL SOXL: J=60.57 crossed < 62.6.
+2023-08-25 14:00:00 BUY SOXL: J=22.46 crossed > 22.2. Price=20.18
+2023-08-25 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-25 15:50:00 ---
+2023-08-25 15:50:00 HOLDING WINNER: SOXL is up $574.78. Letting it ride overnight.
+2023-08-28 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-28 15:50:00 ---
+2023-08-28 15:50:00 HOLDING WINNER: SOXL is up $951.36. Letting it ride overnight.
+2023-08-29 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-29 15:50:00 ---
+2023-08-29 15:50:00 HOLDING WINNER: SOXL is up $3022.55. Letting it ride overnight.
+2023-08-30 15:50:00 --- Running End-of-Day Risk Check @ 2023-08-30 15:50:00 ---
+2023-08-30 15:50:00 HOLDING WINNER: SOXL is up $3339.67. Letting it ride overnight.
+2023-08-31 13:00:00 SELL SOXL: J=60.21 crossed < 62.6.
+2023-09-05 11:00:00 BUY SOXL: J=26.09 crossed > 22.2. Price=23.99
+2023-09-05 16:00:00 SELL SOXL: J=58.02 crossed < 62.6.
+2023-09-05 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-05 15:50:00 ---
+2023-09-05 15:50:00 HOLDING WINNER: SOXL is up $408.17. Letting it ride overnight.
+2023-09-06 14:00:00 BUY SOXL: J=27.14 crossed > 22.2. Price=23.2
+2023-09-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-06 15:50:00 ---
+2023-09-06 15:50:00 HOLDING WINNER: SOXL is up $181.02. Letting it ride overnight.
+2023-09-07 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=21.21 < Stop=21.66. P/L=-1715.38
+2023-09-07 14:00:00 BUY SOXL: J=24.86 crossed > 22.2. Price=21.74
+2023-09-07 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-07 15:50:00 ---
+2023-09-07 15:50:00 HOLDING WINNER: SOXL is up $156.23. Letting it ride overnight.
+2023-09-08 16:00:00 BUY SOXL: J=36.79 crossed > 22.2. Price=21.48
+2023-09-08 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-08 15:50:00 ---
+2023-09-08 15:50:00 CLOSING LOSER: SOXL is down $-367.60. avoiding overnight risk.
+2023-09-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-11 15:50:00 ---
+2023-09-11 15:50:00 CLOSING LOSER: SOXL is down $-809.97. avoiding overnight risk.
+2023-09-13 10:00:00 BUY SOXL: J=39.36 crossed > 22.2. Price=21.23
+2023-09-13 15:00:00 SELL SOXL: J=41.60 crossed < 62.6.
+2023-09-14 10:00:00 BUY SOXL: J=44.12 crossed > 22.2. Price=21.34
+2023-09-15 10:00:00 SELL SOXL: J=9.01 crossed < 62.6.
+2023-09-14 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-14 15:50:00 ---
+2023-09-14 15:50:00 HOLDING WINNER: SOXL is up $299.84. Letting it ride overnight.
+2023-09-18 10:00:00 BUY SOXL: J=29.54 crossed > 22.2. Price=19.88
+2023-09-18 16:00:00 BUY SOXL: J=32.75 crossed > 22.2. Price=19.96
+2023-09-18 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-18 15:50:00 ---
+2023-09-18 15:50:00 CLOSING LOSER: SOXL is down $-130.78. avoiding overnight risk.
+2023-09-20 10:00:00 BUY SOXL: J=51.82 crossed > 22.2. Price=19.67
+2023-09-19 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-19 15:50:00 ---
+2023-09-19 15:50:00 CLOSING LOSER: SOXL is down $-320.64. avoiding overnight risk.
+2023-09-20 15:50:00 --- Running End-of-Day Risk Check @ 2023-09-20 15:50:00 ---
+2023-09-20 15:50:00 CLOSING LOSER: SOXL is down $-497.84. avoiding overnight risk.
+2023-09-22 10:00:00 FILTERED BUY: Signal valid but Price (17.96) < 200 SMA (18.06925). Staying Cash.
+2023-09-22 16:00:00 FILTERED BUY: Signal valid but Price (17.86) < 200 SMA (18.0956). Staying Cash.
+2023-09-27 10:00:00 FILTERED BUY: Signal valid but Price (17.69) < 200 SMA (18.1558). Staying Cash.
+2023-09-27 15:00:00 FILTERED BUY: Signal valid but Price (17.68) < 200 SMA (18.1558). Staying Cash.
+2023-10-02 16:00:00 BUY SOXL: J=44.62 crossed > 22.2. Price=19.12
+2023-10-03 11:00:00 SELL SOXL: J=3.55 crossed < 62.6.
+2023-10-03 13:00:00 BUY SOXL: J=26.05 crossed > 22.2. Price=18.32
+2023-10-04 10:00:00 BUY SOXL: J=43.25 crossed > 22.2. Price=18.3
+2023-10-03 15:50:00 --- Running End-of-Day Risk Check @ 2023-10-03 15:50:00 ---
+2023-10-03 15:50:00 CLOSING LOSER: SOXL is down $-610.96. avoiding overnight risk.
+2023-10-04 14:00:00 SELL SOXL: J=30.11 crossed < 62.6.
+2023-10-06 11:00:00 BUY SOXL: J=64.92 crossed > 22.2. Price=18.66
+2023-10-09 10:00:00 SELL SOXL: J=45.82 crossed < 62.6.
+2023-10-06 15:50:00 --- Running End-of-Day Risk Check @ 2023-10-06 15:50:00 ---
+2023-10-06 15:50:00 HOLDING WINNER: SOXL is up $1060.29. Letting it ride overnight.
+2023-10-12 16:00:00 BUY SOXL: J=48.57 crossed > 22.2. Price=20.68
+2023-10-16 10:00:00 BUY SOXL: J=23.90 crossed > 22.2. Price=19.54
+2023-10-13 14:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=19.01 < Stop=19.06. P/L=-1730.93
+2023-10-16 15:50:00 --- Running End-of-Day Risk Check @ 2023-10-16 15:50:00 ---
+2023-10-16 15:50:00 HOLDING WINNER: SOXL is up $173.91. Letting it ride overnight.
+2023-10-17 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=18.14 < Stop=18.14. P/L=-1432.20
+2023-10-17 11:00:00 BUY SOXL: J=40.18 crossed > 22.2. Price=19.13
+2023-10-17 14:00:00 SELL SOXL: J=51.19 crossed < 62.6.
+2023-10-18 12:00:00 FILTERED BUY: Signal valid but Price (18.4) < 200 SMA (18.75975). Staying Cash.
+2023-10-18 14:00:00 FILTERED BUY: Signal valid but Price (18.51) < 200 SMA (18.75975). Staying Cash.
+2023-10-19 13:00:00 FILTERED BUY: Signal valid but Price (18.21) < 200 SMA (18.80275). Staying Cash.
+2023-10-20 10:00:00 FILTERED BUY: Signal valid but Price (17.57) < 200 SMA (18.84305). Staying Cash.
+2023-10-20 13:00:00 FILTERED BUY: Signal valid but Price (17.11) < 200 SMA (18.84305). Staying Cash.
+2023-10-23 11:00:00 FILTERED BUY: Signal valid but Price (16.65) < 200 SMA (18.8756). Staying Cash.
+2023-10-26 10:00:00 FILTERED BUY: Signal valid but Price (15.43) < 200 SMA (18.95755). Staying Cash.
+2023-10-26 15:00:00 FILTERED BUY: Signal valid but Price (15.32) < 200 SMA (18.95755). Staying Cash.
+2023-10-27 10:00:00 FILTERED BUY: Signal valid but Price (15.17) < 200 SMA (18.97115). Staying Cash.
+2023-10-30 14:00:00 FILTERED BUY: Signal valid but Price (14.55) < 200 SMA (18.98475). Staying Cash.
+2023-10-31 11:00:00 FILTERED BUY: Signal valid but Price (14.75) < 200 SMA (18.99305). Staying Cash.
+2023-11-10 10:00:00 BUY SOXL: J=67.96 crossed > 22.2. Price=19.34
+2023-11-13 10:00:00 SELL SOXL: J=53.83 crossed < 62.6.
+2023-11-10 15:50:00 --- Running End-of-Day Risk Check @ 2023-11-10 15:50:00 ---
+2023-11-10 15:50:00 HOLDING WINNER: SOXL is up $1344.20. Letting it ride overnight.
+2023-11-21 16:00:00 BUY SOXL: J=23.10 crossed > 22.2. Price=22.82
+2023-11-22 15:50:00 --- Running End-of-Day Risk Check @ 2023-11-22 15:50:00 ---
+2023-11-22 15:50:00 CLOSING LOSER: SOXL is down $-113.88. avoiding overnight risk.
+2023-11-27 11:00:00 BUY SOXL: J=26.92 crossed > 22.2. Price=23.16
+2023-11-27 15:00:00 SELL SOXL: J=52.52 crossed < 62.6.
+2023-11-28 12:00:00 BUY SOXL: J=51.10 crossed > 22.2. Price=22.74
+2023-11-28 16:00:00 BUY SOXL: J=42.68 crossed > 22.2. Price=22.54
+2023-11-28 15:50:00 --- Running End-of-Day Risk Check @ 2023-11-28 15:50:00 ---
+2023-11-28 15:50:00 CLOSING LOSER: SOXL is down $-386.76. avoiding overnight risk.
+2023-11-29 15:00:00 SELL SOXL: J=61.80 crossed < 62.6.
+2023-11-30 14:00:00 BUY SOXL: J=22.30 crossed > 22.2. Price=22.39
+2023-11-30 15:50:00 --- Running End-of-Day Risk Check @ 2023-11-30 15:50:00 ---
+2023-11-30 15:50:00 HOLDING WINNER: SOXL is up $160.74. Letting it ride overnight.
+2023-12-04 10:00:00 SELL SOXL: J=19.03 crossed < 62.6.
+2023-12-01 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-01 15:50:00 ---
+2023-12-01 15:50:00 HOLDING WINNER: SOXL is up $589.38. Letting it ride overnight.
+2023-12-04 12:00:00 BUY SOXL: J=30.55 crossed > 22.2. Price=22.01
+2023-12-04 14:00:00 SELL SOXL: J=38.74 crossed < 62.6.
+2023-12-05 14:00:00 BUY SOXL: J=33.71 crossed > 22.2. Price=21.83
+2023-12-05 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-05 15:50:00 ---
+2023-12-05 15:50:00 HOLDING WINNER: SOXL is up $91.60. Letting it ride overnight.
+2023-12-06 13:00:00 SELL SOXL: J=31.89 crossed < 62.6.
+2023-12-07 10:00:00 BUY SOXL: J=37.05 crossed > 22.2. Price=22.0
+2023-12-07 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-07 15:50:00 ---
+2023-12-07 15:50:00 HOLDING WINNER: SOXL is up $1072.62. Letting it ride overnight.
+2023-12-08 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-08 15:50:00 ---
+2023-12-08 15:50:00 HOLDING WINNER: SOXL is up $1708.92. Letting it ride overnight.
+2023-12-11 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-11 15:50:00 ---
+2023-12-11 15:50:00 HOLDING WINNER: SOXL is up $3735.99. Letting it ride overnight.
+2023-12-12 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-12 15:50:00 ---
+2023-12-12 15:50:00 HOLDING WINNER: SOXL is up $4281.39. Letting it ride overnight.
+2023-12-13 13:00:00 SELL SOXL: J=60.56 crossed < 62.6.
+2023-12-18 12:00:00 BUY SOXL: J=23.32 crossed > 22.2. Price=29.93
+2023-12-18 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-18 15:50:00 ---
+2023-12-18 15:50:00 HOLDING WINNER: SOXL is up $260.52. Letting it ride overnight.
+2023-12-20 10:00:00 SELL SOXL: J=38.49 crossed < 62.6.
+2023-12-19 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-19 15:50:00 ---
+2023-12-19 15:50:00 HOLDING WINNER: SOXL is up $541.08. Letting it ride overnight.
+2023-12-21 10:00:00 BUY SOXL: J=56.41 crossed > 22.2. Price=29.7
+2023-12-21 13:00:00 SELL SOXL: J=59.59 crossed < 62.6.
+2023-12-29 13:00:00 BUY SOXL: J=39.62 crossed > 22.2. Price=31.51
+2023-12-29 15:50:00 --- Running End-of-Day Risk Check @ 2023-12-29 15:50:00 ---
+2023-12-29 15:50:00 HOLDING WINNER: SOXL is up $145.82. Letting it ride overnight.
+2024-01-02 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=29.05 < Stop=30.02. P/L=-1559.64
+2024-01-04 11:00:00 BUY SOXL: J=24.58 crossed > 22.2. Price=25.92
+2024-01-04 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-04 15:50:00 ---
+2024-01-04 15:50:00 CLOSING LOSER: SOXL is down $-177.33. avoiding overnight risk.
+2024-01-10 12:00:00 BUY SOXL: J=60.88 crossed > 22.2. Price=27.91
+2024-01-10 16:00:00 SELL SOXL: J=56.59 crossed < 62.6.
+2024-01-10 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-10 15:50:00 ---
+2024-01-10 15:50:00 HOLDING WINNER: SOXL is up $336.52. Letting it ride overnight.
+2024-01-11 13:00:00 BUY SOXL: J=32.76 crossed > 22.2. Price=27.64
+2024-01-11 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-11 15:50:00 ---
+2024-01-11 15:50:00 HOLDING WINNER: SOXL is up $636.24. Letting it ride overnight.
+2024-01-12 11:00:00 SELL SOXL: J=42.70 crossed < 62.6.
+2024-01-17 12:00:00 BUY SOXL: J=30.30 crossed > 22.2. Price=27.65
+2024-01-17 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-17 15:50:00 ---
+2024-01-17 15:50:00 HOLDING WINNER: SOXL is up $310.89. Letting it ride overnight.
+2024-01-18 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-18 15:50:00 ---
+2024-01-18 15:50:00 HOLDING WINNER: SOXL is up $2501.58. Letting it ride overnight.
+2024-01-19 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-19 15:50:00 ---
+2024-01-19 15:50:00 HOLDING WINNER: SOXL is up $5147.76. Letting it ride overnight.
+2024-01-22 11:00:00 SELL SOXL: J=62.11 crossed < 62.6.
+2024-01-29 16:00:00 BUY SOXL: J=80.38 crossed > 22.2. Price=35.09
+2024-01-30 11:00:00 SELL SOXL: J=39.46 crossed < 62.6.
+2024-01-30 16:00:00 BUY SOXL: J=28.11 crossed > 22.2. Price=33.51
+2024-01-31 15:50:00 --- Running End-of-Day Risk Check @ 2024-01-31 15:50:00 ---
+2024-01-31 15:50:00 HOLDING WINNER: SOXL is up $572.16. Letting it ride overnight.
+2024-02-01 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-01 15:50:00 ---
+2024-02-01 15:50:00 HOLDING WINNER: SOXL is up $298.00. Letting it ride overnight.
+2024-02-02 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-02 15:50:00 ---
+2024-02-02 15:50:00 HOLDING WINNER: SOXL is up $1072.80. Letting it ride overnight.
+2024-02-06 10:00:00 SELL SOXL: J=43.00 crossed < 62.6.
+2024-02-05 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-05 15:50:00 ---
+2024-02-05 15:50:00 HOLDING WINNER: SOXL is up $2068.12. Letting it ride overnight.
+2024-02-06 14:00:00 BUY SOXL: J=30.35 crossed > 22.2. Price=33.55
+2024-02-06 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-06 15:50:00 ---
+2024-02-06 15:50:00 HOLDING WINNER: SOXL is up $166.88. Letting it ride overnight.
+2024-02-07 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-07 15:50:00 ---
+2024-02-07 15:50:00 HOLDING WINNER: SOXL is up $1084.72. Letting it ride overnight.
+2024-02-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-08 15:50:00 ---
+2024-02-08 15:50:00 HOLDING WINNER: SOXL is up $2384.00. Letting it ride overnight.
+2024-02-09 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-09 15:50:00 ---
+2024-02-09 15:50:00 HOLDING WINNER: SOXL is up $3427.00. Letting it ride overnight.
+2024-02-12 15:00:00 SELL SOXL: J=35.86 crossed < 62.6.
+2024-02-13 12:00:00 BUY SOXL: J=44.08 crossed > 22.2. Price=37.36
+2024-02-14 10:00:00 BUY SOXL: J=66.21 crossed > 22.2. Price=38.89
+2024-02-13 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-13 15:50:00 ---
+2024-02-13 15:50:00 CLOSING LOSER: SOXL is down $-700.85. avoiding overnight risk.
+2024-02-14 12:00:00 SELL SOXL: J=45.07 crossed < 62.6.
+2024-02-16 11:00:00 BUY SOXL: J=35.15 crossed > 22.2. Price=39.15
+2024-02-16 14:00:00 SELL SOXL: J=56.64 crossed < 62.6.
+2024-02-20 15:00:00 BUY SOXL: J=29.82 crossed > 22.2. Price=36.27
+2024-02-20 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-20 15:50:00 ---
+2024-02-20 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2024-02-21 16:00:00 BUY SOXL: J=48.02 crossed > 22.2. Price=36.14
+2024-02-21 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-21 15:50:00 ---
+2024-02-21 15:50:00 CLOSING LOSER: SOXL is down $-743.85. avoiding overnight risk.
+2024-02-22 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-22 15:50:00 ---
+2024-02-22 15:50:00 HOLDING WINNER: SOXL is up $658.07. Letting it ride overnight.
+2024-02-23 16:00:00 SELL SOXL: J=19.14 crossed < 62.6.
+2024-02-23 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-23 15:50:00 ---
+2024-02-23 15:50:00 HOLDING WINNER: SOXL is up $77.42. Letting it ride overnight.
+2024-02-26 11:00:00 BUY SOXL: J=74.31 crossed > 22.2. Price=41.41
+2024-02-26 14:00:00 SELL SOXL: J=61.47 crossed < 62.6.
+2024-02-28 12:00:00 BUY SOXL: J=42.19 crossed > 22.2. Price=40.26
+2024-02-29 10:00:00 BUY SOXL: J=80.91 crossed > 22.2. Price=41.55
+2024-02-28 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-28 15:50:00 ---
+2024-02-28 15:50:00 CLOSING LOSER: SOXL is down $-213.28. avoiding overnight risk.
+2024-02-29 15:50:00 --- Running End-of-Day Risk Check @ 2024-02-29 15:50:00 ---
+2024-02-29 15:50:00 HOLDING WINNER: SOXL is up $481.00. Letting it ride overnight.
+2024-03-01 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-01 15:50:00 ---
+2024-03-01 15:50:00 HOLDING WINNER: SOXL is up $3472.82. Letting it ride overnight.
+2024-03-05 10:00:00 SELL SOXL: J=40.97 crossed < 62.6.
+2024-03-04 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-04 15:50:00 ---
+2024-03-04 15:50:00 HOLDING WINNER: SOXL is up $4622.41. Letting it ride overnight.
+2024-03-05 16:00:00 BUY SOXL: J=26.36 crossed > 22.2. Price=46.84
+2024-03-06 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-06 15:50:00 ---
+2024-03-06 15:50:00 HOLDING WINNER: SOXL is up $25.56. Letting it ride overnight.
+2024-03-07 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-07 15:50:00 ---
+2024-03-07 15:50:00 HOLDING WINNER: SOXL is up $2415.42. Letting it ride overnight.
+2024-03-08 12:00:00 SELL SOXL: J=26.01 crossed < 62.6.
+2024-03-08 15:00:00 BUY SOXL: J=22.76 crossed > 22.2. Price=50.65
+2024-03-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-08 15:50:00 ---
+2024-03-08 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2024-03-11 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-11 15:50:00 ---
+2024-03-11 15:50:00 CLOSING LOSER: SOXL is down $-1572.06. avoiding overnight risk.
+2024-03-12 11:00:00 BUY SOXL: J=36.90 crossed > 22.2. Price=48.71
+2024-03-12 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-12 15:50:00 ---
+2024-03-12 15:50:00 CLOSING LOSER: SOXL is down $-98.40. avoiding overnight risk.
+2024-03-13 14:00:00 BUY SOXL: J=26.20 crossed > 22.2. Price=46.3
+2024-03-13 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-13 15:50:00 ---
+2024-03-13 15:50:00 HOLDING WINNER: SOXL is up $94.82. Letting it ride overnight.
+2024-03-15 10:00:00 BUY SOXL: J=25.39 crossed > 22.2. Price=42.5
+2024-03-14 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-14 15:50:00 ---
+2024-03-14 15:50:00 CLOSING LOSER: SOXL is down $-1236.97. avoiding overnight risk.
+2024-03-15 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-15 15:50:00 ---
+2024-03-15 15:50:00 HOLDING WINNER: SOXL is up $357.20. Letting it ride overnight.
+2024-03-18 12:00:00 SELL SOXL: J=41.76 crossed < 62.6.
+2024-03-18 14:00:00 BUY SOXL: J=27.88 crossed > 22.2. Price=42.96
+2024-03-18 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-18 15:50:00 ---
+2024-03-18 15:50:00 HOLDING WINNER: SOXL is up $106.95. Letting it ride overnight.
+2024-03-19 13:00:00 BUY SOXL: J=41.85 crossed > 22.2. Price=41.45
+2024-03-19 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=39.66 < Stop=39.73. P/L=-1534.50
+2024-03-19 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-19 15:50:00 ---
+2024-03-19 15:50:00 HOLDING WINNER: SOXL is up $38.56. Letting it ride overnight.
+2024-03-20 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-20 15:50:00 ---
+2024-03-20 15:50:00 HOLDING WINNER: SOXL is up $351.86. Letting it ride overnight.
+2024-03-21 15:50:00 --- Running End-of-Day Risk Check @ 2024-03-21 15:50:00 ---
+2024-03-21 15:50:00 HOLDING WINNER: SOXL is up $2342.52. Letting it ride overnight.
+2024-03-22 11:00:00 SELL SOXL: J=58.29 crossed < 62.6.
+2024-03-25 11:00:00 BUY SOXL: J=47.55 crossed > 22.2. Price=46.53
+2024-03-25 13:00:00 SELL SOXL: J=51.32 crossed < 62.6.
+2024-03-27 11:00:00 BUY SOXL: J=27.26 crossed > 22.2. Price=45.27
+2024-03-27 15:00:00 SELL SOXL: J=52.75 crossed < 62.6.
+2024-04-02 16:00:00 BUY SOXL: J=29.54 crossed > 22.2. Price=45.84
+2024-04-03 13:00:00 SELL SOXL: J=59.85 crossed < 62.6.
+2024-04-05 11:00:00 BUY SOXL: J=36.09 crossed > 22.2. Price=43.9
+2024-04-05 16:00:00 BUY SOXL: J=24.89 crossed > 22.2. Price=43.71
+2024-04-05 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-05 15:50:00 ---
+2024-04-05 15:50:00 CLOSING LOSER: SOXL is down $-273.00. avoiding overnight risk.
+2024-04-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-08 15:50:00 ---
+2024-04-08 15:50:00 CLOSING LOSER: SOXL is down $-77.69. avoiding overnight risk.
+2024-04-11 10:00:00 BUY SOXL: J=58.29 crossed > 22.2. Price=43.72
+2024-04-12 10:00:00 SELL SOXL: J=29.58 crossed < 62.6.
+2024-04-11 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-11 15:50:00 ---
+2024-04-11 15:50:00 HOLDING WINNER: SOXL is up $749.48. Letting it ride overnight.
+2024-04-15 10:00:00 BUY SOXL: J=44.40 crossed > 22.2. Price=43.13
+2024-04-16 10:00:00 BUY SOXL: J=22.83 crossed > 22.2. Price=39.87
+2024-04-15 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-15 15:50:00 ---
+2024-04-15 15:50:00 CLOSING LOSER: SOXL is down $-1611.24. avoiding overnight risk.
+2024-04-16 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-16 15:50:00 ---
+2024-04-16 15:50:00 HOLDING WINNER: SOXL is up $561.12. Letting it ride overnight.
+2024-04-17 14:00:00 BUY SOXL: J=28.47 crossed > 22.2. Price=37.93
+2024-04-17 13:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=37.02 < Stop=37.56. P/L=-1427.85
+2024-04-17 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-17 15:50:00 ---
+2024-04-17 15:50:00 CLOSING LOSER: SOXL is down $-252.96. avoiding overnight risk.
+2024-04-18 11:00:00 BUY SOXL: J=29.57 crossed > 22.2. Price=36.22
+2024-04-18 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-18 15:50:00 ---
+2024-04-18 15:50:00 CLOSING LOSER: SOXL is down $-811.44. avoiding overnight risk.
+2024-04-22 13:00:00 BUY SOXL: J=28.54 crossed > 22.2. Price=31.56
+2024-04-22 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-22 15:50:00 ---
+2024-04-22 15:50:00 HOLDING WINNER: SOXL is up $677.31. Letting it ride overnight.
+2024-04-23 15:50:00 --- Running End-of-Day Risk Check @ 2024-04-23 15:50:00 ---
+2024-04-23 15:50:00 HOLDING WINNER: SOXL is up $1886.34. Letting it ride overnight.
+2024-04-24 12:00:00 SELL SOXL: J=54.76 crossed < 62.6.
+2024-05-01 15:00:00 BUY SOXL: J=54.40 crossed > 22.2. Price=37.54
+2024-05-01 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-01 15:50:00 ---
+2024-05-01 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2024-05-02 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-02 15:50:00 ---
+2024-05-02 15:50:00 CLOSING LOSER: SOXL is down $-489.44. avoiding overnight risk.
+2024-05-08 14:00:00 BUY SOXL: J=31.69 crossed > 22.2. Price=39.7
+2024-05-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-08 15:50:00 ---
+2024-05-08 15:50:00 HOLDING WINNER: SOXL is up $45.27. Letting it ride overnight.
+2024-05-09 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-09 15:50:00 ---
+2024-05-09 15:50:00 HOLDING WINNER: SOXL is up $271.62. Letting it ride overnight.
+2024-05-10 12:00:00 SELL SOXL: J=39.48 crossed < 62.6.
+2024-05-17 16:00:00 BUY SOXL: J=40.84 crossed > 22.2. Price=45.43
+2024-05-21 10:00:00 SELL SOXL: J=45.37 crossed < 62.6.
+2024-05-20 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-20 15:50:00 ---
+2024-05-20 15:50:00 HOLDING WINNER: SOXL is up $954.80. Letting it ride overnight.
+2024-05-23 12:00:00 BUY SOXL: J=43.35 crossed > 22.2. Price=50.98
+2024-05-24 10:00:00 BUY SOXL: J=60.07 crossed > 22.2. Price=50.36
+2024-05-23 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-23 15:50:00 ---
+2024-05-23 15:50:00 CLOSING LOSER: SOXL is down $-1262.24. avoiding overnight risk.
+2024-05-24 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-24 15:50:00 ---
+2024-05-24 15:50:00 HOLDING WINNER: SOXL is up $377.15. Letting it ride overnight.
+2024-05-29 10:00:00 SELL SOXL: J=26.17 crossed < 62.6.
+2024-05-28 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-28 15:50:00 ---
+2024-05-28 15:50:00 HOLDING WINNER: SOXL is up $1187.03. Letting it ride overnight.
+2024-05-29 13:00:00 BUY SOXL: J=25.71 crossed > 22.2. Price=51.78
+2024-05-29 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-29 15:50:00 ---
+2024-05-29 15:50:00 CLOSING LOSER: SOXL is down $-173.70. avoiding overnight risk.
+2024-05-30 13:00:00 BUY SOXL: J=25.38 crossed > 22.2. Price=50.69
+2024-05-30 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-30 15:50:00 ---
+2024-05-30 15:50:00 CLOSING LOSER: SOXL is down $-47.28. avoiding overnight risk.
+2024-05-31 15:00:00 BUY SOXL: J=23.61 crossed > 22.2. Price=45.9
+2024-05-31 15:50:00 --- Running End-of-Day Risk Check @ 2024-05-31 15:50:00 ---
+2024-05-31 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2024-06-03 11:00:00 SELL SOXL: J=49.38 crossed < 62.6.
+2024-06-07 13:00:00 BUY SOXL: J=45.64 crossed > 22.2. Price=52.51
+2024-06-07 16:00:00 BUY SOXL: J=26.31 crossed > 22.2. Price=51.91
+2024-06-07 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-07 15:50:00 ---
+2024-06-07 15:50:00 CLOSING LOSER: SOXL is down $-425.60. avoiding overnight risk.
+2024-06-11 10:00:00 SELL SOXL: J=39.78 crossed < 62.6.
+2024-06-10 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-10 15:50:00 ---
+2024-06-10 15:50:00 HOLDING WINNER: SOXL is up $1235.85. Letting it ride overnight.
+2024-06-21 11:00:00 BUY SOXL: J=25.61 crossed > 22.2. Price=58.86
+2024-06-21 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-21 15:50:00 ---
+2024-06-21 15:50:00 CLOSING LOSER: SOXL is down $-318.66. avoiding overnight risk.
+2024-06-25 11:00:00 BUY SOXL: J=24.60 crossed > 22.2. Price=53.63
+2024-06-25 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-25 15:50:00 ---
+2024-06-25 15:50:00 HOLDING WINNER: SOXL is up $520.80. Letting it ride overnight.
+2024-06-26 12:00:00 SELL SOXL: J=50.31 crossed < 62.6.
+2024-06-27 14:00:00 BUY SOXL: J=33.68 crossed > 22.2. Price=53.87
+2024-06-27 15:50:00 --- Running End-of-Day Risk Check @ 2024-06-27 15:50:00 ---
+2024-06-27 15:50:00 HOLDING WINNER: SOXL is up $189.21. Letting it ride overnight.
+2024-06-28 12:00:00 SELL SOXL: J=55.12 crossed < 62.6.
+2024-07-01 12:00:00 BUY SOXL: J=34.75 crossed > 22.2. Price=54.48
+2024-07-01 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-01 15:50:00 ---
+2024-07-01 15:50:00 HOLDING WINNER: SOXL is up $183.50. Letting it ride overnight.
+2024-07-02 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-02 15:50:00 ---
+2024-07-02 15:50:00 HOLDING WINNER: SOXL is up $1027.60. Letting it ride overnight.
+2024-07-03 12:50:00 --- Running End-of-Day Risk Check @ 2024-07-03 12:50:00 ---
+2024-07-03 12:50:00 HOLDING WINNER: SOXL is up $2202.00. Letting it ride overnight.
+2024-07-05 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-05 15:50:00 ---
+2024-07-05 15:50:00 HOLDING WINNER: SOXL is up $2466.24. Letting it ride overnight.
+2024-07-08 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-08 15:50:00 ---
+2024-07-08 15:50:00 HOLDING WINNER: SOXL is up $3446.13. Letting it ride overnight.
+2024-07-09 11:00:00 SELL SOXL: J=57.35 crossed < 62.6.
+2024-07-12 10:00:00 BUY SOXL: J=25.73 crossed > 22.2. Price=64.01
+2024-07-12 12:00:00 SELL SOXL: J=56.55 crossed < 62.6.
+2024-07-16 12:00:00 BUY SOXL: J=48.85 crossed > 22.2. Price=64.45
+2024-07-16 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-16 15:50:00 ---
+2024-07-16 15:50:00 HOLDING WINNER: SOXL is up $80.60. Letting it ride overnight.
+2024-07-17 10:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=57.51 < Stop=59.54. P/L=-2151.40
+2024-07-18 16:00:00 BUY SOXL: J=25.77 crossed > 22.2. Price=51.78
+2024-07-22 10:00:00 BUY SOXL: J=46.09 crossed > 22.2. Price=50.42
+2024-07-19 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-19 15:50:00 ---
+2024-07-19 15:50:00 CLOSING LOSER: SOXL is down $-1563.30. avoiding overnight risk.
+2024-07-22 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-22 15:50:00 ---
+2024-07-22 15:50:00 HOLDING WINNER: SOXL is up $594.00. Letting it ride overnight.
+2024-07-23 11:00:00 SELL SOXL: J=53.15 crossed < 62.6.
+2024-07-25 11:00:00 BUY SOXL: J=31.21 crossed > 22.2. Price=41.88
+2024-07-26 10:00:00 BUY SOXL: J=41.85 crossed > 22.2. Price=41.87
+2024-07-25 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-25 15:50:00 ---
+2024-07-25 15:50:00 CLOSING LOSER: SOXL is down $-419.76. avoiding overnight risk.
+2024-07-26 15:00:00 SELL SOXL: J=56.12 crossed < 62.6.
+2024-07-30 15:00:00 BUY SOXL: J=29.80 crossed > 22.2. Price=38.51
+2024-07-30 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-30 15:50:00 ---
+2024-07-30 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2024-07-31 15:50:00 --- Running End-of-Day Risk Check @ 2024-07-31 15:50:00 ---
+2024-07-31 15:50:00 HOLDING WINNER: SOXL is up $3108.81. Letting it ride overnight.
+2024-08-01 11:00:00 SELL SOXL: J=19.24 crossed < 62.6.
+2024-08-05 11:00:00 FILTERED BUY: Signal valid but Price (27.1) < 200 SMA (38.51085). Staying Cash.
+2024-08-08 10:00:00 FILTERED BUY: Signal valid but Price (28.05) < 200 SMA (38.6488). Staying Cash.
+2024-08-19 11:00:00 BUY SOXL: J=29.33 crossed > 22.2. Price=39.37
+2024-08-19 13:00:00 SELL SOXL: J=60.47 crossed < 62.6.
+2024-08-23 10:00:00 FILTERED BUY: Signal valid but Price (39.42) < 200 SMA (39.79585). Staying Cash.
+2024-08-26 16:00:00 FILTERED BUY: Signal valid but Price (37.34) < 200 SMA (40.0001). Staying Cash.
+2024-08-27 11:00:00 FILTERED BUY: Signal valid but Price (38.22) < 200 SMA (40.0001). Staying Cash.
+2024-08-28 13:00:00 FILTERED BUY: Signal valid but Price (36.65) < 200 SMA (40.09955). Staying Cash.
+2024-08-28 15:00:00 FILTERED BUY: Signal valid but Price (36.8) < 200 SMA (40.09955). Staying Cash.
+2024-08-30 10:00:00 FILTERED BUY: Signal valid but Price (38.98) < 200 SMA (40.268). Staying Cash.
+2024-09-04 11:00:00 FILTERED BUY: Signal valid but Price (31.41) < 200 SMA (40.402). Staying Cash.
+2024-09-04 14:00:00 FILTERED BUY: Signal valid but Price (30.87) < 200 SMA (40.402). Staying Cash.
+2024-09-05 10:00:00 FILTERED BUY: Signal valid but Price (30.28) < 200 SMA (40.43995). Staying Cash.
+2024-09-05 13:00:00 FILTERED BUY: Signal valid but Price (29.9) < 200 SMA (40.43995). Staying Cash.
+2024-09-09 10:00:00 FILTERED BUY: Signal valid but Price (27.34) < 200 SMA (40.48925). Staying Cash.
+2024-09-16 14:00:00 FILTERED BUY: Signal valid but Price (31.83) < 200 SMA (40.67545). Staying Cash.
+2024-09-17 15:00:00 FILTERED BUY: Signal valid but Price (31.76) < 200 SMA (40.7234). Staying Cash.
+2024-09-18 13:00:00 FILTERED BUY: Signal valid but Price (32.21) < 200 SMA (40.7682). Staying Cash.
+2024-09-19 10:00:00 FILTERED BUY: Signal valid but Price (34.53) < 200 SMA (40.81). Staying Cash.
+2024-09-20 12:00:00 FILTERED BUY: Signal valid but Price (32.92) < 200 SMA (40.8702). Staying Cash.
+2024-09-30 16:00:00 FILTERED BUY: Signal valid but Price (36.63) < 200 SMA (41.30435). Staying Cash.
+2024-10-01 15:00:00 FILTERED BUY: Signal valid but Price (34.32) < 200 SMA (41.30435). Staying Cash.
+2024-10-02 10:00:00 FILTERED BUY: Signal valid but Price (34.25) < 200 SMA (41.33245). Staying Cash.
+2024-10-08 10:00:00 FILTERED BUY: Signal valid but Price (36.38) < 200 SMA (41.4396). Staying Cash.
+2024-10-17 10:00:00 FILTERED BUY: Signal valid but Price (36.37) < 200 SMA (41.66595). Staying Cash.
+2024-10-21 13:00:00 FILTERED BUY: Signal valid but Price (34.37) < 200 SMA (41.7474). Staying Cash.
+2024-10-22 12:00:00 FILTERED BUY: Signal valid but Price (34.16) < 200 SMA (41.7954). Staying Cash.
+2024-10-23 15:00:00 FILTERED BUY: Signal valid but Price (33.2) < 200 SMA (41.8391). Staying Cash.
+2024-11-01 10:00:00 FILTERED BUY: Signal valid but Price (31.29) < 200 SMA (42.0459). Staying Cash.
+2024-11-05 10:00:00 FILTERED BUY: Signal valid but Price (31.25) < 200 SMA (42.0217). Staying Cash.
+2024-11-11 16:00:00 FILTERED BUY: Signal valid but Price (32.77) < 200 SMA (41.9729). Staying Cash.
+2024-11-12 15:00:00 FILTERED BUY: Signal valid but Price (31.4) < 200 SMA (41.9729). Staying Cash.
+2024-11-13 14:00:00 FILTERED BUY: Signal valid but Price (30.24) < 200 SMA (41.9558). Staying Cash.
+2024-11-14 10:00:00 FILTERED BUY: Signal valid but Price (30.29) < 200 SMA (41.93635). Staying Cash.
+2024-11-18 11:00:00 FILTERED BUY: Signal valid but Price (27.42) < 200 SMA (41.89515). Staying Cash.
+2024-11-20 12:00:00 FILTERED BUY: Signal valid but Price (26.84) < 200 SMA (41.8289). Staying Cash.
+2024-11-20 16:00:00 FILTERED BUY: Signal valid but Price (27.16) < 200 SMA (41.79555). Staying Cash.
+2024-11-27 14:00:00 FILTERED BUY: Signal valid but Price (26.7) < 200 SMA (41.61235). Staying Cash.
+2024-12-06 10:00:00 FILTERED BUY: Signal valid but Price (29.37) < 200 SMA (41.35815). Staying Cash.
+2024-12-11 10:00:00 FILTERED BUY: Signal valid but Price (28.83) < 200 SMA (41.17425). Staying Cash.
+2024-12-17 12:00:00 FILTERED BUY: Signal valid but Price (31.32) < 200 SMA (40.9184). Staying Cash.
+2024-12-17 16:00:00 FILTERED BUY: Signal valid but Price (31.12) < 200 SMA (40.8252). Staying Cash.
+2024-12-20 11:00:00 FILTERED BUY: Signal valid but Price (27.32) < 200 SMA (40.61). Staying Cash.
+2024-12-27 12:00:00 FILTERED BUY: Signal valid but Price (29.07) < 200 SMA (40.198). Staying Cash.
+2024-12-27 14:00:00 FILTERED BUY: Signal valid but Price (29.65) < 200 SMA (40.198). Staying Cash.
+2024-12-30 12:00:00 FILTERED BUY: Signal valid but Price (28.0) < 200 SMA (40.11685). Staying Cash.
+2024-12-31 10:00:00 FILTERED BUY: Signal valid but Price (28.03) < 200 SMA (40.0389). Staying Cash.
+2024-12-31 16:00:00 FILTERED BUY: Signal valid but Price (27.3) < 200 SMA (39.96205). Staying Cash.
+2025-01-02 16:00:00 FILTERED BUY: Signal valid but Price (27.71) < 200 SMA (39.8882). Staying Cash.
+2025-01-08 12:00:00 FILTERED BUY: Signal valid but Price (30.41) < 200 SMA (39.7005). Staying Cash.
+2025-01-08 16:00:00 FILTERED BUY: Signal valid but Price (30.2) < 200 SMA (39.61945). Staying Cash.
+2025-01-10 14:00:00 FILTERED BUY: Signal valid but Price (28.65) < 200 SMA (39.61945). Staying Cash.
+2025-01-13 13:00:00 FILTERED BUY: Signal valid but Price (27.45) < 200 SMA (39.5301). Staying Cash.
+2025-01-23 12:00:00 FILTERED BUY: Signal valid but Price (34.2) < 200 SMA (39.01465). Staying Cash.
+2025-01-28 16:00:00 FILTERED BUY: Signal valid but Price (25.36) < 200 SMA (38.7239). Staying Cash.
+2025-02-03 11:00:00 FILTERED BUY: Signal valid but Price (26.18) < 200 SMA (38.48855). Staying Cash.
+2025-02-07 14:00:00 FILTERED BUY: Signal valid but Price (26.18) < 200 SMA (38.3099). Staying Cash.
+2025-02-10 10:00:00 FILTERED BUY: Signal valid but Price (27.35) < 200 SMA (38.2807). Staying Cash.
+2025-02-24 12:00:00 FILTERED BUY: Signal valid but Price (28.21) < 200 SMA (37.90915). Staying Cash.
+2025-02-26 10:00:00 FILTERED BUY: Signal valid but Price (26.31) < 200 SMA (37.7595). Staying Cash.
+2025-02-26 15:00:00 FILTERED BUY: Signal valid but Price (25.74) < 200 SMA (37.7595). Staying Cash.
+2025-02-28 11:00:00 FILTERED BUY: Signal valid but Price (22.81) < 200 SMA (37.5983). Staying Cash.
+2025-02-28 16:00:00 FILTERED BUY: Signal valid but Price (22.73) < 200 SMA (37.50685). Staying Cash.
+2025-03-04 12:00:00 FILTERED BUY: Signal valid but Price (20.11) < 200 SMA (37.4029). Staying Cash.
+2025-03-07 10:00:00 FILTERED BUY: Signal valid but Price (19.82) < 200 SMA (37.02915). Staying Cash.
+2025-03-07 14:00:00 FILTERED BUY: Signal valid but Price (20.35) < 200 SMA (37.02915). Staying Cash.
+2025-03-11 10:00:00 FILTERED BUY: Signal valid but Price (17.96) < 200 SMA (36.7543). Staying Cash.
+2025-03-11 15:00:00 FILTERED BUY: Signal valid but Price (18.29) < 200 SMA (36.7543). Staying Cash.
+2025-03-18 13:00:00 FILTERED BUY: Signal valid but Price (20.25) < 200 SMA (35.96615). Staying Cash.
+2025-03-19 12:00:00 FILTERED BUY: Signal valid but Price (20.34) < 200 SMA (35.8115). Staying Cash.
+2025-03-20 11:00:00 FILTERED BUY: Signal valid but Price (20.35) < 200 SMA (35.6646). Staying Cash.
+2025-03-21 13:00:00 FILTERED BUY: Signal valid but Price (19.43) < 200 SMA (35.52135). Staying Cash.
+2025-03-27 10:00:00 FILTERED BUY: Signal valid but Price (17.96) < 200 SMA (34.9065). Staying Cash.
+2025-03-31 15:00:00 FILTERED BUY: Signal valid but Price (15.56) < 200 SMA (34.5449). Staying Cash.
+2025-04-07 10:00:00 FILTERED BUY: Signal valid but Price (8.73) < 200 SMA (33.40345). Staying Cash.
+2025-04-09 10:00:00 FILTERED BUY: Signal valid but Price (8.63) < 200 SMA (32.8657). Staying Cash.
+2025-04-10 12:00:00 FILTERED BUY: Signal valid but Price (9.3) < 200 SMA (32.63985). Staying Cash.
+2025-04-11 12:00:00 FILTERED BUY: Signal valid but Price (9.61) < 200 SMA (32.42245). Staying Cash.
+2025-04-16 16:00:00 FILTERED BUY: Signal valid but Price (9.35) < 200 SMA (31.52935). Staying Cash.
+2025-04-17 13:00:00 FILTERED BUY: Signal valid but Price (9.26) < 200 SMA (31.52935). Staying Cash.
+2025-04-21 16:00:00 FILTERED BUY: Signal valid but Price (8.68) < 200 SMA (31.0531). Staying Cash.
+2025-04-28 15:00:00 FILTERED BUY: Signal valid but Price (11.96) < 200 SMA (30.022). Staying Cash.
+2025-04-29 14:00:00 FILTERED BUY: Signal valid but Price (12.13) < 200 SMA (29.74005). Staying Cash.
+2025-04-30 12:00:00 FILTERED BUY: Signal valid but Price (11.51) < 200 SMA (29.4905). Staying Cash.
+2025-05-06 12:00:00 FILTERED BUY: Signal valid but Price (12.63) < 200 SMA (28.5178). Staying Cash.
+2025-05-06 15:00:00 FILTERED BUY: Signal valid but Price (12.79) < 200 SMA (28.5178). Staying Cash.
+2025-05-15 12:00:00 FILTERED BUY: Signal valid but Price (18.44) < 200 SMA (27.4281). Staying Cash.
+2025-05-16 13:00:00 FILTERED BUY: Signal valid but Price (18.09) < 200 SMA (27.31185). Staying Cash.
+2025-05-22 10:00:00 FILTERED BUY: Signal valid but Price (17.2) < 200 SMA (26.9387). Staying Cash.
+2025-05-23 14:00:00 FILTERED BUY: Signal valid but Price (15.85) < 200 SMA (26.88175). Staying Cash.
+2025-05-30 15:00:00 FILTERED BUY: Signal valid but Price (15.99) < 200 SMA (26.6321). Staying Cash.
+2025-06-13 12:00:00 FILTERED BUY: Signal valid but Price (20.95) < 200 SMA (25.68835). Staying Cash.
+2025-06-16 10:00:00 FILTERED BUY: Signal valid but Price (21.46) < 200 SMA (25.6018). Staying Cash.
+2025-06-20 10:00:00 FILTERED BUY: Signal valid but Price (22.07) < 200 SMA (25.3703). Staying Cash.
+2025-06-20 13:00:00 FILTERED BUY: Signal valid but Price (21.17) < 200 SMA (25.3703). Staying Cash.
+2025-06-23 14:00:00 FILTERED BUY: Signal valid but Price (21.48) < 200 SMA (25.28175). Staying Cash.
+2025-06-27 16:00:00 FILTERED BUY: Signal valid but Price (25.09) < 200 SMA (25.1664). Staying Cash.
+2025-07-01 12:00:00 FILTERED BUY: Signal valid but Price (24.58) < 200 SMA (25.14995). Staying Cash.
+2025-07-07 12:00:00 BUY SOXL: J=30.40 crossed > 22.2. Price=25.45
+2025-07-08 10:00:00 BUY SOXL: J=54.52 crossed > 22.2. Price=25.8
+2025-07-07 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-07 15:50:00 ---
+2025-07-07 15:50:00 CLOSING LOSER: SOXL is down $-345.40. avoiding overnight risk.
+2025-07-08 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-08 15:50:00 ---
+2025-07-08 15:50:00 HOLDING WINNER: SOXL is up $627.75. Letting it ride overnight.
+2025-07-09 12:00:00 SELL SOXL: J=41.04 crossed < 62.6.
+2025-07-14 12:00:00 BUY SOXL: J=58.39 crossed > 22.2. Price=26.39
+2025-07-14 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-14 15:50:00 ---
+2025-07-14 15:50:00 HOLDING WINNER: SOXL is up $158.97. Letting it ride overnight.
+2025-07-15 16:00:00 SELL SOXL: J=56.21 crossed < 62.6.
+2025-07-15 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-15 15:50:00 ---
+2025-07-15 15:50:00 HOLDING WINNER: SOXL is up $741.86. Letting it ride overnight.
+2025-07-16 13:00:00 BUY SOXL: J=49.92 crossed > 22.2. Price=26.29
+2025-07-16 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-16 15:50:00 ---
+2025-07-16 15:50:00 HOLDING WINNER: SOXL is up $197.60. Letting it ride overnight.
+2025-07-17 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-17 15:50:00 ---
+2025-07-17 15:50:00 HOLDING WINNER: SOXL is up $767.60. Letting it ride overnight.
+2025-07-18 14:00:00 SELL SOXL: J=52.90 crossed < 62.6.
+2025-07-22 12:00:00 BUY SOXL: J=43.20 crossed > 22.2. Price=26.41
+2025-07-22 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-22 15:50:00 ---
+2025-07-22 15:50:00 HOLDING WINNER: SOXL is up $121.12. Letting it ride overnight.
+2025-07-23 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-23 15:50:00 ---
+2025-07-23 15:50:00 CLOSING LOSER: SOXL is down $-545.04. avoiding overnight risk.
+2025-07-25 12:00:00 BUY SOXL: J=44.44 crossed > 22.2. Price=25.26
+2025-07-25 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-25 15:50:00 ---
+2025-07-25 15:50:00 HOLDING WINNER: SOXL is up $205.66. Letting it ride overnight.
+2025-07-28 15:50:00 --- Running End-of-Day Risk Check @ 2025-07-28 15:50:00 ---
+2025-07-28 15:50:00 HOLDING WINNER: SOXL is up $1297.24. Letting it ride overnight.
+2025-07-29 12:00:00 SELL SOXL: J=55.48 crossed < 62.6.
+2025-07-31 16:00:00 BUY SOXL: J=27.74 crossed > 22.2. Price=24.97
+2025-08-01 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-01 15:50:00 ---
+2025-08-01 15:50:00 HOLDING WINNER: SOXL is up $192.00. Letting it ride overnight.
+2025-08-04 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-04 15:50:00 ---
+2025-08-04 15:50:00 HOLDING WINNER: SOXL is up $1168.00. Letting it ride overnight.
+2025-08-05 11:00:00 SELL SOXL: J=31.42 crossed < 62.6.
+2025-08-05 13:00:00 BUY SOXL: J=43.58 crossed > 22.2. Price=24.35
+2025-08-05 15:00:00 SELL SOXL: J=56.11 crossed < 62.6.
+2025-08-06 12:00:00 FILTERED BUY: Signal valid but Price (23.68) < 200 SMA (24.00685). Staying Cash.
+2025-08-18 16:00:00 BUY SOXL: J=29.55 crossed > 22.2. Price=27.52
+2025-08-19 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-19 15:50:00 ---
+2025-08-19 15:50:00 CLOSING LOSER: SOXL is down $-892.98. avoiding overnight risk.
+2025-08-20 12:00:00 BUY SOXL: J=25.95 crossed > 22.2. Price=24.63
+2025-08-20 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-20 15:50:00 ---
+2025-08-20 15:50:00 HOLDING WINNER: SOXL is up $381.64. Letting it ride overnight.
+2025-08-21 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-21 15:50:00 ---
+2025-08-21 15:50:00 HOLDING WINNER: SOXL is up $584.64. Letting it ride overnight.
+2025-08-25 10:00:00 SELL SOXL: J=59.21 crossed < 62.6.
+2025-08-22 15:50:00 --- Running End-of-Day Risk Check @ 2025-08-22 15:50:00 ---
+2025-08-22 15:50:00 HOLDING WINNER: SOXL is up $2574.04. Letting it ride overnight.
+2025-09-02 16:00:00 BUY SOXL: J=42.76 crossed > 22.2. Price=25.24
+2025-09-03 16:00:00 BUY SOXL: J=67.30 crossed > 22.2. Price=24.88
+2025-09-04 10:00:00 SELL SOXL: J=42.51 crossed < 62.6.
+2025-09-03 15:50:00 --- Running End-of-Day Risk Check @ 2025-09-03 15:50:00 ---
+2025-09-03 15:50:00 CLOSING LOSER: SOXL is down $-831.60. avoiding overnight risk.
+2025-09-24 14:00:00 BUY SOXL: J=69.26 crossed > 22.2. Price=34.14
+2025-09-24 16:00:00 SELL SOXL: J=57.03 crossed < 62.6.
+2025-09-24 15:50:00 --- Running End-of-Day Risk Check @ 2025-09-24 15:50:00 ---
+2025-09-24 15:50:00 HOLDING WINNER: SOXL is up $81.90. Letting it ride overnight.
+2025-09-25 11:00:00 BUY SOXL: J=24.37 crossed > 22.2. Price=33.07
+2025-09-25 14:00:00 SELL SOXL: J=52.90 crossed < 62.6.
+2025-09-30 15:00:00 BUY SOXL: J=34.37 crossed > 22.2. Price=34.13
+2025-10-01 10:00:00 SELL SOXL: J=61.20 crossed < 62.6.
+2025-09-30 15:50:00 --- Running End-of-Day Risk Check @ 2025-09-30 15:50:00 ---
+2025-09-30 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2025-10-08 10:00:00 BUY SOXL: J=28.35 crossed > 22.2. Price=40.36
+2025-10-08 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-08 15:50:00 ---
+2025-10-08 15:50:00 HOLDING WINNER: SOXL is up $757.35. Letting it ride overnight.
+2025-10-09 14:00:00 SELL SOXL: J=59.62 crossed < 62.6.
+2025-10-13 10:00:00 BUY SOXL: J=52.01 crossed > 22.2. Price=38.68
+2025-10-13 12:00:00 SELL SOXL: J=53.69 crossed < 62.6.
+2025-10-15 10:00:00 BUY SOXL: J=56.98 crossed > 22.2. Price=39.13
+2025-10-15 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-15 15:50:00 ---
+2025-10-15 15:50:00 HOLDING WINNER: SOXL is up $413.91. Letting it ride overnight.
+2025-10-17 10:00:00 SELL SOXL: J=54.58 crossed < 62.6.
+2025-10-16 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-16 15:50:00 ---
+2025-10-16 15:50:00 HOLDING WINNER: SOXL is up $679.63. Letting it ride overnight.
+2025-10-22 16:00:00 BUY SOXL: J=46.94 crossed > 22.2. Price=38.38
+2025-10-23 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-23 15:50:00 ---
+2025-10-23 15:50:00 HOLDING WINNER: SOXL is up $1880.81. Letting it ride overnight.
+2025-10-24 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-24 15:50:00 ---
+2025-10-24 15:50:00 HOLDING WINNER: SOXL is up $3021.80. Letting it ride overnight.
+2025-10-27 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-27 15:50:00 ---
+2025-10-27 15:50:00 HOLDING WINNER: SOXL is up $4657.74. Letting it ride overnight.
+2025-10-28 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-28 15:50:00 ---
+2025-10-28 15:50:00 HOLDING WINNER: SOXL is up $4970.34. Letting it ride overnight.
+2025-10-29 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-29 15:50:00 ---
+2025-10-29 15:50:00 HOLDING WINNER: SOXL is up $6106.12. Letting it ride overnight.
+2025-10-30 11:00:00 SELL SOXL: J=43.09 crossed < 62.6.
+2025-10-30 13:00:00 BUY SOXL: J=39.89 crossed > 22.2. Price=48.68
+2025-10-31 10:00:00 BUY SOXL: J=26.55 crossed > 22.2. Price=48.87
+2025-10-30 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-30 15:50:00 ---
+2025-10-30 15:50:00 CLOSING LOSER: SOXL is down $-77.90. avoiding overnight risk.
+2025-10-31 12:00:00 SELL SOXL: J=49.64 crossed < 62.6.
+2025-10-31 15:00:00 BUY SOXL: J=39.63 crossed > 22.2. Price=47.91
+2025-10-31 15:50:00 --- Running End-of-Day Risk Check @ 2025-10-31 15:50:00 ---
+2025-10-31 15:50:00 HOLDING WINNER: SOXL is up $-0.00. Letting it ride overnight.
+2025-11-03 12:00:00 SELL SOXL: J=61.93 crossed < 62.6.
+2025-11-05 10:00:00 BUY SOXL: J=48.16 crossed > 22.2. Price=45.79
+2025-11-05 12:00:00 SELL SOXL: J=61.06 crossed < 62.6.
+2025-11-06 13:00:00 BUY SOXL: J=26.28 crossed > 22.2. Price=43.81
+2025-11-06 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-06 15:50:00 ---
+2025-11-06 15:50:00 HOLDING WINNER: SOXL is up $310.08. Letting it ride overnight.
+2025-11-07 14:00:00 BUY SOXL: J=24.54 crossed > 22.2. Price=39.26
+2025-11-07 11:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=38.20 < Stop=39.17. P/L=-2558.16
+2025-11-07 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-07 15:50:00 ---
+2025-11-07 15:50:00 HOLDING WINNER: SOXL is up $738.05. Letting it ride overnight.
+2025-11-10 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-10 15:50:00 ---
+2025-11-10 15:50:00 HOLDING WINNER: SOXL is up $2921.66. Letting it ride overnight.
+2025-11-11 11:00:00 SELL SOXL: J=52.06 crossed < 62.6.
+2025-11-12 10:00:00 BUY SOXL: J=28.30 crossed > 22.2. Price=43.38
+2025-11-12 12:00:00 SELL SOXL: J=61.84 crossed < 62.6.
+2025-11-14 10:00:00 BUY SOXL: J=46.40 crossed > 22.2. Price=38.97
+2025-11-14 13:00:00 SELL SOXL: J=56.29 crossed < 62.6.
+2025-11-18 12:00:00 BUY SOXL: J=25.63 crossed > 22.2. Price=34.76
+2025-11-18 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-18 15:50:00 ---
+2025-11-18 15:50:00 HOLDING WINNER: SOXL is up $310.50. Letting it ride overnight.
+2025-11-19 12:00:00 SELL SOXL: J=43.80 crossed < 62.6.
+2025-11-21 12:00:00 BUY SOXL: J=35.05 crossed > 22.2. Price=32.0
+2025-11-21 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-21 15:50:00 ---
+2025-11-21 15:50:00 HOLDING WINNER: SOXL is up $156.25. Letting it ride overnight.
+2025-11-24 15:50:00 --- Running End-of-Day Risk Check @ 2025-11-24 15:50:00 ---
+2025-11-24 15:50:00 HOLDING WINNER: SOXL is up $2225.00. Letting it ride overnight.
+2025-11-25 11:00:00 SELL SOXL: J=57.29 crossed < 62.6.
+2025-12-11 12:00:00 BUY SOXL: J=43.22 crossed > 22.2. Price=46.2
+2025-12-12 10:00:00 SELL SOXL: J=38.86 crossed < 62.6.
+2025-12-11 15:50:00 --- Running End-of-Day Risk Check @ 2025-12-11 15:50:00 ---
+2025-12-11 15:50:00 HOLDING WINNER: SOXL is up $825.12. Letting it ride overnight.
+2025-12-16 11:00:00 BUY SOXL: J=32.70 crossed > 22.2. Price=40.5
+2025-12-16 16:00:00 BUY SOXL: J=26.91 crossed > 22.2. Price=40.44
+2025-12-16 15:50:00 --- Running End-of-Day Risk Check @ 2025-12-16 15:50:00 ---
+2025-12-16 15:50:00 CLOSING LOSER: SOXL is down $-295.80. avoiding overnight risk.
+2025-12-18 10:00:00 BUY SOXL: J=70.58 crossed > 22.2. Price=39.89
+2025-12-17 14:00:00 ATR TRAILING STOP HIT: Selling SOXL. Price=36.17 < Stop=36.60. P/L=-2386.02
+2025-12-18 15:00:00 SELL SOXL: J=51.51 crossed < 62.6.
+2025-12-29 12:00:00 BUY SOXL: J=30.94 crossed > 22.2. Price=43.19
+2025-12-29 15:50:00 --- Running End-of-Day Risk Check @ 2025-12-29 15:50:00 ---
+2025-12-29 15:50:00 HOLDING WINNER: SOXL is up $199.09. Letting it ride overnight.
+2025-12-30 15:00:00 SELL SOXL: J=58.33 crossed < 62.6.
+Algorithm Id:(1675259144) completed in 3.81 seconds at 5k data points per second. Processing total of 19,466 data points.
