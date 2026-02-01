@@ -4,20 +4,20 @@
   "pub_date": "2026-01-30T12:00:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "",
-      "url": ""
+      "signature": "sha256:6dd3df7cd68ebd53e51f09a83aff79f5838fa3ebc768b8d541b6290ad57cf0a0",
+      "url": "https://github.com/LocalAlpha-io/localalpha-releases/releases/download/v1.0.0/LocalAlpha_0.1.0_aarch64.dmg"
     },
     "darwin-x86_64": {
-      "signature": "",
-      "url": ""
+      "signature": "sha256:8d1a3946e4f7bd5fc86cf259111a8b517e09f3f57a8d0522d84ba7571a9e884a",
+      "url": "https://github.com/LocalAlpha-io/localalpha-releases/releases/download/v1.0.0/LocalAlpha_0.1.0_x64.dmg"
     },
     "linux-x86_64": {
-      "signature": "",
-      "url": ""
+      "signature": "https://github.com/LocalAlpha-io/localalpha-releases/releases/download/v1.0.0/LocalAlpha_0.1.0_amd64.AppImage",
+      "url": "sha256:eb5702e108e1bdfc46a9dc7a38bfdd2b0ee967676dbc44689377b8abc025a716"
     },
     "windows-x86_64": {
-      "signature": "",
-      "url": ""
+      "signature": "sha256:71b5205337e9ae7c2fda47a8adaa012095cf7ecec6453f479c6a7c62302e6774",
+      "url": "https://github.com/LocalAlpha-io/localalpha-releases/releases/download/v1.0.0/LocalAlpha_0.1.0_x64-setup.exe"
     }
   }
 }
